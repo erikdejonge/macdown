@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F002A23195B3DAE008B8D93 /* MPRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F002A22195B3DAE008B8D93 /* MPRenderer.m */; };
+		1F0D9D65194AC7CF008E1856 /* NSString+Lookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D5F194AC7CF008E1856 /* NSString+Lookup.m */; };
+		1F0D9D66194AC7CF008E1856 /* NSTextView+Autocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D61194AC7CF008E1856 /* NSTextView+Autocomplete.m */; };
+		1F0D9D67194AC7CF008E1856 /* MPUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D64194AC7CF008E1856 /* MPUtilities.m */; };
+		1F0D9D76194AC7F7008E1856 /* MPEditorPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D6A194AC7F7008E1856 /* MPEditorPreferencesViewController.m */; };
+		1F0D9D78194AC7F7008E1856 /* MPHtmlPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D6D194AC7F7008E1856 /* MPHtmlPreferencesViewController.m */; };
+		1F0D9D7A194AC7F7008E1856 /* MPMarkdownPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D70194AC7F7008E1856 /* MPMarkdownPreferencesViewController.m */; };
+		1F0D9D7C194AC7F7008E1856 /* MPPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D73194AC7F7008E1856 /* MPPreferences.m */; };
+		1F0D9D7D194AC7F7008E1856 /* MPPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D75194AC7F7008E1856 /* MPPreferencesViewController.m */; };
+		1F0D9D93194AC852008E1856 /* MPDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9D92194AC852008E1856 /* MPDocument.m */; };
+		1F0D9DAA194AC8CB008E1856 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9DA6194AC8CB008E1856 /* Credits.rtf */; };
+		1F0D9DAB194AC8CB008E1856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9DA8194AC8CB008E1856 /* InfoPlist.strings */; };
+		1F0D9DAD194AC8EF008E1856 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9DAC194AC8EF008E1856 /* Images.xcassets */; };
+		1F0D9DAF194AC905008E1856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D9DAE194AC905008E1856 /* main.m */; };
+		1F0D9DB0194AC9EE008E1856 /* MPDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9D83194AC83C008E1856 /* MPDocument.xib */; };
+		1F0D9DB1194AC9EE008E1856 /* MPEditorPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9D85194AC83C008E1856 /* MPEditorPreferencesViewController.xib */; };
+		1F0D9DB2194AC9EE008E1856 /* MPHtmlPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9D87194AC83C008E1856 /* MPHtmlPreferencesViewController.xib */; };
+		1F0D9DB3194AC9EE008E1856 /* MPMarkdownPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9D89194AC83C008E1856 /* MPMarkdownPreferencesViewController.xib */; };
+		1F0D9DB4194AC9EE008E1856 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D9D81194AC83C008E1856 /* MainMenu.xib */; };
+		1F0F3BFC195F75F200FC0B3B /* MathJax in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F3BFB195F75F200FC0B3B /* MathJax */; };
+		1F23A92119928E650052DB78 /* MPMathJaxListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F23A92019928E650052DB78 /* MPMathJaxListener.m */; };
+		1F25E1C31A50F4F10029371D /* MPColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F25E1C21A50F4F10029371D /* MPColorTests.m */; };
+		1F2649B01A7406DB00EF6AF3 /* NSDocumentController+Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2649AF1A7406DB00EF6AF3 /* NSDocumentController+Document.m */; };
+		1F27896B1973BEB100EE696A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F2789691973BEB100EE696A /* Localizable.strings */; };
+		1F2A17281A1BB3E30055A107 /* NSUserDefaults+Suite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A17271A1BB3E30055A107 /* NSUserDefaults+Suite.m */; };
+		1F3386E61A6B999600FC88C4 /* DOMNode+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3386E51A6B999600FC88C4 /* DOMNode+Text.m */; };
+		1F33F2A11A3B4B660001C849 /* MPDocumentSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33F2A01A3B4B660001C849 /* MPDocumentSplitView.m */; };
+		1F33F2A41A3B56D20001C849 /* NSColor+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33F2A31A3B56D20001C849 /* NSColor+HTML.m */; };
+		1F396E6619B0EA17000D3EFC /* MPEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F396E6519B0EA17000D3EFC /* MPEditorView.m */; };
+		1F3A47521953E84700293259 /* help.md in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A47511953E84700293259 /* help.md */; };
+		1F4C8E9A194AE0B9004BF82E /* MarkdownDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1F4C8E99194AE0B9004BF82E /* MarkdownDocument.icns */; };
+		1F51C9A5194565050015A96F /* MPPreferencesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDCA311944F96E00B1F966 /* MPPreferencesTests.m */; };
+		1F59491B1AB57C78007394CB /* syntax_highlighting.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F59491A1AB57C78007394CB /* syntax_highlighting.json */; };
+		1F59491E1AB57D87007394CB /* NSJSONSerialization+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F59491D1AB57D87007394CB /* NSJSONSerialization+File.m */; };
+		1F64CCC9195F5AB900CE619A /* MPAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F64CCC8195F5AB900CE619A /* MPAsset.m */; };
+		1F8858BC1A2D8D82008DC543 /* MPArgumentProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8858BB1A2D8D82008DC543 /* MPArgumentProcessor.m */; };
+		1F8A82D919533E9300B6BF69 /* Prism in Resources */ = {isa = PBXBuildFile; fileRef = 1F8A82D819533E9300B6BF69 /* Prism */; };
+		1F8A835D1953454F00B6BF69 /* HGMarkdownHighlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A83581953454F00B6BF69 /* HGMarkdownHighlighter.m */; };
+		1F8A835E1953454F00B6BF69 /* HGMarkdownHighlightingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A835A1953454F00B6BF69 /* HGMarkdownHighlightingStyle.m */; };
+		1F8A83621953461800B6BF69 /* pmh_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A83611953461800B6BF69 /* pmh_parser.c */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+		1F8A8364195346B200B6BF69 /* pmh_styleparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A8363195346B200B6BF69 /* pmh_styleparser.c */; settings = {COMPILER_FLAGS = "-Wno-conversion"; }; };
+		1F9A14EC194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A14E9194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.m */; };
+		1F9A14ED194EEE9900D1C6A9 /* MPMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9A14EB194EEE9900D1C6A9 /* MPMainController.m */; };
+		1F9A14EF194EEEDD00D1C6A9 /* Styles in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A14EE194EEEDD00D1C6A9 /* Styles */; };
+		1F9A14F4194EF6A600D1C6A9 /* Themes in Resources */ = {isa = PBXBuildFile; fileRef = 1F9A14F3194EF6A600D1C6A9 /* Themes */; };
+		1FA6CDB91952D2CD008D5CA0 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 1FA6CDB81952D2CD008D5CA0 /* dsa_pub.pem */; };
+		1FA6DE251941CC9E000409FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA6DE241941CC9E000409FB /* Cocoa.framework */; };
+		1FA6DE481941CC9E000409FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA6DE241941CC9E000409FB /* Cocoa.framework */; };
+		1FBBD4BE194C952300BB3C88 /* MPExportPanelAccessoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBBD4BC194C952300BB3C88 /* MPExportPanelAccessoryViewController.xib */; };
+		1FBBD4CB194CA36500BB3C88 /* hoedown_html_patch.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FBBD4CA194CA36500BB3C88 /* hoedown_html_patch.c */; };
+		1FBDFE9C196170FE00BEEA70 /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDFE9B196170FE00BEEA70 /* Extensions */; };
+		1FBDFEA11962A25A00BEEA70 /* MPGeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDFE9F1962A25A00BEEA70 /* MPGeneralPreferencesViewController.m */; };
+		1FBDFEA51962A27300BEEA70 /* MPGeneralPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDFEA31962A27300BEEA70 /* MPGeneralPreferencesViewController.xib */; };
+		1FBE8E0F1A11DB1E003E1EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE8E0E1A11DB1E003E1EF4 /* main.m */; };
+		1FC29F5C1944FC2600D616C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC29F5B1944FC2600D616C7 /* XCTest.framework */; };
+		1FC29F5E1944FC4F00D616C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDCA321944F96E00B1F966 /* InfoPlist.strings */; };
+		1FCE066419633D6C00DC83B4 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 1FCE066319633D6B00DC83B4 /* Data */; };
+		1FF1420219A8987500CF8A6A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF1420119A8987500CF8A6A /* JavaScriptCore.framework */; };
+		1FF1420419A8A24800CF8A6A /* MPUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF1420319A8A24800CF8A6A /* MPUtilityTests.m */; };
+		1FF207631941CF22005B5654 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF207621941CF22005B5654 /* WebKit.framework */; };
+		1FFEB31919729F7C00B2254F /* MPAssetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB31819729F7C00B2254F /* MPAssetTests.m */; };
+		1FFEB31D19729FEF00B2254F /* test.css in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEB31C19729FEF00B2254F /* test.css */; };
+		1FFEB31E1972A28400B2254F /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEB31A19729FD500B2254F /* test.js */; };
+		1FFEB3201972B04D00B2254F /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1FFEB31F1972B04D00B2254F /* test.txt */; };
+		1FFEB3251972D88900B2254F /* NSObject+HTMLTabularize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB3241972D88900B2254F /* NSObject+HTMLTabularize.m */; };
+		1FFEB3271972DAB400B2254F /* MPHTMLTabularizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB3261972DAB400B2254F /* MPHTMLTabularizeTests.m */; };
+		1FFEB32B19737D6E00B2254F /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB32A19737D6E00B2254F /* YAMLSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused-variable"; }; };
+		1FFF301D1948A5320009AF24 /* MPStringLookupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF301C1948A5320009AF24 /* MPStringLookupTests.m */; };
+		5318159056384894AA42DB4F /* libPods-MacDownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAF42BBDCEC4012B5092BB3 /* libPods-MacDownTests.a */; };
+		5807564D5F35BA9758A64530 /* libPods-macdown-cmd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFCF7AEBCE081BD528ABC3D /* libPods-macdown-cmd.a */; };
+		905EF1A9196164CA00FC3CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905EF1A8196164CA00FC3CE9 /* Foundation.framework */; };
+		B49728377A904875B2963C38 /* libPods-MacDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5C1FBBB3ED456285901D31 /* libPods-MacDown.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4574781A2D87D500DFA5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FCD71131A20BA3A00C028B5 /* version.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCD710D1A20BA3A00C028B5;
+			remoteInfo = version;
+		};
+		1FA6DE491941CC9E000409FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FA6DE191941CC9E000409FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FA6DE201941CC9E000409FB;
+			remoteInfo = MarkPad;
+		};
+		1FE2197719534A5D00DB931F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F8A837E195348C500B6BF69 /* peg-markdown-highlight.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F8A836B195348C500B6BF69;
+			remoteInfo = "peg-markdown-highlight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		905EF1A5196164CA00FC3CE9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		905EF1B6196164E300FC3CE9 /* Copy Command Line Utility */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = bin;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Command Line Utility";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F002A21195B3DAE008B8D93 /* MPRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRenderer.h; sourceTree = "<group>"; };
+		1F002A22195B3DAE008B8D93 /* MPRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRenderer.m; sourceTree = "<group>"; };
+		1F0D9D5E194AC7CF008E1856 /* NSString+Lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Lookup.h"; sourceTree = "<group>"; };
+		1F0D9D5F194AC7CF008E1856 /* NSString+Lookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Lookup.m"; sourceTree = "<group>"; };
+		1F0D9D60194AC7CF008E1856 /* NSTextView+Autocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+Autocomplete.h"; sourceTree = "<group>"; };
+		1F0D9D61194AC7CF008E1856 /* NSTextView+Autocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+Autocomplete.m"; sourceTree = "<group>"; };
+		1F0D9D63194AC7CF008E1856 /* MPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUtilities.h; sourceTree = "<group>"; };
+		1F0D9D64194AC7CF008E1856 /* MPUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUtilities.m; sourceTree = "<group>"; };
+		1F0D9D69194AC7F7008E1856 /* MPEditorPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEditorPreferencesViewController.h; sourceTree = "<group>"; };
+		1F0D9D6A194AC7F7008E1856 /* MPEditorPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEditorPreferencesViewController.m; sourceTree = "<group>"; };
+		1F0D9D6C194AC7F7008E1856 /* MPHtmlPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHtmlPreferencesViewController.h; sourceTree = "<group>"; };
+		1F0D9D6D194AC7F7008E1856 /* MPHtmlPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHtmlPreferencesViewController.m; sourceTree = "<group>"; };
+		1F0D9D6F194AC7F7008E1856 /* MPMarkdownPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMarkdownPreferencesViewController.h; sourceTree = "<group>"; };
+		1F0D9D70194AC7F7008E1856 /* MPMarkdownPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMarkdownPreferencesViewController.m; sourceTree = "<group>"; };
+		1F0D9D72194AC7F7008E1856 /* MPPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPreferences.h; sourceTree = "<group>"; };
+		1F0D9D73194AC7F7008E1856 /* MPPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPreferences.m; sourceTree = "<group>"; };
+		1F0D9D74194AC7F7008E1856 /* MPPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPreferencesViewController.h; sourceTree = "<group>"; };
+		1F0D9D75194AC7F7008E1856 /* MPPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPreferencesViewController.m; sourceTree = "<group>"; };
+		1F0D9D82194AC83C008E1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Localization/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F0D9D84194AC83C008E1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Localization/Base.lproj/MPDocument.xib; sourceTree = "<group>"; };
+		1F0D9D86194AC83C008E1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Localization/Base.lproj/MPEditorPreferencesViewController.xib; sourceTree = "<group>"; };
+		1F0D9D88194AC83C008E1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Localization/Base.lproj/MPHtmlPreferencesViewController.xib; sourceTree = "<group>"; };
+		1F0D9D8A194AC83C008E1856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Localization/Base.lproj/MPMarkdownPreferencesViewController.xib; sourceTree = "<group>"; };
+		1F0D9D91194AC852008E1856 /* MPDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDocument.h; sourceTree = "<group>"; };
+		1F0D9D92194AC852008E1856 /* MPDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDocument.m; sourceTree = "<group>"; };
+		1F0D9DA3194AC8B3008E1856 /* MacDown-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MacDown-Info.plist"; sourceTree = "<group>"; };
+		1F0D9DA7194AC8CB008E1856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Localization/en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1F0D9DA9194AC8CB008E1856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localization/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F0D9DAC194AC8EF008E1856 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F0D9DAE194AC905008E1856 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Code/main.m; sourceTree = "<group>"; };
+		1F0D9DB5194ACA33008E1856 /* MacDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MacDown-Prefix.pch"; path = "Code/MacDown-Prefix.pch"; sourceTree = "<group>"; };
+		1F0F3BFB195F75F200FC0B3B /* MathJax */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MathJax; path = Resources/MathJax; sourceTree = "<group>"; };
+		1F23A91F19928E650052DB78 /* MPMathJaxListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMathJaxListener.h; sourceTree = "<group>"; };
+		1F23A92019928E650052DB78 /* MPMathJaxListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMathJaxListener.m; sourceTree = "<group>"; };
+		1F25E1C21A50F4F10029371D /* MPColorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPColorTests.m; sourceTree = "<group>"; };
+		1F2649AE1A7406DB00EF6AF3 /* NSDocumentController+Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDocumentController+Document.h"; sourceTree = "<group>"; };
+		1F2649AF1A7406DB00EF6AF3 /* NSDocumentController+Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDocumentController+Document.m"; sourceTree = "<group>"; };
+		1F27896A1973BEB100EE696A /* Base */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = Base; path = Localization/Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1F2A17261A1BB3E30055A107 /* NSUserDefaults+Suite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+Suite.h"; path = "macdown-cmd/NSUserDefaults+Suite.h"; sourceTree = SOURCE_ROOT; };
+		1F2A17271A1BB3E30055A107 /* NSUserDefaults+Suite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+Suite.m"; path = "macdown-cmd/NSUserDefaults+Suite.m"; sourceTree = SOURCE_ROOT; };
+		1F3386E41A6B999600FC88C4 /* DOMNode+Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DOMNode+Text.h"; sourceTree = "<group>"; };
+		1F3386E51A6B999600FC88C4 /* DOMNode+Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DOMNode+Text.m"; sourceTree = "<group>"; };
+		1F33F29F1A3B4B660001C849 /* MPDocumentSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDocumentSplitView.h; sourceTree = "<group>"; };
+		1F33F2A01A3B4B660001C849 /* MPDocumentSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDocumentSplitView.m; sourceTree = "<group>"; };
+		1F33F2A21A3B56D20001C849 /* NSColor+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+HTML.h"; sourceTree = "<group>"; };
+		1F33F2A31A3B56D20001C849 /* NSColor+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+HTML.m"; sourceTree = "<group>"; };
+		1F396E6419B0EA17000D3EFC /* MPEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEditorView.h; sourceTree = "<group>"; };
+		1F396E6519B0EA17000D3EFC /* MPEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEditorView.m; sourceTree = "<group>"; };
+		1F3A47511953E84700293259 /* help.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = help.md; path = Resources/help.md; sourceTree = "<group>"; };
+		1F4C8E99194AE0B9004BF82E /* MarkdownDocument.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = MarkdownDocument.icns; path = Resources/MarkdownDocument.icns; sourceTree = "<group>"; };
+		1F51C9A1194564670015A96F /* libPods-MacDown-PAPreferences.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MacDown-PAPreferences.a"; path = "../../../../Library/Developer/Xcode/DerivedData/MacDown-ggdtxvuybojeqbhjydkhilziizrv/Build/Products/Debug/libPods-MacDown-PAPreferences.a"; sourceTree = "<group>"; };
+		1F59491A1AB57C78007394CB /* syntax_highlighting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = syntax_highlighting.json; path = Resources/syntax_highlighting.json; sourceTree = "<group>"; };
+		1F59491C1AB57D87007394CB /* NSJSONSerialization+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+File.h"; sourceTree = "<group>"; };
+		1F59491D1AB57D87007394CB /* NSJSONSerialization+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+File.m"; sourceTree = "<group>"; };
+		1F64CCC7195F5AB900CE619A /* MPAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPAsset.h; sourceTree = "<group>"; };
+		1F64CCC8195F5AB900CE619A /* MPAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAsset.m; sourceTree = "<group>"; };
+		1F70CCD81978F03E00703429 /* MPAutosaving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPAutosaving.h; sourceTree = "<group>"; };
+		1F8858BA1A2D8D82008DC543 /* MPArgumentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPArgumentProcessor.h; path = "macdown-cmd/MPArgumentProcessor.h"; sourceTree = SOURCE_ROOT; };
+		1F8858BB1A2D8D82008DC543 /* MPArgumentProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPArgumentProcessor.m; path = "macdown-cmd/MPArgumentProcessor.m"; sourceTree = SOURCE_ROOT; };
+		1F8858BD1A2D8ED4008DC543 /* MPGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPGlobals.h; path = "macdown-cmd/MPGlobals.h"; sourceTree = SOURCE_ROOT; };
+		1F8A82D819533E9300B6BF69 /* Prism */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Prism; path = Resources/Prism; sourceTree = "<group>"; };
+		1F8A83571953454F00B6BF69 /* HGMarkdownHighlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGMarkdownHighlighter.h; path = "Dependency/peg-markdown-highlight/HGMarkdownHighlighter.h"; sourceTree = SOURCE_ROOT; };
+		1F8A83581953454F00B6BF69 /* HGMarkdownHighlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGMarkdownHighlighter.m; path = "Dependency/peg-markdown-highlight/HGMarkdownHighlighter.m"; sourceTree = SOURCE_ROOT; };
+		1F8A83591953454F00B6BF69 /* HGMarkdownHighlightingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HGMarkdownHighlightingStyle.h; path = "Dependency/peg-markdown-highlight/HGMarkdownHighlightingStyle.h"; sourceTree = SOURCE_ROOT; };
+		1F8A835A1953454F00B6BF69 /* HGMarkdownHighlightingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HGMarkdownHighlightingStyle.m; path = "Dependency/peg-markdown-highlight/HGMarkdownHighlightingStyle.m"; sourceTree = SOURCE_ROOT; };
+		1F8A835B1953454F00B6BF69 /* pmh_definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pmh_definitions.h; path = "Dependency/peg-markdown-highlight/pmh_definitions.h"; sourceTree = SOURCE_ROOT; };
+		1F8A835C1953454F00B6BF69 /* pmh_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pmh_parser.h; path = "Dependency/peg-markdown-highlight/pmh_parser.h"; sourceTree = SOURCE_ROOT; };
+		1F8A83611953461800B6BF69 /* pmh_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pmh_parser.c; path = "Dependency/peg-markdown-highlight/pmh_parser.c"; sourceTree = SOURCE_ROOT; };
+		1F8A8363195346B200B6BF69 /* pmh_styleparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pmh_styleparser.c; path = "Dependency/peg-markdown-highlight/pmh_styleparser.c"; sourceTree = SOURCE_ROOT; };
+		1F8A8365195346B600B6BF69 /* pmh_styleparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pmh_styleparser.h; path = "Dependency/peg-markdown-highlight/pmh_styleparser.h"; sourceTree = SOURCE_ROOT; };
+		1F8A837E195348C500B6BF69 /* peg-markdown-highlight.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "peg-markdown-highlight.xcodeproj"; path = "Dependency/peg-markdown-highlight/peg-markdown-highlight.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1F9A14E8194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPExportPanelAccessoryViewController.h; path = Code/Application/MPExportPanelAccessoryViewController.h; sourceTree = "<group>"; };
+		1F9A14E9194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPExportPanelAccessoryViewController.m; path = Code/Application/MPExportPanelAccessoryViewController.m; sourceTree = "<group>"; };
+		1F9A14EA194EEE9900D1C6A9 /* MPMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPMainController.h; path = Code/Application/MPMainController.h; sourceTree = "<group>"; };
+		1F9A14EB194EEE9900D1C6A9 /* MPMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPMainController.m; path = Code/Application/MPMainController.m; sourceTree = "<group>"; };
+		1F9A14EE194EEEDD00D1C6A9 /* Styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Styles; path = Resources/Styles; sourceTree = "<group>"; };
+		1F9A14F3194EF6A600D1C6A9 /* Themes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Themes; path = Resources/Themes; sourceTree = "<group>"; };
+		1FA6CDB81952D2CD008D5CA0 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
+		1FA6DE211941CC9E000409FB /* MacDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA6DE241941CC9E000409FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1FA6DE271941CC9E000409FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1FA6DE281941CC9E000409FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1FA6DE291941CC9E000409FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FA6DE451941CC9E000409FB /* MacDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBBD4BD194C952300BB3C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MacDown/Localization/Base.lproj/MPExportPanelAccessoryViewController.xib; sourceTree = SOURCE_ROOT; };
+		1FBBD4C9194CA35900BB3C88 /* hoedown_html_patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hoedown_html_patch.h; sourceTree = "<group>"; };
+		1FBBD4CA194CA36500BB3C88 /* hoedown_html_patch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hoedown_html_patch.c; sourceTree = "<group>"; };
+		1FBDFE9B196170FE00BEEA70 /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extensions; path = Resources/Extensions; sourceTree = "<group>"; };
+		1FBDFE9E1962A25A00BEEA70 /* MPGeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPGeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		1FBDFE9F1962A25A00BEEA70 /* MPGeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPGeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		1FBDFEA41962A27300BEEA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = MacDown/Localization/Base.lproj/MPGeneralPreferencesViewController.xib; sourceTree = SOURCE_ROOT; };
+		1FBE8E0E1A11DB1E003E1EF4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "macdown-cmd/main.m"; sourceTree = SOURCE_ROOT; };
+		1FC29F5B1944FC2600D616C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1FCD71131A20BA3A00C028B5 /* version.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = version.xcodeproj; sourceTree = "<group>"; };
+		1FCD711A1A20BE2F00C028B5 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = Dependency/version/version.h; sourceTree = SOURCE_ROOT; };
+		1FCDCA301944F96E00B1F966 /* MacDownTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MacDownTests-Info.plist"; sourceTree = "<group>"; };
+		1FCDCA311944F96E00B1F966 /* MPPreferencesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPreferencesTests.m; sourceTree = "<group>"; };
+		1FCDCA331944F96E00B1F966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FCE066319633D6B00DC83B4 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = Resources/Data; sourceTree = "<group>"; };
+		1FF1420119A8987500CF8A6A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		1FF1420319A8A24800CF8A6A /* MPUtilityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUtilityTests.m; sourceTree = "<group>"; };
+		1FF207621941CF22005B5654 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1FFEB31819729F7C00B2254F /* MPAssetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPAssetTests.m; sourceTree = "<group>"; };
+		1FFEB31A19729FD500B2254F /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		1FFEB31C19729FEF00B2254F /* test.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = test.css; sourceTree = "<group>"; };
+		1FFEB31F1972B04D00B2254F /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		1FFEB3231972D88900B2254F /* NSObject+HTMLTabularize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HTMLTabularize.h"; sourceTree = "<group>"; };
+		1FFEB3241972D88900B2254F /* NSObject+HTMLTabularize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HTMLTabularize.m"; sourceTree = "<group>"; };
+		1FFEB3261972DAB400B2254F /* MPHTMLTabularizeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHTMLTabularizeTests.m; sourceTree = "<group>"; };
+		1FFEB32919737D6E00B2254F /* YAMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLSerialization.h; sourceTree = "<group>"; };
+		1FFEB32A19737D6E00B2254F /* YAMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLSerialization.m; sourceTree = "<group>"; };
+		1FFF301C1948A5320009AF24 /* MPStringLookupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPStringLookupTests.m; sourceTree = "<group>"; };
+		3D175F0F1974282400A5EFE8 /* WebView+WebViewPrivateHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView+WebViewPrivateHeaders.h"; sourceTree = "<group>"; };
+		481332E4A369446F177A8DF0 /* Pods-MacDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.release.xcconfig"; sourceTree = "<group>"; };
+		4AFCF7AEBCE081BD528ABC3D /* libPods-macdown-cmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macdown-cmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		632F686FDE66C78EBA2ABB7B /* Pods-macdown-cmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.debug.xcconfig"; sourceTree = "<group>"; };
+		7C5C1FBBB3ED456285901D31 /* libPods-MacDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		905EF1A7196164CA00FC3CE9 /* macdown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macdown; sourceTree = BUILT_PRODUCTS_DIR; };
+		905EF1A8196164CA00FC3CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9105A2DE3384B0DB400BAD1 /* Pods-MacDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.debug.xcconfig"; sourceTree = "<group>"; };
+		AEAF42BBDCEC4012B5092BB3 /* libPods-MacDownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCDF2E157FE72C2ED7438DD /* Pods-MacDownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.release.xcconfig"; sourceTree = "<group>"; };
+		E352E0A2562DCE60302D805E /* Pods-MacDownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E87590C145FF88E3F084D54C /* Pods-macdown-cmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.release.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA6DE1E1941CC9E000409FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF1420219A8987500CF8A6A /* JavaScriptCore.framework in Frameworks */,
+				1FF207631941CF22005B5654 /* WebKit.framework in Frameworks */,
+				1FA6DE251941CC9E000409FB /* Cocoa.framework in Frameworks */,
+				B49728377A904875B2963C38 /* libPods-MacDown.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6DE421941CC9E000409FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA6DE481941CC9E000409FB /* Cocoa.framework in Frameworks */,
+				1FC29F5C1944FC2600D616C7 /* XCTest.framework in Frameworks */,
+				5318159056384894AA42DB4F /* libPods-MacDownTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905EF1A4196164CA00FC3CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905EF1A9196164CA00FC3CE9 /* Foundation.framework in Frameworks */,
+				5807564D5F35BA9758A64530 /* libPods-macdown-cmd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0D9D5D194AC7CF008E1856 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F3386E41A6B999600FC88C4 /* DOMNode+Text.h */,
+				1F3386E51A6B999600FC88C4 /* DOMNode+Text.m */,
+				1F33F2A21A3B56D20001C849 /* NSColor+HTML.h */,
+				1F33F2A31A3B56D20001C849 /* NSColor+HTML.m */,
+				1F2649AE1A7406DB00EF6AF3 /* NSDocumentController+Document.h */,
+				1F2649AF1A7406DB00EF6AF3 /* NSDocumentController+Document.m */,
+				1F59491C1AB57D87007394CB /* NSJSONSerialization+File.h */,
+				1F59491D1AB57D87007394CB /* NSJSONSerialization+File.m */,
+				1FFEB3231972D88900B2254F /* NSObject+HTMLTabularize.h */,
+				1FFEB3241972D88900B2254F /* NSObject+HTMLTabularize.m */,
+				1F0D9D5E194AC7CF008E1856 /* NSString+Lookup.h */,
+				1F0D9D5F194AC7CF008E1856 /* NSString+Lookup.m */,
+				1F0D9D60194AC7CF008E1856 /* NSTextView+Autocomplete.h */,
+				1F0D9D61194AC7CF008E1856 /* NSTextView+Autocomplete.m */,
+				3D175F0F1974282400A5EFE8 /* WebView+WebViewPrivateHeaders.h */,
+				1FBBD4C9194CA35900BB3C88 /* hoedown_html_patch.h */,
+				1FBBD4CA194CA36500BB3C88 /* hoedown_html_patch.c */,
+			);
+			name = Extension;
+			path = Code/Extension;
+			sourceTree = "<group>";
+		};
+		1F0D9D62194AC7CF008E1856 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D9D63194AC7CF008E1856 /* MPUtilities.h */,
+				1F0D9D64194AC7CF008E1856 /* MPUtilities.m */,
+				1F70CCD81978F03E00703429 /* MPAutosaving.h */,
+				1F23A91F19928E650052DB78 /* MPMathJaxListener.h */,
+				1F23A92019928E650052DB78 /* MPMathJaxListener.m */,
+			);
+			name = Utility;
+			path = Code/Utility;
+			sourceTree = "<group>";
+		};
+		1F0D9D68194AC7F7008E1856 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D9D74194AC7F7008E1856 /* MPPreferencesViewController.h */,
+				1F0D9D75194AC7F7008E1856 /* MPPreferencesViewController.m */,
+				1FBDFE9E1962A25A00BEEA70 /* MPGeneralPreferencesViewController.h */,
+				1FBDFE9F1962A25A00BEEA70 /* MPGeneralPreferencesViewController.m */,
+				1FBDFEA31962A27300BEEA70 /* MPGeneralPreferencesViewController.xib */,
+				1F0D9D6F194AC7F7008E1856 /* MPMarkdownPreferencesViewController.h */,
+				1F0D9D70194AC7F7008E1856 /* MPMarkdownPreferencesViewController.m */,
+				1F0D9D89194AC83C008E1856 /* MPMarkdownPreferencesViewController.xib */,
+				1F0D9D69194AC7F7008E1856 /* MPEditorPreferencesViewController.h */,
+				1F0D9D6A194AC7F7008E1856 /* MPEditorPreferencesViewController.m */,
+				1F0D9D85194AC83C008E1856 /* MPEditorPreferencesViewController.xib */,
+				1F0D9D6C194AC7F7008E1856 /* MPHtmlPreferencesViewController.h */,
+				1F0D9D6D194AC7F7008E1856 /* MPHtmlPreferencesViewController.m */,
+				1F0D9D87194AC83C008E1856 /* MPHtmlPreferencesViewController.xib */,
+				1F0D9D72194AC7F7008E1856 /* MPPreferences.h */,
+				1F0D9D73194AC7F7008E1856 /* MPPreferences.m */,
+			);
+			name = Preferences;
+			path = Code/Preferences;
+			sourceTree = "<group>";
+		};
+		1F0D9D90194AC852008E1856 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				1F64CCC7195F5AB900CE619A /* MPAsset.h */,
+				1F64CCC8195F5AB900CE619A /* MPAsset.m */,
+				1F002A21195B3DAE008B8D93 /* MPRenderer.h */,
+				1F002A22195B3DAE008B8D93 /* MPRenderer.m */,
+				1F0D9D91194AC852008E1856 /* MPDocument.h */,
+				1F0D9D92194AC852008E1856 /* MPDocument.m */,
+				1F0D9D83194AC83C008E1856 /* MPDocument.xib */,
+			);
+			name = Document;
+			path = Code/Document;
+			sourceTree = "<group>";
+		};
+		1F396E6319B0EA17000D3EFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F33F29F1A3B4B660001C849 /* MPDocumentSplitView.h */,
+				1F33F2A01A3B4B660001C849 /* MPDocumentSplitView.m */,
+				1F396E6419B0EA17000D3EFC /* MPEditorView.h */,
+				1F396E6519B0EA17000D3EFC /* MPEditorView.m */,
+			);
+			name = View;
+			path = Code/View;
+			sourceTree = "<group>";
+		};
+		1F4C8E9B194AE0C3004BF82E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FCE066319633D6B00DC83B4 /* Data */,
+				1F9A14EE194EEEDD00D1C6A9 /* Styles */,
+				1F9A14F3194EF6A600D1C6A9 /* Themes */,
+				1FBDFE9B196170FE00BEEA70 /* Extensions */,
+				1F0F3BFB195F75F200FC0B3B /* MathJax */,
+				1F8A82D819533E9300B6BF69 /* Prism */,
+				1F4C8E99194AE0B9004BF82E /* MarkdownDocument.icns */,
+				1F0D9DA6194AC8CB008E1856 /* Credits.rtf */,
+				1FA6CDB81952D2CD008D5CA0 /* dsa_pub.pem */,
+				1F3A47511953E84700293259 /* help.md */,
+				1F59491A1AB57C78007394CB /* syntax_highlighting.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F4C8E9C194AE0CE004BF82E /* Additional Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D9DAE194AC905008E1856 /* main.m */,
+				1F0D9DB5194ACA33008E1856 /* MacDown-Prefix.pch */,
+			);
+			name = "Additional Sources";
+			sourceTree = "<group>";
+		};
+		1F8A83551953453100B6BF69 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD70FC1A20B9FD00C028B5 /* version */,
+				1F8A83561953453A00B6BF69 /* peg-markdown-highlight */,
+				1FFEB32819737D6E00B2254F /* YAML-framework */,
+			);
+			name = Dependency;
+			path = MacDown;
+			sourceTree = "<group>";
+		};
+		1F8A83561953453A00B6BF69 /* peg-markdown-highlight */ = {
+			isa = PBXGroup;
+			children = (
+				1F8A837E195348C500B6BF69 /* peg-markdown-highlight.xcodeproj */,
+				1F8A83571953454F00B6BF69 /* HGMarkdownHighlighter.h */,
+				1F8A83581953454F00B6BF69 /* HGMarkdownHighlighter.m */,
+				1F8A83591953454F00B6BF69 /* HGMarkdownHighlightingStyle.h */,
+				1F8A835A1953454F00B6BF69 /* HGMarkdownHighlightingStyle.m */,
+				1F8A835B1953454F00B6BF69 /* pmh_definitions.h */,
+				1F8A835C1953454F00B6BF69 /* pmh_parser.h */,
+				1F8A83611953461800B6BF69 /* pmh_parser.c */,
+				1F8A8365195346B600B6BF69 /* pmh_styleparser.h */,
+				1F8A8363195346B200B6BF69 /* pmh_styleparser.c */,
+			);
+			name = "peg-markdown-highlight";
+			sourceTree = "<group>";
+		};
+		1F8A837F195348C500B6BF69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9A14E7194EE24600D1C6A9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D9D81194AC83C008E1856 /* MainMenu.xib */,
+				1F9A14EA194EEE9900D1C6A9 /* MPMainController.h */,
+				1F9A14EB194EEE9900D1C6A9 /* MPMainController.m */,
+				1F9A14E8194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.h */,
+				1F9A14E9194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.m */,
+				1FBBD4BC194C952300BB3C88 /* MPExportPanelAccessoryViewController.xib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		1FA6DE181941CC9E000409FB = {
+			isa = PBXGroup;
+			children = (
+				1F8A83551953453100B6BF69 /* Dependency */,
+				1FCDC9EB1944F89B00B1F966 /* MacDown */,
+				1FCDCA2F1944F96E00B1F966 /* MacDownTests */,
+				905EF1AA196164CA00FC3CE9 /* macdown-cmd */,
+				1FA6DE231941CC9E000409FB /* Frameworks */,
+				1FA6DE221941CC9E000409FB /* Products */,
+				FF36D9424F9F1EFC35FA3D33 /* Pods */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		1FA6DE221941CC9E000409FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6DE211941CC9E000409FB /* MacDown.app */,
+				1FA6DE451941CC9E000409FB /* MacDownTests.xctest */,
+				905EF1A7196164CA00FC3CE9 /* macdown */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA6DE231941CC9E000409FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1420119A8987500CF8A6A /* JavaScriptCore.framework */,
+				1F51C9A1194564670015A96F /* libPods-MacDown-PAPreferences.a */,
+				1FC29F5B1944FC2600D616C7 /* XCTest.framework */,
+				1FF207621941CF22005B5654 /* WebKit.framework */,
+				1FA6DE241941CC9E000409FB /* Cocoa.framework */,
+				905EF1A8196164CA00FC3CE9 /* Foundation.framework */,
+				1FA6DE261941CC9E000409FB /* Other Frameworks */,
+				7C5C1FBBB3ED456285901D31 /* libPods-MacDown.a */,
+				AEAF42BBDCEC4012B5092BB3 /* libPods-MacDownTests.a */,
+				4AFCF7AEBCE081BD528ABC3D /* libPods-macdown-cmd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FA6DE261941CC9E000409FB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA6DE271941CC9E000409FB /* AppKit.framework */,
+				1FA6DE281941CC9E000409FB /* CoreData.framework */,
+				1FA6DE291941CC9E000409FB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1FCD70FC1A20B9FD00C028B5 /* version */ = {
+			isa = PBXGroup;
+			children = (
+				1FCD71131A20BA3A00C028B5 /* version.xcodeproj */,
+			);
+			name = version;
+			path = Dependency/version;
+			sourceTree = SOURCE_ROOT;
+		};
+		1FCD71141A20BA3A00C028B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCDC9EB1944F89B00B1F966 /* MacDown */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D9D62194AC7CF008E1856 /* Utility */,
+				1F0D9D5D194AC7CF008E1856 /* Extension */,
+				1F396E6319B0EA17000D3EFC /* View */,
+				1F9A14E7194EE24600D1C6A9 /* Application */,
+				1F0D9D68194AC7F7008E1856 /* Preferences */,
+				1F0D9D90194AC852008E1856 /* Document */,
+				1FCDCA2D1944F8F600B1F966 /* Supporting Files */,
+			);
+			path = MacDown;
+			sourceTree = "<group>";
+		};
+		1FCDCA2D1944F8F600B1F966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4C8E9C194AE0CE004BF82E /* Additional Sources */,
+				1F4C8E9B194AE0C3004BF82E /* Resources */,
+				1F0D9DA3194AC8B3008E1856 /* MacDown-Info.plist */,
+				1F0D9DA8194AC8CB008E1856 /* InfoPlist.strings */,
+				1F2789691973BEB100EE696A /* Localizable.strings */,
+				1F0D9DAC194AC8EF008E1856 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FCDCA2F1944F96E00B1F966 /* MacDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF1420319A8A24800CF8A6A /* MPUtilityTests.m */,
+				1F25E1C21A50F4F10029371D /* MPColorTests.m */,
+				1FCDCA311944F96E00B1F966 /* MPPreferencesTests.m */,
+				1FFF301C1948A5320009AF24 /* MPStringLookupTests.m */,
+				1FFEB31819729F7C00B2254F /* MPAssetTests.m */,
+				1FFEB3261972DAB400B2254F /* MPHTMLTabularizeTests.m */,
+				1FCDCA371944F97800B1F966 /* Supporting Files */,
+			);
+			path = MacDownTests;
+			sourceTree = "<group>";
+		};
+		1FCDCA371944F97800B1F966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDCA301944F96E00B1F966 /* MacDownTests-Info.plist */,
+				1FCDCA321944F96E00B1F966 /* InfoPlist.strings */,
+				1FFEB31F1972B04D00B2254F /* test.txt */,
+				1FFEB31A19729FD500B2254F /* test.js */,
+				1FFEB31C19729FEF00B2254F /* test.css */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FFEB32819737D6E00B2254F /* YAML-framework */ = {
+			isa = PBXGroup;
+			children = (
+				1FFEB32919737D6E00B2254F /* YAMLSerialization.h */,
+				1FFEB32A19737D6E00B2254F /* YAMLSerialization.m */,
+			);
+			name = "YAML-framework";
+			path = "Dependency/YAML-framework";
+			sourceTree = SOURCE_ROOT;
+		};
+		905EF1AA196164CA00FC3CE9 /* macdown-cmd */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A17261A1BB3E30055A107 /* NSUserDefaults+Suite.h */,
+				1F2A17271A1BB3E30055A107 /* NSUserDefaults+Suite.m */,
+				1FCD711A1A20BE2F00C028B5 /* version.h */,
+				1F8858BD1A2D8ED4008DC543 /* MPGlobals.h */,
+				1F8858BA1A2D8D82008DC543 /* MPArgumentProcessor.h */,
+				1F8858BB1A2D8D82008DC543 /* MPArgumentProcessor.m */,
+				1FBE8E0E1A11DB1E003E1EF4 /* main.m */,
+			);
+			name = "macdown-cmd";
+			path = "MacDown-cmd";
+			sourceTree = "<group>";
+		};
+		FF36D9424F9F1EFC35FA3D33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9105A2DE3384B0DB400BAD1 /* Pods-MacDown.debug.xcconfig */,
+				481332E4A369446F177A8DF0 /* Pods-MacDown.release.xcconfig */,
+				E352E0A2562DCE60302D805E /* Pods-MacDownTests.debug.xcconfig */,
+				BDCDF2E157FE72C2ED7438DD /* Pods-MacDownTests.release.xcconfig */,
+				632F686FDE66C78EBA2ABB7B /* Pods-macdown-cmd.debug.xcconfig */,
+				E87590C145FF88E3F084D54C /* Pods-macdown-cmd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA6DE201941CC9E000409FB /* MacDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6DE551941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDown" */;
+			buildPhases = (
+				A4C68C7905CF45C89A0CC47D /* Check Pods Manifest.lock */,
+				1FA6DE1D1941CC9E000409FB /* Sources */,
+				1FA6DE1E1941CC9E000409FB /* Frameworks */,
+				1FF16580199A6C950080D9A5 /* Fetch Prism Resources */,
+				1FA6DE1F1941CC9E000409FB /* Resources */,
+				46C28C219A3C4CCD94797747 /* Copy Pods Resources */,
+				1F8A82A81952F19B00B6BF69 /* Update Build Number */,
+				905EF1B6196164E300FC3CE9 /* Copy Command Line Utility */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FE2197819534A5D00DB931F /* PBXTargetDependency */,
+			);
+			name = MacDown;
+			productName = MarkPad;
+			productReference = 1FA6DE211941CC9E000409FB /* MacDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FA6DE441941CC9E000409FB /* MacDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA6DE581941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDownTests" */;
+			buildPhases = (
+				694A3D57598E431C90D512B9 /* Check Pods Manifest.lock */,
+				1FA6DE411941CC9E000409FB /* Sources */,
+				1FA6DE421941CC9E000409FB /* Frameworks */,
+				1FA6DE431941CC9E000409FB /* Resources */,
+				72CBA169CC684D3CB9F83627 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FA6DE4A1941CC9E000409FB /* PBXTargetDependency */,
+			);
+			name = MacDownTests;
+			productName = MarkPadTests;
+			productReference = 1FA6DE451941CC9E000409FB /* MacDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905EF1A6196164CA00FC3CE9 /* macdown-cmd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905EF1B3196164CA00FC3CE9 /* Build configuration list for PBXNativeTarget "macdown-cmd" */;
+			buildPhases = (
+				8354BB1F574EFC071D91C89B /* Check Pods Manifest.lock */,
+				905EF1A3196164CA00FC3CE9 /* Sources */,
+				905EF1A4196164CA00FC3CE9 /* Frameworks */,
+				905EF1A5196164CA00FC3CE9 /* CopyFiles */,
+				38BEB4F8BD690E8970217D44 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4574791A2D87D500DFA5FF /* PBXTargetDependency */,
+			);
+			name = "macdown-cmd";
+			productName = "MacDown-cmd";
+			productReference = 905EF1A7196164CA00FC3CE9 /* macdown */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA6DE191941CC9E000409FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tzu-ping Chung ";
+				TargetAttributes = {
+					1FA6DE441941CC9E000409FB = {
+						TestTargetID = 1FA6DE201941CC9E000409FB;
+					};
+				};
+			};
+			buildConfigurationList = 1FA6DE1C1941CC9E000409FB /* Build configuration list for PBXProject "MacDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA6DE181941CC9E000409FB;
+			productRefGroup = 1FA6DE221941CC9E000409FB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F8A837F195348C500B6BF69 /* Products */;
+					ProjectRef = 1F8A837E195348C500B6BF69 /* peg-markdown-highlight.xcodeproj */;
+				},
+				{
+					ProductGroup = 1FCD71141A20BA3A00C028B5 /* Products */;
+					ProjectRef = 1FCD71131A20BA3A00C028B5 /* version.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1FA6DE201941CC9E000409FB /* MacDown */,
+				1FA6DE441941CC9E000409FB /* MacDownTests */,
+				905EF1A6196164CA00FC3CE9 /* macdown-cmd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA6DE1F1941CC9E000409FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8A82D919533E9300B6BF69 /* Prism in Resources */,
+				1F9A14EF194EEEDD00D1C6A9 /* Styles in Resources */,
+				1F0D9DB0194AC9EE008E1856 /* MPDocument.xib in Resources */,
+				1F0D9DB1194AC9EE008E1856 /* MPEditorPreferencesViewController.xib in Resources */,
+				1F9A14F4194EF6A600D1C6A9 /* Themes in Resources */,
+				1F0D9DB2194AC9EE008E1856 /* MPHtmlPreferencesViewController.xib in Resources */,
+				1F0D9DB3194AC9EE008E1856 /* MPMarkdownPreferencesViewController.xib in Resources */,
+				1F3A47521953E84700293259 /* help.md in Resources */,
+				1F0D9DB4194AC9EE008E1856 /* MainMenu.xib in Resources */,
+				1FBDFE9C196170FE00BEEA70 /* Extensions in Resources */,
+				1FBBD4BE194C952300BB3C88 /* MPExportPanelAccessoryViewController.xib in Resources */,
+				1FA6CDB91952D2CD008D5CA0 /* dsa_pub.pem in Resources */,
+				1F27896B1973BEB100EE696A /* Localizable.strings in Resources */,
+				1F0D9DAD194AC8EF008E1856 /* Images.xcassets in Resources */,
+				1F0D9DAA194AC8CB008E1856 /* Credits.rtf in Resources */,
+				1FBDFEA51962A27300BEEA70 /* MPGeneralPreferencesViewController.xib in Resources */,
+				1F0F3BFC195F75F200FC0B3B /* MathJax in Resources */,
+				1F4C8E9A194AE0B9004BF82E /* MarkdownDocument.icns in Resources */,
+				1F59491B1AB57C78007394CB /* syntax_highlighting.json in Resources */,
+				1F0D9DAB194AC8CB008E1856 /* InfoPlist.strings in Resources */,
+				1FCE066419633D6C00DC83B4 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6DE431941CC9E000409FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC29F5E1944FC4F00D616C7 /* InfoPlist.strings in Resources */,
+				1FFEB31D19729FEF00B2254F /* test.css in Resources */,
+				1FFEB3201972B04D00B2254F /* test.txt in Resources */,
+				1FFEB31E1972A28400B2254F /* test.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8A82A81952F19B00B6BF69 /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "bash Tools/update_build_number.sh";
+			showEnvVarsInLog = 0;
+		};
+		1FF16580199A6C950080D9A5 /* Fetch Prism Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Fetch Prism Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SOURCE=$PWD/Dependency/prism\nTARGET=$PWD/MacDown/Resources/Prism\ncp -r $SOURCE/components $TARGET\ncp -r $SOURCE/themes $TARGET\ncp -r $SOURCE/plugins $TARGET\ncp -r $SOURCE/components.js $TARGET";
+			showEnvVarsInLog = 0;
+		};
+		38BEB4F8BD690E8970217D44 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46C28C219A3C4CCD94797747 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDown/Pods-MacDown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694A3D57598E431C90D512B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72CBA169CC684D3CB9F83627 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8354BB1F574EFC071D91C89B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C68C7905CF45C89A0CC47D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA6DE1D1941CC9E000409FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F396E6619B0EA17000D3EFC /* MPEditorView.m in Sources */,
+				1F0D9D7A194AC7F7008E1856 /* MPMarkdownPreferencesViewController.m in Sources */,
+				1F0D9D7D194AC7F7008E1856 /* MPPreferencesViewController.m in Sources */,
+				1F33F2A41A3B56D20001C849 /* NSColor+HTML.m in Sources */,
+				1F0D9D65194AC7CF008E1856 /* NSString+Lookup.m in Sources */,
+				1F8A835E1953454F00B6BF69 /* HGMarkdownHighlightingStyle.m in Sources */,
+				1F33F2A11A3B4B660001C849 /* MPDocumentSplitView.m in Sources */,
+				1F23A92119928E650052DB78 /* MPMathJaxListener.m in Sources */,
+				1F2649B01A7406DB00EF6AF3 /* NSDocumentController+Document.m in Sources */,
+				1F0D9D67194AC7CF008E1856 /* MPUtilities.m in Sources */,
+				1F0D9D78194AC7F7008E1856 /* MPHtmlPreferencesViewController.m in Sources */,
+				1F0D9D7C194AC7F7008E1856 /* MPPreferences.m in Sources */,
+				1F0D9DAF194AC905008E1856 /* main.m in Sources */,
+				1F0D9D66194AC7CF008E1856 /* NSTextView+Autocomplete.m in Sources */,
+				1F59491E1AB57D87007394CB /* NSJSONSerialization+File.m in Sources */,
+				1FFEB32B19737D6E00B2254F /* YAMLSerialization.m in Sources */,
+				1F64CCC9195F5AB900CE619A /* MPAsset.m in Sources */,
+				1FFEB3251972D88900B2254F /* NSObject+HTMLTabularize.m in Sources */,
+				1F9A14EC194EEE9900D1C6A9 /* MPExportPanelAccessoryViewController.m in Sources */,
+				1FBDFEA11962A25A00BEEA70 /* MPGeneralPreferencesViewController.m in Sources */,
+				1F9A14ED194EEE9900D1C6A9 /* MPMainController.m in Sources */,
+				1F002A23195B3DAE008B8D93 /* MPRenderer.m in Sources */,
+				1FBBD4CB194CA36500BB3C88 /* hoedown_html_patch.c in Sources */,
+				1F8A8364195346B200B6BF69 /* pmh_styleparser.c in Sources */,
+				1F0D9D93194AC852008E1856 /* MPDocument.m in Sources */,
+				1F0D9D76194AC7F7008E1856 /* MPEditorPreferencesViewController.m in Sources */,
+				1F8A83621953461800B6BF69 /* pmh_parser.c in Sources */,
+				1F8A835D1953454F00B6BF69 /* HGMarkdownHighlighter.m in Sources */,
+				1F3386E61A6B999600FC88C4 /* DOMNode+Text.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA6DE411941CC9E000409FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFEB31919729F7C00B2254F /* MPAssetTests.m in Sources */,
+				1F51C9A5194565050015A96F /* MPPreferencesTests.m in Sources */,
+				1FF1420419A8A24800CF8A6A /* MPUtilityTests.m in Sources */,
+				1FFEB3271972DAB400B2254F /* MPHTMLTabularizeTests.m in Sources */,
+				1F25E1C31A50F4F10029371D /* MPColorTests.m in Sources */,
+				1FFF301D1948A5320009AF24 /* MPStringLookupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905EF1A3196164CA00FC3CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8858BC1A2D8D82008DC543 /* MPArgumentProcessor.m in Sources */,
+				1FBE8E0F1A11DB1E003E1EF4 /* main.m in Sources */,
+				1F2A17281A1BB3E30055A107 /* NSUserDefaults+Suite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4574791A2D87D500DFA5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = version;
+			targetProxy = 1F4574781A2D87D500DFA5FF /* PBXContainerItemProxy */;
+		};
+		1FA6DE4A1941CC9E000409FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FA6DE201941CC9E000409FB /* MacDown */;
+			targetProxy = 1FA6DE491941CC9E000409FB /* PBXContainerItemProxy */;
+		};
+		1FE2197819534A5D00DB931F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "peg-markdown-highlight";
+			targetProxy = 1FE2197719534A5D00DB931F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F0D9D81194AC83C008E1856 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9D82194AC83C008E1856 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1F0D9D83194AC83C008E1856 /* MPDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9D84194AC83C008E1856 /* Base */,
+			);
+			name = MPDocument.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F0D9D85194AC83C008E1856 /* MPEditorPreferencesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9D86194AC83C008E1856 /* Base */,
+			);
+			name = MPEditorPreferencesViewController.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F0D9D87194AC83C008E1856 /* MPHtmlPreferencesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9D88194AC83C008E1856 /* Base */,
+			);
+			name = MPHtmlPreferencesViewController.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F0D9D89194AC83C008E1856 /* MPMarkdownPreferencesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9D8A194AC83C008E1856 /* Base */,
+			);
+			name = MPMarkdownPreferencesViewController.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1F0D9DA6194AC8CB008E1856 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9DA7194AC8CB008E1856 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1F0D9DA8194AC8CB008E1856 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0D9DA9194AC8CB008E1856 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F2789691973BEB100EE696A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F27896A1973BEB100EE696A /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1FBBD4BC194C952300BB3C88 /* MPExportPanelAccessoryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBBD4BD194C952300BB3C88 /* Base */,
+			);
+			name = MPExportPanelAccessoryViewController.xib;
+			path = Code/Document;
+			sourceTree = "<group>";
+		};
+		1FBDFEA31962A27300BEEA70 /* MPGeneralPreferencesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBDFEA41962A27300BEEA70 /* Base */,
+			);
+			name = MPGeneralPreferencesViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FCDCA321944F96E00B1F966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FCDCA331944F96E00B1F966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA6DE531941CC9E000409FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FA6DE541941CC9E000409FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1FA6DE561941CC9E000409FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9105A2DE3384B0DB400BAD1 /* Pods-MacDown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
+				INFOPLIST_FILE = "MacDown/MacDown-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = MacDown;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FA6DE571941CC9E000409FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 481332E4A369446F177A8DF0 /* Pods-MacDown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
+				INFOPLIST_FILE = "MacDown/MacDown-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = MacDown;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FA6DE591941CC9E000409FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E352E0A2562DCE60302D805E /* Pods-MacDownTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown.app/Contents/MacOS/MacDown";
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MacDownTests/MacDownTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MacDown-ggdtxvuybojeqbhjydkhilziizrv/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = MacDownTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1FA6DE5A1941CC9E000409FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDCDF2E157FE72C2ED7438DD /* Pods-MacDownTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown.app/Contents/MacOS/MacDown";
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacDown/Code/MacDown-Prefix.pch";
+				INFOPLIST_FILE = "MacDownTests/MacDownTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MacDown-ggdtxvuybojeqbhjydkhilziizrv/Build/Products/Debug",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = MacDownTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		905EF1B1196164CA00FC3CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632F686FDE66C78EBA2ABB7B /* Pods-macdown-cmd.debug.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = macdown;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		905EF1B2196164CA00FC3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87590C145FF88E3F084D54C /* Pods-macdown-cmd.release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = macdown;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA6DE1C1941CC9E000409FB /* Build configuration list for PBXProject "MacDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6DE531941CC9E000409FB /* Debug */,
+				1FA6DE541941CC9E000409FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6DE551941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6DE561941CC9E000409FB /* Debug */,
+				1FA6DE571941CC9E000409FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA6DE581941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA6DE591941CC9E000409FB /* Debug */,
+				1FA6DE5A1941CC9E000409FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905EF1B3196164CA00FC3CE9 /* Build configuration list for PBXNativeTarget "macdown-cmd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905EF1B1196164CA00FC3CE9 /* Debug */,
+				905EF1B2196164CA00FC3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA6DE191941CC9E000409FB /* Project object */;
+}
