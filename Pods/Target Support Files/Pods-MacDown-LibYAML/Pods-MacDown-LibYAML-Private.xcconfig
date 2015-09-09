@@ -1,0 +1,6 @@
+#include "Pods-MacDown-LibYAML.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/LibYAML" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GBCli" "${PODS_ROOT}/Headers/Public/JJPluralForm" "${PODS_ROOT}/Headers/Public/LibYAML" "${PODS_ROOT}/Headers/Public/M13OrderedDictionary" "${PODS_ROOT}/Headers/Public/MASPreferences" "${PODS_ROOT}/Headers/Public/PAPreferences" "${PODS_ROOT}/Headers/Public/Sparkle" "${PODS_ROOT}/Headers/Public/handlebars-objc" "${PODS_ROOT}/Headers/Public/handlebars-objc/HBHandlebars" "${PODS_ROOT}/Headers/Public/hoedown"
+OTHER_CFLAGS = ${PODS_MACDOWN_LIBYAML_OTHER_CFLAGS}
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

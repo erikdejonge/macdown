@@ -1,0 +1,166 @@
+%{
+
+#import "HBAst.h"
+
+NSString* nsString(char* utf8String);
+NSString* nsStringFromQuotedString(char* quotedString, NSString* escapeSequence, NSString* replacement);
+
+void found(const char *s);
+void hb_error(HBAstProgram** root, NSError** error, const char *s);
+
+
+#include "y.tab.h"  // to get the token types that we return
+
+int hb_column = 1;
+
+#define YY_USER_ACTION yylloc->first_line = yylloc->last_line = yylineno; \
+yylloc->first_column = hb_column; \
+yylloc->last_column = hb_column + (int)yyleng - 1; \
+hb_column += yyleng;
+
+#define TRACE_LEXER 0
+
+#if TRACE_LEXER
+#define found(_token_) printf("Lexer found " #_token_ " (%s)\n", yytext); return _token_
+#else
+#define found(_token_) return _token_
+#endif
+
+%}
+
+/* Options 
+    stack --> needed to use start conditions stack calls (yy_pop_states...) 
+    reentrant --> so lexer doesn't use global variables
+    nounput noinput noyy_top_state noyywrap--> needed to avoid generation of unneeded C functions that will make the compiler whine
+ */
+%option stack reentrant yylineno bison-bridge bison-locations nounput noinput noyy_top_state noyywrap
+%option prefix="hb_"
+
+%x EXPRESSION
+%x COMMENT
+%x DASHED_COMMENT
+%x RAW
+%x RAW_EXPRESSION
+
+
+ID 	[^ \t!"#%-,\.\/;->@\[-\^`\{-~\]/\[=}\/.]
+WS	[ \t]*
+%%
+
+
+
+[^\\\{]+		{ yylval->nsString = nsString(yytext); found(TEXT_CONTENT); }
+\{				{ yylval->nsString = @"{"; found(TEXT_CONTENT); }
+\\				{ yylval->nsString = @"\\"; found(TEXT_CONTENT); }
+\\\{\{			{ yylval->nsString = @"{{"; found(TEXT_CONTENT); }
+\\\\/\{\{		{ yylval->nsString = @"\\"; found(TEXT_CONTENT); }
+
+	/* first form of comments: {{! xxxx }} */
+
+\{\{!			{ yy_push_state(COMMENT, yyscanner); found(COMMENT_START); }
+<COMMENT>[^\}]+ { yylval->nsString = nsString(yytext); found(COMMENT_CONTENT); }
+<COMMENT>\}\}	{ yy_pop_state(yyscanner); found(COMMENT_END); }
+
+	/* second form of comments: {{!-- xxxx --}} */
+
+\{\{!\-\-		{ yy_push_state(DASHED_COMMENT, yyscanner); found(DASHED_COMMENT_START); }
+<DASHED_COMMENT>\-\-\}\}	{ yy_pop_state(yyscanner); found(DASHED_COMMENT_END); }
+
+
+\{\{			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN); }
+\{\{~			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN); }
+
+\{\{>			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_PARTIAL); }
+\{\{~>			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_PARTIAL); }
+\{\{#			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_BLOCK); }
+\{\{~#			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_BLOCK); }
+\{\{\/			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_ENDBLOCK); }
+\{\{~\/			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_ENDBLOCK); }
+\{\{^			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_INVERSE); }
+\{\{~^			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_INVERSE); }
+\{\{[ ]*else	{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_INVERSE); }
+\{\{~[ ]*else	{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_INVERSE); }
+\{\{\{			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_UNESCAPED); }
+\{\{~\{			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_UNESCAPED); }
+\{\{&			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_UNESCAPED_AMPERSAND); }
+\{\{~&			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_UNESCAPED_AMPERSAND); }
+\{\{\{			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_UNESCAPED); }
+\{\{~\{			{ yy_push_state(EXPRESSION, yyscanner); yylval->ival = 1; found(OPEN_UNESCAPED); }
+
+\{\{\{\{        { yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_RAW); }
+\}\}\}\}        { yy_push_state(EXPRESSION, yyscanner); yylval->ival = 0; found(CLOSE_RAW); }
+    
+<EXPRESSION>{
+
+	\}\}                    { yy_pop_state(yyscanner); yylval->ival = 0; found(CLOSE); }
+    ~\}\}                   { yy_pop_state(yyscanner); yylval->ival = 1; found(CLOSE); }
+	\}\}\}                  { yy_pop_state(yyscanner); yylval->ival = 0; found(CLOSE_UNESCAPED); }
+    \}~\}\}                 { yy_pop_state(yyscanner); yylval->ival = 1; found(CLOSE_UNESCAPED); }
+    \}\}\}\}                 { yy_pop_state(yyscanner); yy_push_state(RAW, yyscanner); yylval->ival = 0; found(CLOSE_RAW); }
+
+	\"(\\\"|[^\"])*\"       { yylval->nsString = nsStringFromQuotedString(yytext, @"\\\"", @"\""); found(STRING); } /* strings like "aaa". '"' character can be backslash escaped */
+	'(\\'|[^'])*'           { yylval->nsString = nsStringFromQuotedString(yytext, @"\\'", @"'"); found(STRING); } /* strings like 'aaa'. "'" character can be backslash escaped */
+
+	"="                     { found(EQUALS); }
+	"@"                     { found(DATA); }
+    "("                     { found(LPARENT); }
+    ")"                     { found(RPARENT); }
+	\-?[0-9]+/[ \t\}\)]     { yylval->nsString = nsString(yytext); found(INTEGER); }
+    \-?[0-9]+\.[0-9]+/[ \t\}\)]     { yylval->nsString = nsString(yytext); found(FLOAT); }
+	"true"/[ \t\}\)]		{ yylval->nsString = nsString(yytext); found(BOOLEAN); }
+	"false"/[ \t\}\)]		{ yylval->nsString = nsString(yytext); found(BOOLEAN); }
+	"."/[\}\/ \t\)~]        { yylval->nsString = nsString(yytext); found(ID); }
+	".."                    { yylval->nsString = nsString(yytext); found(ID); }
+	[\/\.]                  { yylval->nsString = nsString(yytext); found(PATH_SEPARATOR); }
+	{ID}+/[=\/\. \t\}\)~]   { yylval->nsString = nsString(yytext); found(ID); }
+	\[[^\[]*\]              { NSString* s = nsString(yytext); yylval->nsString = [s substringWithRange:NSMakeRange(1, s.length -2)]; found(ID); } /* XXX must remove [] */
+	{WS}*                   {}
+    .                       { found(UNKNOWN); }
+}
+
+<RAW>{
+    .+/\{\{\{\{\/           { yylval->nsString = nsString(yytext); found(TEXT_CONTENT); }
+    \{\{\{\{\/              { yy_pop_state(yyscanner); yy_push_state(RAW_EXPRESSION, yyscanner); yylval->ival = 0; found(OPEN_ENDRAW); }
+
+}
+    
+<RAW_EXPRESSION>{
+    {ID}+/[=\/\. \t\}\)~]   { yylval->nsString = nsString(yytext); found(ID); }
+    \}\}\}\}                { yy_pop_state(yyscanner); yylval->ival = 0; found(CLOSE_ENDRAW); }
+    {WS}*                   {}
+}
+
+%%
+
+
+NSString* nsString(char* utf8String)
+{
+    return [[[NSString alloc] initWithUTF8String:utf8String] autorelease];
+}
+
+NSString* nsStringFromQuotedString(char* quotedString, NSString* escapeSequence, NSString* replacement)
+{
+    NSString* s = nsString(quotedString);
+    NSString* escapedString = [s substringWithRange:NSMakeRange(1, s.length -2)];
+    return [escapedString stringByReplacingOccurrencesOfString:escapeSequence withString:replacement];
+}
+
+int hb_parse(void* scanner, HBAstProgram** root, NSError** error);
+
+id astFromString(NSString* text, NSError** error)
+{
+    NSData* utf8StringBuffer = [text dataUsingEncoding:NSUTF8StringEncoding];
+    
+    HBAstProgram* root;
+    void* scanner;
+    
+    hb_lex_init (&scanner);
+    YY_BUFFER_STATE buffer = yy_scan_bytes([utf8StringBuffer bytes], [utf8StringBuffer length], scanner);
+
+    hb_parse(scanner, &root, error);
+
+    yy_delete_buffer(buffer, scanner);
+    hb_lex_destroy (scanner);
+    
+    return root;
+}

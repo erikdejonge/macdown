@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GBCli" "${PODS_ROOT}/Headers/Public/JJPluralForm" "${PODS_ROOT}/Headers/Public/LibYAML" "${PODS_ROOT}/Headers/Public/M13OrderedDictionary" "${PODS_ROOT}/Headers/Public/MASPreferences" "${PODS_ROOT}/Headers/Public/PAPreferences" "${PODS_ROOT}/Headers/Public/Sparkle" "${PODS_ROOT}/Headers/Public/handlebars-objc" "${PODS_ROOT}/Headers/Public/handlebars-objc/HBHandlebars" "${PODS_ROOT}/Headers/Public/hoedown"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/GBCli" -isystem "${PODS_ROOT}/Headers/Public/JJPluralForm" -isystem "${PODS_ROOT}/Headers/Public/LibYAML" -isystem "${PODS_ROOT}/Headers/Public/M13OrderedDictionary" -isystem "${PODS_ROOT}/Headers/Public/MASPreferences" -isystem "${PODS_ROOT}/Headers/Public/PAPreferences" -isystem "${PODS_ROOT}/Headers/Public/Sparkle" -isystem "${PODS_ROOT}/Headers/Public/handlebars-objc" -isystem "${PODS_ROOT}/Headers/Public/handlebars-objc/HBHandlebars" -isystem "${PODS_ROOT}/Headers/Public/hoedown"
+OTHER_LDFLAGS = -ObjC -l"Pods-MacDownTests-PAPreferences"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

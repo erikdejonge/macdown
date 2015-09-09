@@ -1,0 +1,1 @@
+../../../../handlebars-objc/src/handlebars-objc/partials/HBPartial_Private.h
