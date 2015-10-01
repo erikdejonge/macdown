@@ -140,8 +140,7 @@ var _ = _self.Prism = {
 			}
 		}
 	},
-	plugins: {},
-	
+
 	highlightAll: function(async, callback) {
 		var elements = document.querySelectorAll('code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code');
 
@@ -182,6 +181,10 @@ var _ = _self.Prism = {
 			code: code
 		};
 
+		if(code) {
+			env.code = code.replace(/^(?:\r?\n|\r)/, '');
+		}
+
 		if (!code || !grammar) {
 			_.hooks.run('complete', env);
 			return;
@@ -193,7 +196,7 @@ var _ = _self.Prism = {
 			var worker = new Worker(_.filename);
 
 			worker.onmessage = function(evt) {
-				env.highlightedCode = evt.data;
+				env.highlightedCode = Token.stringify(JSON.parse(evt.data), language);
 
 				_.hooks.run('before-insert', env);
 
@@ -206,8 +209,7 @@ var _ = _self.Prism = {
 
 			worker.postMessage(JSON.stringify({
 				language: env.language,
-				code: env.code,
-				immediateClose: true
+				code: env.code
 			}));
 		}
 		else {
@@ -379,7 +381,7 @@ Token.stringify = function(o, language, parent) {
 	var attributes = '';
 
 	for (var name in env.attributes) {
-		attributes += (attributes ? ' ' : '') + name + '="' + (env.attributes[name] || '') + '"';
+		attributes += name + '="' + (env.attributes[name] || '') + '"';
 	}
 
 	return '<' + env.tag + ' class="' + env.classes.join(' ') + '" ' + attributes + '>' + env.content + '</' + env.tag + '>';
@@ -395,13 +397,10 @@ if (!_self.document) {
 	_self.addEventListener('message', function(evt) {
 		var message = JSON.parse(evt.data),
 		    lang = message.language,
-		    code = message.code,
-		    immediateClose = message.immediateClose;
+		    code = message.code;
 
-		_self.postMessage(_.highlight(code, _.languages[lang], lang));
-		if (immediateClose) {
-			_self.close();
-		}
+		_self.postMessage(JSON.stringify(_.util.encode(_.tokenize(code, _.languages[lang]))));
+		_self.close();
 	}, false);
 
 	return _self.Prism;
@@ -426,9 +425,4 @@ return _self.Prism;
 
 if (typeof module !== 'undefined' && module.exports) {
 	module.exports = Prism;
-}
-
-// hack for components to work correctly in node.js
-if (typeof global !== 'undefined') {
-	global.Prism = Prism;
 }

@@ -101,7 +101,7 @@ module.exports = {
 		);
 
 		if (!mainLanguage) {
-			mainLanguage = languages[languages.length-1];
+			mainLanguage = languages[0];
 		}
 
 		return {
@@ -120,7 +120,7 @@ module.exports = {
 	 */
 	parseTestCaseFile: function (filePath) {
 		var testCaseSource = fs.readFileSync(filePath, "utf8");
-		var testCaseParts = testCaseSource.split(/^-{10,}\w*$/m);
+		var testCaseParts = testCaseSource.split(/^----*\w*$/m);
 
 		try {
 			var testCase = {

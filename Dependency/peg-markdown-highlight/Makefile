@@ -12,9 +12,7 @@ pmh_parser_core.c : pmh_grammar.leg $(GREG)
 pmh_parser.c : pmh_parser_core.c pmh_parser_head.c pmh_parser_foot.c tools/combine_parser_files.sh
 	./tools/combine_parser_files.sh > $@
 
-.PHONY: install clean distclean
-
-isntall: ALL
+.PHONY: clean test
 
 clean:
 	rm -f pmh_parser_core.c pmh_parser.c *.o; \

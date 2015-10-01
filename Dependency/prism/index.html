@@ -63,7 +63,7 @@
 
 		<a href="https://developer.mozilla.org/" target="_blank"><img src="img/logo-mdn.png" alt="Mozilla Developer Network (MDN)" /></a>
 		<a href="http://css-tricks.com" target="_blank"><img src="img/logo-css-tricks.png" alt="CSS-Tricks" /></a>
-		<a href="http://www.sitepoint.com" target="_blank"><img src="img/logo-sitepoint.png" alt="SitePoint" /></a>
+		<a href="http://typeplate.com" target="_blank"><img src="img/logo-typeplate.png" alt="Typeplate" /></a>
 	</div>
 
 	<p>It’s also used on <a href="https://brendaneich.com/2012/10/harmony-of-dreams-come-true/" target="_blank">the personal blog of Brendan Eich</a>, creator of JavaScript itself!</p>
@@ -156,7 +156,7 @@
 
 <section id="languages-list" class="language-markup">
 	<h1>Supported languages</h1>
-	<p>This is the list of all <span id="languages-list-count"></span> languages currently supported by Prism, with their corresponding alias, to use in place of <code>xxxx</code> in the <code>language-xxxx</code> class:</p>
+	<p>This is the list of all languages currently supported by Prism, with their corresponding alias, to use in place of <code>xxxx</code> in the <code>language-xxxx</code> class:</p>
 </section>
 
 <section id="plugins">
@@ -222,12 +222,10 @@
 (function() {
 	var languageItems = [];
 	var languages = components.languages;
-	var count = 0;
 	for (var id in languages) {
 		if (id == 'meta') {
 			continue;
 		}
-		count++;
 		var name = languages[id].title || languages[id];
 
 		languageItems.push({
@@ -249,7 +247,6 @@
 		contents: languageItems,
 		inside: '#languages-list'
 	});
-	$u.element.contents($('#languages-list-count'), count);
 }());
 </script>
 
