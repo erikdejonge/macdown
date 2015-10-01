@@ -170,6 +170,9 @@ NS_INLINE NSColor *MPGetWebViewBackgroundColor(WebView *webview)
 
 @interface MPDocument ()
     <NSSplitViewDelegate, NSTextViewDelegate,
+#if __MAC_OS_X_VERSION_MAX_ALLOWED >= 101100
+     WebFrameLoadDelegate, WebPolicyDelegate,
+#endif
      MPAutosaving, MPRendererDataSource, MPRendererDelegate>
 
 typedef NS_ENUM(NSUInteger, MPWordCountType) {
@@ -421,7 +424,6 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
             [self.highlighter parseAndHighlightNow];
         }
     }];
-    [self setSplitViewDividerLocation:0.0];
 }
 
 - (void)canCloseDocumentWithDelegate:(id)delegate
@@ -1303,11 +1305,11 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
         self.editor.defaultParagraphStyle = [style copy];
         self.editor.font = [self.preferences.editorBaseFont copy];
         self.editor.textColor = nil;
-        self.editor.backgroundColor = nil;
+        self.editor.backgroundColor = [NSColor clearColor];
         self.highlighter.styles = nil;
         [self.highlighter readClearTextStylesFromTextView];
 
-        NSString *themeName = @"Pro";//[self.preferences.editorStyleName copy];
+        NSString *themeName = [self.preferences.editorStyleName copy];
         if (themeName.length)
         {
             NSString *path = MPThemePathForName(themeName);
@@ -1444,14 +1446,13 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
     if (!self.preferences.previewZoomRelativeToBaseFontSize)
         return;
 
-    NSNumber *fontSizeNum = self.preferences.editorBaseFontInfo[@"size"];
-    CFNumberRef fontSizeNumCF = (__bridge CFNumberRef)(fontSizeNum);
-    CGFloat fontSize;
-    CFNumberGetValue(fontSizeNumCF, kCFNumberCGFloatType, &fontSize);
+    CGFloat fontSize = self.preferences.editorBaseFontSize;
+    if (fontSize <= 0.0)
+        return;
 
-    const CGFloat defaultSize = 14.0;
+    static const CGFloat defaultSize = 14.0;
     CGFloat scale = fontSize / defaultSize;
-
+    
 #if 0
     // Sadly, this doesn’t work correctly.
     // It looks fine, but selections are offset relative to the mouse cursor.
