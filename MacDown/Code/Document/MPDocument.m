@@ -1309,7 +1309,7 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
         self.highlighter.styles = nil;
         [self.highlighter readClearTextStylesFromTextView];
 
-        NSString *themeName = [self.preferences.editorStyleName copy];
+        NSString *themeName = @"Pro";//[self.preferences.editorStyleName copy];
         if (themeName.length)
         {
             NSString *path = MPThemePathForName(themeName);

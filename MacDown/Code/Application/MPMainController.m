@@ -167,7 +167,6 @@ NS_INLINE void treat()
     return [NSBundle mainBundle].infoDictionary[@"SUFeedURL"];
 }
 
-
 #pragma mark - Private
 
 - (void)copyFiles
