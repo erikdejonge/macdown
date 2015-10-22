@@ -14,7 +14,7 @@ body {
     text-rendering: geometricPrecision;
     font-family: "Dyslexie";
     font-family: "Source Code Pro Light";
-
+    
     font-size: 16px;
     line-height: 150%;
     color: #F2F0CD;
@@ -34,7 +34,7 @@ strong {
 }
 
 em {
-
+    
     font-weight: normal;
     font-style: normal;
     color: #ffd479;
@@ -181,7 +181,7 @@ h6 {
     font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
-
+    
 }
 
 h1 {
@@ -202,7 +202,7 @@ h2 {
 }
 
 h3 {
-
+    
     color: #ffd479;
     margin-top: 24px;
 }
@@ -210,11 +210,13 @@ h3 {
 h4 {
     color: #bafcb8;
     color: #ffd479;
+    color: #1B3481;
 }
 
 h5 {
     color: #bafcb8;
     color: #ffd479;
+    color: #9A3481;
 }
 
 h6 {
@@ -287,7 +289,7 @@ sup {
         color: black;
         background: white;
     }
-
+    
     table, pre {
         page-break-inside: avoid;
     }
