@@ -202,21 +202,22 @@ h2 {
 }
 
 h3 {
-    
-    color: #ffd479;
+    font-size: 18px;
+
+        color: #FFEF93;
     margin-top: 24px;
 }
 
 h4 {
-    color: #bafcb8;
+
     color: #ffd479;
-    color: #FFEF93;
 }
 
 h5 {
     color: #bafcb8;
     color: #ffd479;
     color: #FAFFAF;
+    color: #B6FFAA;
 }
 
 h6 {
