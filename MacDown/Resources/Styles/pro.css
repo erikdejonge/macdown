@@ -15,7 +15,7 @@ body {
     font-family: "Dyslexie";
     font-family: "Source Code Pro Light";
     
-    font-size: 16px;
+    font-size: 18px;
     line-height: 150%;
     color: #F2F0CD;
     background-color: #02090B;
@@ -42,7 +42,7 @@ em {
 }
 
 table {
-    min-width: 850px !important;
+    min-width: 1200px !important;
     width: 100% !important;
     margin: 10px 0 15px 0;
     border-collapse: collapse;
@@ -178,7 +178,7 @@ h6 {
     margin-top: 18px;
     text-rendering: geometricPrecision;
     font-family: "Source Code Pro Light";
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 12px;
     margin-bottom: 4px;
     
@@ -203,13 +203,13 @@ h2 {
 
 h3 {
     font-size: 18px;
-
-        color: #FFEF93;
+    
+    color: #FFEF93;
     margin-top: 24px;
 }
 
 h4 {
-
+    
     color: #ffd479;
 }
 
@@ -261,11 +261,6 @@ code, pre {
 
 code {
     color: #F2EBA9;
-    /*padding: 1px 3px;*/
-    /*font-size: 16px;*/
-    /*-webkit-border-radius: 3px;*/
-    /*-moz-border-radius: 3px;*/
-    /*border-radius: 3px;*/
 }
 
 sup {
@@ -280,7 +275,7 @@ sup {
 
 @media screen and (min-width: 914px) {
     body {
-        width: 854px;
+        width: 1195px;
         margin: 10px auto;
     }
 }
@@ -300,7 +295,7 @@ pre {
     display: block;
     padding: 12px;
     margin: 0 0 18px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     letter-spacing: 1.1;
     border: 1px solid #3C3C3E;
