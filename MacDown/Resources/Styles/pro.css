@@ -15,7 +15,7 @@ body {
     font-family: "Dyslexie";
     font-family: "Source Code Pro Light";
     
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     color: #F2F0CD;
     background-color: #02090B;
@@ -178,7 +178,7 @@ h6 {
     margin-top: 18px;
     text-rendering: geometricPrecision;
     font-family: "Source Code Pro Light";
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
     
@@ -202,7 +202,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     
     color: #FFEF93;
     margin-top: 24px;
@@ -256,12 +256,25 @@ blockquote p a {
 }
 
 code, pre {
-    font-family: "Source Code Pro Light" font-size : 14 px;
+    font-family: "Source Code Pro Light" !important;
+    color: #A0FEB5;
+    display: block;
+    padding: 12px;
+    margin: 0 0 18px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.1;
+    border: 1px solid #3C3C3E;
+    background-color: #051012;
+    
+    
+    word-wrap: break-word;
+    border-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+    
 }
 
-code {
-    color: #F2EBA9;
-}
 
 sup {
     font-size: 0.83em;
@@ -293,25 +306,27 @@ sup {
 
 pre {
     display: block;
-    padding: 12px;
+    padding: 14px;
     margin: 0 0 18px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: 1.1;
-    border: 1px solid #3C3C3E;
+    
     background-color: #051012;
     color: #116CD6 white-space : pre;
     white-space: pre-wrap;
     word-wrap: break-word;
     border-radius: 3px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 pre code {
     background-color: #051012;
-    color: #B4C5C5;
+    color: #81ddaf;
     padding: 0;
+    border: none;
+    
 }
 
 pre:not([class]) {
