@@ -193,7 +193,11 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Find" id="1b7-l0-nxx">
                                     <items>
-                                        <menuItem title="Find…" tag="1" keyEquivalent="F" id="Xz5-n4-O0W">
+                                        <menuItem title="Find…" tag="1" id="Xz5-n4-O0W">
+                                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="performFindPanelAction:" target="-1" id="cD7-Qs-BN4"/>
                                             </connections>

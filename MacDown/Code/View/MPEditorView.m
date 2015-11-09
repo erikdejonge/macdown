@@ -81,7 +81,9 @@ NS_INLINE BOOL MPAreRectsEqual(NSRect r1, NSRect r2)
         offset -= self.trailingHeight + 2 * self.textContainerInset.height;
         if (offset > 0)
             newSize.height += offset;
+        
     }
+    
     [super setFrameSize:newSize];
 }
 
