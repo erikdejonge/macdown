@@ -14,7 +14,7 @@ body {
     text-rendering: geometricPrecision;
     font-family: "Dyslexie";
     font-family: "Source Code Pro Light";
-    
+
     font-size: 16px;
     line-height: 150%;
     color: #F2F0CD;
@@ -34,7 +34,7 @@ strong {
 }
 
 em {
-    
+
     font-weight: normal;
     font-style: normal;
     color: #ffd479;
@@ -181,7 +181,7 @@ h6 {
     font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
-    
+    text-transform: capitalize;
 }
 
 h1 {
@@ -190,11 +190,12 @@ h1 {
     margin-top: 32px;
     font-size: 26px;
     margin-bottom: 12px;
-    text-transform: capitalize;
+
 }
 
 h2 {
-    color: #81ddaf;
+
+    color: #ffd479;
     margin-top: 24px;
     font-weight: normal;
     font-size: 20px;
@@ -203,25 +204,22 @@ h2 {
 
 h3 {
     font-size: 16px;
-    
-    color: #FFEF93;
+    color: #81ddaf;
+
     margin-top: 24px;
 }
 
 h4 {
-    
-    color: #ffd479;
+
+    color: #FFEF93;
 }
 
 h5 {
-    color: #bafcb8;
-    color: #ffd479;
     color: #FAFFAF;
-    color: #B6FFAA;
 }
 
 h6 {
-    color: #F7FFC1;
+    color: #B6FFAA;
 }
 
 ul, ol {
@@ -266,13 +264,13 @@ code, pre {
     letter-spacing: 1.1;
     border: 1px solid #3C3C3E;
     background-color: #051012;
-    
-    
+
+
     word-wrap: break-word;
     border-radius: 3px;
     margin-top: 0px;
     margin-bottom: 4px;
-    
+
 }
 
 
@@ -298,7 +296,7 @@ sup {
         color: black;
         background: white;
     }
-    
+
     table, pre {
         page-break-inside: avoid;
     }
@@ -311,7 +309,7 @@ pre {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 1.1;
-    
+
     background-color: #051012;
     color: #116CD6 white-space : pre;
     white-space: pre-wrap;
@@ -326,7 +324,7 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-    
+
 }
 
 pre:not([class]) {
