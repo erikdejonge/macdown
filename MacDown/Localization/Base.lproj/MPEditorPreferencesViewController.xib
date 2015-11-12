@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+        <development version="6300" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MPEditorPreferencesViewController">
@@ -19,40 +20,45 @@
             <rect key="frame" x="0.0" y="0.0" width="482" height="361"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g0N-qr-H8K">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0N-qr-H8K">
                     <rect key="frame" x="110" y="321" width="229" height="22"/>
+                    <animations/>
                     <textFieldCell key="cell" refusesFirstResponder="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" drawsBackground="YES" allowsEditingTextAttributes="YES" id="5dX-oK-p9L">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lt1-Up-OVO">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lt1-Up-OVO">
                     <rect key="frame" x="18" y="324" width="86" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Base font:" id="eXF-SL-hBq">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pwq-Pg-zCk">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pwq-Pg-zCk">
                     <rect key="frame" x="18" y="294" width="86" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Theme:" id="vA9-IT-8Z7">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Ew-mW-Q4X">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ew-mW-Q4X">
                     <rect key="frame" x="18" y="237" width="86" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Text insets:" id="Ee6-Cj-SWW">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fRw-As-iJo">
+                <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRw-As-iJo">
                     <rect key="frame" x="341" y="315" width="127" height="32"/>
+                    <animations/>
                     <buttonCell key="cell" type="push" title="Change…" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8bz-cc-gLF">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
@@ -61,8 +67,9 @@
                         <action selector="showFontPanel:" target="-2" id="YLi-Kh-GgV"/>
                     </connections>
                 </button>
-                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JZh-8k-zMC">
+                <popUpButton verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JZh-8k-zMC">
                     <rect key="frame" x="108" y="289" width="233" height="26"/>
+                    <animations/>
                     <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="4C5-3K-7bE" id="Zr8-Em-EhD">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="menu"/>
@@ -78,8 +85,9 @@
                         <action selector="changeTheme:" target="-2" id="zGE-AI-xkv"/>
                     </connections>
                 </popUpButton>
-                <segmentedControl horizontalHuggingPriority="300" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jde-Kw-4ly">
+                <segmentedControl horizontalHuggingPriority="300" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jde-Kw-4ly">
                     <rect key="frame" x="344" y="290" width="120" height="24"/>
+                    <animations/>
                     <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="momentary" id="GHX-3h-1HI">
                         <font key="font" metaFont="smallSystem"/>
                         <segments>
@@ -91,16 +99,18 @@
                         <action selector="invokeStylesheetFunction:" target="-2" id="IjC-X0-SGd"/>
                     </connections>
                 </segmentedControl>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3ow-hg-Gmo">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ow-hg-Gmo">
                     <rect key="frame" x="216" y="238" width="17" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="×" id="g5w-Qw-Khw">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uWf-nW-3Ez">
+                <textField focusRingType="none" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uWf-nW-3Ez">
                     <rect key="frame" x="110" y="235" width="86" height="22"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="right" title="0" drawsBackground="YES" id="797-vo-Lg9">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="2" id="Z1m-eN-5ss">
                             <real key="minimum" value="0.0"/>
@@ -120,8 +130,9 @@
                         <outlet property="delegate" destination="-2" id="xgg-nS-J6z"/>
                     </connections>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="77u-zZ-bC0">
+                <textField focusRingType="none" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="77u-zZ-bC0">
                     <rect key="frame" x="236" y="235" width="87" height="22"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="right" title="0" drawsBackground="YES" id="557-oZ-4zf">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="2" id="E8M-bY-H1G">
                             <real key="minimum" value="0.0"/>
@@ -141,30 +152,34 @@
                         <outlet property="delegate" destination="-2" id="eRe-o0-7h6"/>
                     </connections>
                 </textField>
-                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="u4r-9h-qMR">
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4r-9h-qMR">
                     <rect key="frame" x="195" y="232" width="19" height="27"/>
+                    <animations/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="35" id="YKV-Q4-Mio"/>
                     <connections>
                         <binding destination="-2" name="value" keyPath="self.preferences.editorHorizontalInset" id="Ytm-fZ-mfY"/>
                     </connections>
                 </stepper>
-                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uUN-8R-G1c">
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uUN-8R-G1c">
                     <rect key="frame" x="322" y="232" width="19" height="27"/>
+                    <animations/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="35" id="W0c-qa-cIF"/>
                     <connections>
                         <binding destination="-2" name="value" keyPath="self.preferences.editorVerticalInset" id="mbR-4u-imj"/>
                     </connections>
                 </stepper>
-                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lmO-8l-df9">
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lmO-8l-df9">
                     <rect key="frame" x="18" y="267" width="86" height="17"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Line spacing:" id="InD-Fc-CTS">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ogi-ll-Yii">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogi-ll-Yii">
                     <rect key="frame" x="110" y="264" width="213" height="22"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="0" drawsBackground="YES" id="Qlw-QZ-XWE">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" usesGroupingSeparator="NO" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="309" id="cbO-Ho-XRq">
                             <real key="minimum" value="0.0"/>
@@ -178,15 +193,17 @@
                         <binding destination="-2" name="value" keyPath="self.preferences.editorLineSpacing" id="8dp-bT-tK0"/>
                     </connections>
                 </textField>
-                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qZo-S6-Vbh">
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZo-S6-Vbh">
                     <rect key="frame" x="322" y="261" width="19" height="27"/>
+                    <animations/>
                     <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="6T1-uq-ddF"/>
                     <connections>
                         <binding destination="-2" name="value" keyPath="self.preferences.editorLineSpacing" id="q21-0R-8wr"/>
                     </connections>
                 </stepper>
-                <button translatesAutoresizingMaskIntoConstraints="NO" id="JV2-Ef-pKx">
+                <button misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JV2-Ef-pKx">
                     <rect key="frame" x="18" y="205" width="146" height="18"/>
+                    <animations/>
                     <buttonCell key="cell" type="check" title="Limit editor width to" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="bhL-NA-9No">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                         <font key="font" metaFont="system"/>
@@ -195,8 +212,9 @@
                         <binding destination="-2" name="value" keyPath="self.preferences.editorWidthLimited" id="fGx-Cf-6TN"/>
                     </connections>
                 </button>
-                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IAf-0I-hfF">
+                <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IAf-0I-hfF">
                     <rect key="frame" x="170" y="203" width="153" height="22"/>
+                    <animations/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="300" drawsBackground="YES" id="M8w-C7-PC0">
                         <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="5" id="MQ9-lM-ZUg">
                             <real key="minimum" value="300"/>
@@ -211,8 +229,9 @@
                         <binding destination="-2" name="enabled" keyPath="self.preferences.editorWidthLimited" id="ZjP-e9-uCh"/>
                     </connections>
                 </textField>
-                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mql-gy-6Sv">
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mql-gy-6Sv">
                     <rect key="frame" x="322" y="201" width="19" height="27"/>
+                    <animations/>
                     <stepperCell key="cell" continuous="YES" alignment="left" minValue="300" maxValue="10000" doubleValue="300" id="SN0-ZN-Y1k"/>
                     <connections>
                         <binding destination="-2" name="value" keyPath="self.preferences.editorMaximumWidth" id="8C1-Bv-oDh"/>
@@ -227,6 +246,7 @@
                         <subviews>
                             <button verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hdc-ZZ-0Bg">
                                 <rect key="frame" x="16" y="137" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Insert spaces instead of tabs" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="XSN-mi-gbk">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -237,6 +257,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="nxG-74-mdM">
                                 <rect key="frame" x="16" y="117" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Auto-complete matching characters" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="o4K-iG-sGA">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -247,6 +268,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="NV7-zh-ydN">
                                 <rect key="frame" x="16" y="77" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="⌘← jumps to first non-whitespace character in line" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="2Yf-FT-MDH">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -257,6 +279,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="B3N-s7-0vd">
                                 <rect key="frame" x="16" y="57" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Scroll past end" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="nBR-LK-G9a">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -267,6 +290,7 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="tes-GA-Mpn">
                                 <rect key="frame" x="16" y="37" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Ensure newline at end of file on save" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="9Wp-5V-GeQ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -277,17 +301,19 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="hSa-rl-wPT">
                                 <rect key="frame" x="16" y="17" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Auto-increment numbering in ordered lists" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="UPm-G1-Bc6">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="-2" name="enabled" keyPath="self.preferences.editorInsertPrefixInBlock" id="U69-jO-NZV"/>
                                     <binding destination="-2" name="value" keyPath="self.preferences.editorAutoIncrementNumberedLists" id="sS4-3e-yLS"/>
+                                    <binding destination="-2" name="enabled" keyPath="self.preferences.editorInsertPrefixInBlock" id="U69-jO-NZV"/>
                                 </connections>
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="CXK-QF-WSK">
                                 <rect key="frame" x="16" y="97" width="415" height="18"/>
+                                <animations/>
                                 <buttonCell key="cell" type="check" title="Automatically insert line prefix for the current block" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="zGb-kg-2CJ">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -297,6 +323,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <animations/>
                     </view>
                     <constraints>
                         <constraint firstItem="hSa-rl-wPT" firstAttribute="top" secondItem="tes-GA-Mpn" secondAttribute="bottom" constant="6" id="4cD-g5-NZF"/>
@@ -321,6 +348,7 @@
                         <constraint firstItem="nxG-74-mdM" firstAttribute="top" secondItem="Hdc-ZZ-0Bg" secondAttribute="bottom" constant="6" id="zMy-dJ-Rlp"/>
                         <constraint firstItem="hSa-rl-wPT" firstAttribute="leading" secondItem="tes-GA-Mpn" secondAttribute="leading" id="zpX-92-odJ"/>
                     </constraints>
+                    <animations/>
                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                     <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </box>
@@ -381,6 +409,7 @@
                 <constraint firstItem="ogi-ll-Yii" firstAttribute="trailing" secondItem="77u-zZ-bC0" secondAttribute="trailing" id="ygm-nR-2NZ"/>
                 <constraint firstItem="pwq-Pg-zCk" firstAttribute="top" secondItem="lt1-Up-OVO" secondAttribute="bottom" constant="13" id="ywL-TD-l4K"/>
             </constraints>
+            <animations/>
             <point key="canvasLocation" x="139" y="206.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="25C-23-7LR"/>
