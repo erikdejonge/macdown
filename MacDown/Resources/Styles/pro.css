@@ -163,7 +163,7 @@ li.task-list-item input {
     *overflow: hidden;
 }
 
-ul li:nth-child(even) {
+ol, ul li:nth-child(even) {
     background-color: #06181b;
 }
 
@@ -286,7 +286,7 @@ sup {
 
 @media screen and (min-width: 914px) {
     body {
-        width: 1195px;
+        width: 1145px;
         margin: 10px auto;
     }
 }
