@@ -197,7 +197,7 @@ h6 {
 
 h1 {
     color: #54B2BC;
-    color: rgba(255, 212, 121, 1)
+    color: rgba(255, 212, 121, 1);
     font-weight: normal;
     margin-top: 32px;
     font-size: 26px;
@@ -208,7 +208,7 @@ h1 {
 h2 {
 
     color: #ffd479;
-    color: rgba(255, 212, 121, 0.8)
+    color: rgba(255, 212, 121, 0.8);
 
     margin-top: 24px;
     font-weight: normal;
