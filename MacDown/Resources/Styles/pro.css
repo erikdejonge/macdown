@@ -40,8 +40,6 @@ html * {
 
 strong {
     font-weight: normal;
-    color: #ffd479;
-    color: rgba(100, 182, 138, 1);
     color: rgba(242, 240, 205, 1);
 
 }
@@ -76,15 +74,19 @@ th {
     background-color: #06181b;
 }
 
-a {
-    color: #2692FD !important;
+a, a > strong {
+    color: rgba(205, 240, 242, 0.8) !important;
     text-decoration: none;
-    border-bottom: 1px solid #2692FD;
+    border-bottom: 1px solid rgba(205, 240, 242, 0.2) !important;
+    -webkit-transition: border-bottom 2s; /* Safari 3.1 to 6.0 */
+    transition: border-bottom 2s;
 }
 
-a:hover {
-    color: #2668D4;
+a:hover, a:hover > strong {
+    color: rgba(150, 240, 242, 1) !important;
     text-decoration: none;
+    border-bottom: 2px solid rgba(150, 240, 242, 1) !important;
+
 }
 
 a img {
