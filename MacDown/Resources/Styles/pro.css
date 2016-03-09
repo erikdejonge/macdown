@@ -27,7 +27,6 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: rgba(242, 240, 205, 0.8);
-
     background-color: #000;
     background-color: #02090B;
     margin: 10px 13px 10px 13px;
@@ -40,12 +39,10 @@ html * {
 
 strong {
     font-weight: normal;
-    color: rgba(242, 240, 205, 1);
-
+    color: rgba(255, 128, 2, 0.8);
 }
 
 em {
-
     font-weight: normal;
     font-style: normal;
     color: #ffd479;
@@ -86,7 +83,6 @@ a:hover, a:hover > strong {
     color: rgba(150, 240, 242, 1) !important;
     text-decoration: none;
     border-bottom: 2px solid rgba(150, 240, 242, 1) !important;
-
 }
 
 a img {
@@ -97,7 +93,6 @@ p {
     margin-bottom: 10px;
     margin-bottom: 10px;
 }
-
 img {
     background-color: #7F7F7F;
     max-width: 1600px;
@@ -203,7 +198,7 @@ h6 {
 }
 
 h1 {
-    color: #54B2BC;
+    color: #54B2BC !important;
     color: rgba(255, 212, 121, 1);
     font-weight: normal;
     margin-top: 32px;
@@ -340,16 +335,14 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-margin-top: 0px !important;
-
-margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 pre:not([class]) {
     border: none;
     padding: 0px !important;
-    color: #F2F0CD;
-
+    color: #F2F0CD;=
 }
 
 p {
