@@ -93,15 +93,17 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2014 Tzu-ping Chung.</string>
+	<string>Copyright © 2014 Tzu-ping Chung / Active8</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUBetaFeedURL</key>
-	<string>http://macdown.uranusjr.com/sparkle/macdown/testing/appcast.xml</string>
+	<string></string>
 	<key>SUFeedURL</key>
-	<string>http://macdown.uranusjr.com/sparkle/macdown/appcast.xml</string>
+	<string></string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>UTExportedTypeDeclarations</key>
