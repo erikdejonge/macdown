@@ -9,26 +9,24 @@ blockquote {
     margin: 0;
     padding: 0;
 }
-
-@font-face {
-    font-family: "Computer Modern";
-    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-    font-weight: normal;
+      @font-face {
+            font-family: "Computer Modern";
+            src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+                font-weight: normal;
     font-style: normal;
-}
+          }
 
 
 body {
     text-rendering: geometricPrecision;
     font-family: "Dyslexie";
-    font-family:  "Source Code Pro Light";
-    /*font-family:  "Computer Modern";
-    letter-spacing: 0.0425em;*/
-    font-size: 18px;
+    /*font-family:  "Source Code Pro Light";*/
+    font-family:  "Computer Modern";
+    font-size: 17px;
     line-height: 150%;
     color: rgba(242, 240, 205, 0.8);
-    background-color: #000;
     background-color: #02090B;
+    background-color: #000;
     margin: 10px 13px 10px 13px;
     padding-bottom: 64px;
 }
@@ -38,11 +36,13 @@ html * {
 }
 
 strong {
-    font-weight: normal;
-    color: rgba(255, 128, 2, 0.8);
+    font-weight: bold;
+    color: #ffd479;
+    color: #64B68A;
 }
 
 em {
+
     font-weight: normal;
     font-style: normal;
     color: #ffd479;
@@ -50,7 +50,7 @@ em {
 }
 
 table {
-    min-width: 1000px !important;
+    min-width: 1150px !important;
     width: 100% !important;
     margin: 10px 0 15px 0;
     border-collapse: collapse;
@@ -71,18 +71,15 @@ th {
     background-color: #06181b;
 }
 
-a, a > strong {
-    color: rgba(205, 240, 242, 0.8) !important;
+a {
+    color: #B4D9FB;
     text-decoration: none;
-    border-bottom: 1px solid rgba(205, 240, 242, 0.2) !important;
-    -webkit-transition: border-bottom 2s; /* Safari 3.1 to 6.0 */
-    transition: border-bottom 2s;
+    border-bottom: 1px solid #2A595F;
 }
 
-a:hover, a:hover > strong {
-    color: rgba(150, 240, 242, 1) !important;
+a:hover {
+    color: #2668D4;
     text-decoration: none;
-    border-bottom: 2px solid rgba(150, 240, 242, 1) !important;
 }
 
 a img {
@@ -93,6 +90,7 @@ p {
     margin-bottom: 10px;
     margin-bottom: 10px;
 }
+
 img {
     background-color: #7F7F7F;
     max-width: 1600px;
@@ -191,15 +189,14 @@ h6 {
     margin-top: 18px;
     text-rendering: geometricPrecision;
     font-family: "Source Code Pro Light";
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
     text-transform: capitalize;
 }
 
 h1 {
-    color: #54B2BC !important;
-    color: rgba(255, 212, 121, 1);
+    color: #54B2BC;
     font-weight: normal;
     margin-top: 32px;
     font-size: 26px;
@@ -210,31 +207,30 @@ h1 {
 h2 {
 
     color: #ffd479;
-    color: rgba(255, 212, 121, 0.8);
-
     margin-top: 24px;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 8px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 16px;
+    color: #81ddaf;
 
-    color: rgba(255, 212, 121, 0.7);
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 h4 {
-    color: rgba(255, 212, 121, 0.6);
+
+    color: #FFEF93;
 }
 
 h5 {
- color: rgba(255, 212, 121, 0.6);
+    color: #FAFFAF;
 }
 
 h6 {
-    color: rgba(255, 212, 121, 0.6);
+    color: #B6FFAA;
 }
 
 ul, ol {
@@ -298,7 +294,7 @@ sup {
 
 @media screen and (min-width: 914px) {
     body {
-        width: 1000px;
+        width: 1145px;
         margin: 10px auto;
     }
 }
@@ -335,14 +331,16 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+margin-top: 0px !important;
+
+margin-bottom: 0px !important;
 }
 
 pre:not([class]) {
     border: none;
     padding: 0px !important;
-    color: #F2F0CD;=
+    color: #F2F0CD;
+
 }
 
 p {
