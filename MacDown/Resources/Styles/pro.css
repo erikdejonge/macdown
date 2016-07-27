@@ -19,16 +19,17 @@ blockquote {
 
 body {
     text-rendering: geometricPrecision;
-    font-family: "Dyslexie";
+
     /*font-family:  "Source Code Pro Light";*/
-    font-family:  "Computer Modern";
-    font-size: 17px;
-    line-height: 150%;
+    font-family:  "CMU Sans Serif";
+    font-size: 16px;
+    line-height: 24px;
     color: rgba(242, 240, 205, 0.8);
     background-color: #02090B;
     background-color: #000;
     margin: 10px 13px 10px 13px;
     padding-bottom: 64px;
+    letter-spacing: 1.1;
 }
 
 html * {
@@ -36,16 +37,15 @@ html * {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: normal;
+    font-style: normal;
+
     color: #ffd479;
-    color: #64B68A;
 }
 
 em {
 
     font-weight: normal;
-    font-style: normal;
-    color: #ffd479;
     color: #64B68A;
 }
 
@@ -87,8 +87,6 @@ a img {
 }
 
 p {
-    margin-bottom: 10px;
-    margin-bottom: 10px;
 }
 
 img {
@@ -139,10 +137,11 @@ input[type="checkbox"]:hover:before {
 }
 
 li {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-left: 8px;
     padding-left: 0;
+    margin-top: 4px;
 }
 
 li p.first {
@@ -172,12 +171,11 @@ li.task-list-item input {
 }
 
 ul li:nth-child(even) {
-    background-color: #06181b;
+    background-color: #030B0D;
 }
 ol li:nth-child(even) {
-    background-color: #06181b;
+    background-color: #030B0D;
 }
-
 h1,
 h2,
 h3,
@@ -185,14 +183,14 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    color: #b4d9fb;
+    color: #;
     margin-top: 18px;
     text-rendering: geometricPrecision;
     font-family: "Source Code Pro Light";
     font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
-    text-transform: capitalize;
+
 }
 
 h1 {
@@ -201,7 +199,7 @@ h1 {
     margin-top: 32px;
     font-size: 26px;
     margin-bottom: 12px;
-
+    text-transform: capitalize;
 }
 
 h2 {
@@ -249,19 +247,21 @@ blockquote {
     margin-top: 8px;
     margin-bottom: 8px;
     font-style: normal;
+    font-family: "CMU Bright";
+    font-size: 1.1em;
 }
 
 blockquote p {
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-left: 16px;
-    padding-left: 8px;
-    border-left: 3px solid #54B2BC;
+    margin-left: 4px;
+    padding-left: 4px;
+    border-left: 4px solid #54B2BC;
 }
 
 blockquote p a {
     text-decoration: none;
-    border-bottom: 1px solid #2A595F;
+    border-bottom: 1px solid #54B2BC;
 }
 
 code, pre {
@@ -309,7 +309,10 @@ sup {
         page-break-inside: avoid;
     }
 }
-
+ p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+ }
 pre {
     display: block;
     padding: 14px;
@@ -344,5 +347,5 @@ pre:not([class]) {
 }
 
 p {
-    white-space: pre-line;
+   white-space: pre-line;
 }
