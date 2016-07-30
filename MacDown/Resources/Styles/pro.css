@@ -18,21 +18,32 @@ blockquote {
 
 
 body {
-    text-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -moz-font-feature-settings: "kern=1";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
 
     /*font-family:  "Source Code Pro Light";*/
-    font-family:  "CMU Sans Serif", "Computer Modern";
-    font-size: 16px;
+    font-family:  "Lexie Readable", "Avenir", "CMU Sans Serif", "Computer Modern";
+    font-size: 18px;
     line-height: 24px;
     color: rgba(242, 240, 205, 0.8);
     background-color: #02090B;
     background-color: #000;
     margin: 10px 13px 10px 13px;
-    padding-bottom: 64px;
+
+    padding: 16px 32px 32px 16px;
+
     letter-spacing: 0.01em;
-
-
-
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html * {
@@ -185,18 +196,16 @@ h5,
 h6 {
     font-weight: normal;
     color: #;
-    margin-top: 18px;
-    text-rendering: geometricPrecision;
-    font-family: "Source Code Pro Light";
-    font-size: 16px;
+    margin-top: 24px;
+    font-size: 14px;
     margin-top: 12px;
     margin-bottom: 4px;
     line-height: 24px;
 }
 
 h1 {
-    color: #54B2BC;
-    font-weight: normal;
+    color: #E4CB77;
+    font-weight: bold;
     margin-top: 16px;
     line-height: 32px;
     font-size: 30px;
@@ -241,7 +250,7 @@ ul, ol {
 }
 
 hr {
-    margin: 32px 12px;
+    margin: 16px 12px;
     border: 0;
     border-bottom: 1px solid #B4C5C5;
 }
@@ -308,12 +317,6 @@ sup {
     -webkit-print-color-adjust: exact;
 }
 
-@media screen and (min-width: 914px) {
-    body {
-        width: 1145px;
-        margin: 10px auto;
-    }
-}
 
 @media print {
     body, code, pre code, h1, h2, h3, h4, h5, h6 {
