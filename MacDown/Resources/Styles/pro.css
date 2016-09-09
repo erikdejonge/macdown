@@ -29,7 +29,7 @@ body {
     font-feature-settings: "kern";
     font-kerning: normal;
 
-    /*font-family:  "Source Code Pro Light";*/
+    /*font-family:  "Source Code Pro Regular";*/
     font-family:  "Lexie Readable", "Avenir", "CMU Sans Serif", "Computer Modern";
     font-size: 18px;
     line-height: 24px;
@@ -281,7 +281,7 @@ blockquote p a {
 }
 
 code, pre {
-    font-family: "Source Code Pro Light" !important;
+    font-family: "Source Code Pro Regular" !important;
     color: #8EB1D0;
     display: block;
     padding: 4px;
