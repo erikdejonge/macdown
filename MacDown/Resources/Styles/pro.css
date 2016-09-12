@@ -28,7 +28,7 @@ body {
     -moz-font-feature-settings: "kern";
     font-feature-settings: "kern";
     font-kerning: normal;
-
+    
     /*font-family:  "Source Code Pro Regular";*/
     font-family:  "Avenir", "CMU Sans Serif", "Computer Modern", "Lexie Readable";
     font-size: 16px;
@@ -37,9 +37,9 @@ body {
     background-color: #02090B;
     background-color: #000;
     margin: 10px 13px 10px 13px;
-
+    
     padding: 16px 32px 32px 16px;
-
+    
     letter-spacing: 0.01em;
     max-width: 1024px;
     margin-left: auto;
@@ -53,12 +53,12 @@ html * {
 strong {
     font-weight: normal;
     font-style: normal;
-
+    
     color: #ffd479;
 }
 
 em {
-
+    
     font-weight: normal;
     color: #64B68A;
 }
@@ -196,57 +196,64 @@ h5,
 h6 {
     font-weight: normal;
     color: #;
-    margin-top: 24px;
+    
     font-size: 16px;
-    margin-top: 12px;
-    margin-bottom: 4px;
+    
     line-height: 24px;
 }
 
 h1 {
     color: #B6FFAA;
     font-weight: bold;
-    margin-top: 16px;
     line-height: 32px;
     font-size: 26px;
-    margin-bottom: 8px;
     text-transform: capitalize;
+    margin-bottom: 18px;
+    margin-top: 24px;
 }
 
 h2 {
     color: #DFBF61;
-
-
-    margin-top: 12px;
+    
+    
+    
     line-height: 32px;
     font-weight: normal;
     font-size: 22px;
-    margin-bottom: 6px;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
 h3 {
+    margin-top: 24px;
     font-size: 20px;
     color: #54B2BC;
     color: #E4CB77;
-    margin-top: 12px;
+    
 }
 
 h4 {
+    margin-top: 24x;
     font-size: 18px;
     color: ##E5D97D;
     color: #54B2BC;
+    text-transform: capitalize;
 }
 
 h5 {
+    margin-top: 24px;
     font-size: 16px;
     color: ##E5D97D;
     color: #54B2BC;
+    text-transform: capitalize;
 }
 
 h6 {
+    margin-top: 24px;
     font-size: 16px;
     color: #E4CB77;
     color: #B6FFAA;
+    text-transform: capitalize;
 }
 
 ul, ol {
@@ -263,7 +270,7 @@ hr {
 
 p, blockquote, ul, ol, dl, li, table, pre {
     margin: 8px 0;
-    margin-top: 12px;
+    margin-top: 8px;
 }
 blockquote {
     margin-top: 8px;
@@ -329,7 +336,7 @@ sup {
         color: black;
         background: white;
     }
-
+    
     table, pre {
         page-break-inside: avoid;
     }
@@ -349,7 +356,7 @@ pre {
     border-radius: 3px;
     margin-top: 4px;
     margin-bottom: 4px;
-        overflow: auto;
+    overflow: auto;
 }
 
 pre code {
@@ -357,16 +364,16 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-margin-top: 0px !important;
-
-margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    
+    margin-bottom: 0px !important;
 }
 
 pre:not([class]) {
     border: none;
     padding: 0px !important;
     color: #F2F0CD;
-
+    
 }
 
 
