@@ -9,7 +9,6 @@ blockquote {
     margin: 0;
     padding: 0;
 }
-
 @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
@@ -19,18 +18,32 @@ blockquote {
 
 
 body {
-    text-rendering: geometricPrecision;
-    font-family: "Dyslexie";
-    font-family:  "Source Code Pro Light";
-    /*font-family:  "Computer Modern";
-    letter-spacing: 0.0425em;*/
-    font-size: 18px;
-    line-height: 150%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -moz-font-feature-settings: "kern=1";
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+    font-kerning: normal;
+
+    /*font-family:  "Source Code Pro Regular";*/
+    font-family:  "Avenir", "CMU Sans Serif", "Computer Modern", "Lexie Readable";
+    font-size: 16px;
+    line-height: 24px;
     color: rgba(242, 240, 205, 0.8);
-    background-color: #000;
     background-color: #02090B;
+    background-color: #000;
     margin: 10px 13px 10px 13px;
-    padding-bottom: 64px;
+
+    padding: 16px 32px 32px 16px;
+
+    letter-spacing: 0.01em;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 html * {
@@ -39,18 +52,19 @@ html * {
 
 strong {
     font-weight: normal;
-    color: rgba(255, 128, 2, 0.8);
+    font-style: normal;
+
+    color: #ffd479;
 }
 
 em {
+
     font-weight: normal;
-    font-style: normal;
-    color: #ffd479;
     color: #64B68A;
 }
 
 table {
-    min-width: 1000px !important;
+    min-width: 1150px !important;
     width: 100% !important;
     margin: 10px 0 15px 0;
     border-collapse: collapse;
@@ -71,18 +85,15 @@ th {
     background-color: #06181b;
 }
 
-a, a > strong {
-    color: rgba(205, 240, 242, 0.8) !important;
+a {
+    color: #B4D9FB;
     text-decoration: none;
-    border-bottom: 1px solid rgba(205, 240, 242, 0.2) !important;
-    -webkit-transition: border-bottom 2s; /* Safari 3.1 to 6.0 */
-    transition: border-bottom 2s;
+    border-bottom: 1px solid #2A595F;
 }
 
-a:hover, a:hover > strong {
-    color: rgba(150, 240, 242, 1) !important;
+a:hover {
+    color: #2668D4;
     text-decoration: none;
-    border-bottom: 2px solid rgba(150, 240, 242, 1) !important;
 }
 
 a img {
@@ -90,17 +101,16 @@ a img {
 }
 
 p {
-    margin-bottom: 10px;
-    margin-bottom: 10px;
 }
+
 img {
     background-color: #7F7F7F;
     max-width: 1600px;
 }
 
 ul, ol {
-    padding: 16px 0 8px 10px;
-    margin: 16px 0 8px 10px;
+    padding: 4px 0 4px 4px;
+    margin: 4px 0 4px 4px;
 }
 
 input[type="checkbox"] {
@@ -141,10 +151,9 @@ input[type="checkbox"]:hover:before {
 }
 
 li {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-left: 8px;
+    margin-left: 4px;
     padding-left: 0;
+    margin-top: 4px;
 }
 
 li p.first {
@@ -174,12 +183,11 @@ li.task-list-item input {
 }
 
 ul li:nth-child(even) {
-    background-color: #06181b;
+    background-color: #030B0D;
 }
 ol li:nth-child(even) {
-    background-color: #06181b;
+    background-color: #030B0D;
 }
-
 h1,
 h2,
 h3,
@@ -187,54 +195,58 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    color: #b4d9fb;
-    margin-top: 18px;
-    text-rendering: geometricPrecision;
-    font-family: "Source Code Pro Light";
-    font-size: 18px;
+    color: #;
+    margin-top: 24px;
+    font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
-    text-transform: capitalize;
+    line-height: 24px;
 }
 
 h1 {
-    color: #54B2BC !important;
-    color: rgba(255, 212, 121, 1);
-    font-weight: normal;
-    margin-top: 32px;
+    color: #B6FFAA;
+    font-weight: bold;
+    margin-top: 16px;
+    line-height: 32px;
     font-size: 26px;
-    margin-bottom: 12px;
-
+    margin-bottom: 8px;
+    text-transform: capitalize;
 }
 
 h2 {
+    color: #DFBF61;
 
-    color: #ffd479;
-    color: rgba(255, 212, 121, 0.8);
 
-    margin-top: 24px;
+    margin-top: 12px;
+    line-height: 32px;
     font-weight: normal;
     font-size: 22px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 h3 {
     font-size: 20px;
-
-    color: rgba(255, 212, 121, 0.7);
-    margin-top: 20px;
+    color: #54B2BC;
+    color: #E4CB77;
+    margin-top: 12px;
 }
 
 h4 {
-    color: rgba(255, 212, 121, 0.6);
+    font-size: 18px;
+    color: ##E5D97D;
+    color: #54B2BC;
 }
 
 h5 {
- color: rgba(255, 212, 121, 0.6);
+    font-size: 16px;
+    color: ##E5D97D;
+    color: #54B2BC;
 }
 
 h6 {
-    color: rgba(255, 212, 121, 0.6);
+    font-size: 16px;
+    color: #E4CB77;
+    color: #B6FFAA;
 }
 
 ul, ol {
@@ -244,35 +256,41 @@ ul, ol {
 }
 
 hr {
-    margin: 32px 12px;
+    margin: 16px 12px;
     border: 0;
     border-bottom: 1px solid #B4C5C5;
 }
 
+p, blockquote, ul, ol, dl, li, table, pre {
+    margin: 8px 0;
+    margin-top: 12px;
+}
 blockquote {
     margin-top: 8px;
     margin-bottom: 8px;
     font-style: normal;
+    font-family: "CMU Bright";
+    font-size: 1.1em;
 }
 
 blockquote p {
     margin-top: 16px;
     margin-bottom: 16px;
-    margin-left: 16px;
-    padding-left: 8px;
-    border-left: 3px solid #54B2BC;
+    margin-left: 4px;
+    padding-left: 4px;
+    border-left: 4px solid #54B2BC;
 }
 
 blockquote p a {
     text-decoration: none;
-    border-bottom: 1px solid #2A595F;
+    border-bottom: 1px solid #54B2BC;
 }
 
 code, pre {
-    font-family: "Source Code Pro Light" !important;
+    font-family: "Source Code Pro Regular" !important;
     color: #8EB1D0;
     display: block;
-    padding: 12px;
+    padding: 4px;
     margin: 0 0 18px;
     font-size: 16px;
     line-height: 20px;
@@ -283,6 +301,15 @@ code, pre {
     border-radius: 3px;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+#message {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display:block;
+    width:100%;
+    height:60px;
+    margin:6px 0px;
 }
 
 
@@ -296,12 +323,6 @@ sup {
     -webkit-print-color-adjust: exact;
 }
 
-@media screen and (min-width: 914px) {
-    body {
-        width: 1000px;
-        margin: 10px auto;
-    }
-}
 
 @media print {
     body, code, pre code, h1, h2, h3, h4, h5, h6 {
@@ -316,7 +337,7 @@ sup {
 
 pre {
     display: block;
-    padding: 14px;
+    padding: 4px;
     margin: 0 0 18px;
     font-size: 16px;
     line-height: 20px;
@@ -328,6 +349,7 @@ pre {
     border-radius: 3px;
     margin-top: 4px;
     margin-bottom: 4px;
+        overflow: auto;
 }
 
 pre code {
@@ -335,16 +357,21 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+margin-top: 0px !important;
+
+margin-bottom: 0px !important;
 }
 
 pre:not([class]) {
     border: none;
     padding: 0px !important;
-    color: #F2F0CD;=
+    color: #F2F0CD;
+
 }
 
-p {
-    white-space: pre-line;
-}
+
+#ws { background-color: #f8f8f8; }
+
+.send { color:#77bb77; }
+.server { color:#7799bb; }
+.error { color:#AA0000; }

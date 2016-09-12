@@ -30,8 +30,8 @@ body {
     font-kerning: normal;
 
     /*font-family:  "Source Code Pro Regular";*/
-    font-family:  "Lexie Readable", "Avenir", "CMU Sans Serif", "Computer Modern";
-    font-size: 18px;
+    font-family:  "Avenir", "CMU Sans Serif", "Computer Modern", "Lexie Readable";
+    font-size: 16px;
     line-height: 24px;
     color: rgba(242, 240, 205, 0.8);
     background-color: #02090B;
@@ -197,49 +197,55 @@ h6 {
     font-weight: normal;
     color: #;
     margin-top: 24px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 12px;
     margin-bottom: 4px;
     line-height: 24px;
 }
 
 h1 {
-    color: #E4CB77;
+    color: #B6FFAA;
     font-weight: bold;
     margin-top: 16px;
     line-height: 32px;
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 8px;
     text-transform: capitalize;
 }
 
 h2 {
+    color: #DFBF61;
 
-    color: #54B2BC;
+
     margin-top: 12px;
     line-height: 32px;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 22px;
     margin-bottom: 6px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #54B2BC;
-
+    color: #E4CB77;
     margin-top: 12px;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 18px;
+    color: ##E5D97D;
     color: #54B2BC;
 }
 
 h5 {
+    font-size: 16px;
+    color: ##E5D97D;
     color: #54B2BC;
 }
 
 h6 {
+    font-size: 16px;
+    color: #E4CB77;
     color: #B6FFAA;
 }
 
