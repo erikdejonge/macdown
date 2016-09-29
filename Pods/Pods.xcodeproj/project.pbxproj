@@ -1557,163 +1557,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		109F8AD2F494F65EADE7AF9D14A883F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GBCli/GBCli-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		12CE22EA041EF7E0A2BE620DE4719087 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LibYAML/LibYAML-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		175EB6A8A0E10D3C2AC4ACBA9CA05C0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B40C9E1E5A07D48B134C7805823A03E /* Pods-MacDownTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1865F37252872448E01953C385E6AFAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1EC7D4CB69BABCBF39B7FBFF1A3BF8CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/hoedown/hoedown-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		241B2EB79A79F059CE97CCC92F0FBA93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LibYAML/LibYAML-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		29936422774D3A86F78FC6F1FB33CA1C /* Release */ = {
+		02ADE5EE873CE479CE0704C548FE6186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -1730,12 +1578,117 @@
 			};
 			name = Release;
 		};
-		377D84F07B2FA592C35893C4BFA66C04 /* Release */ = {
+		1AC6C88047D655B4AEB83FD76369CB27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DD1F8C85F78854D65C3C4AC974DC3D /* Pods-MacDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1C0764DCEB1154F6224FE13BF23474AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13OrderedDictionary/M13OrderedDictionary-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		291BE77F9A68DCD59779DAF41E9D2D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LibYAML/LibYAML-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3437CD10A36F6F36054C2EA103D641B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/hoedown/hoedown-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3B70E848FF37238948A91FB9D75E22AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBCli/GBCli-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		477BBB54846B3C68041E0DE824385CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -1752,118 +1705,7 @@
 			};
 			name = Release;
 		};
-		3DBFBEA1B872A8D04EAA1AD8A955F6F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/M13OrderedDictionary/M13OrderedDictionary-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		48B84888D1F4E856B5EF91E398E64442 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C316294EF4CB334C09B51A0164AA9EA /* Pods-MacDown.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5F5C6C53B7BBF2F436A23073CCBE30C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/handlebars-objc/handlebars-objc-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		606882BABD427375675A40128964BA71 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JJPluralForm/JJPluralForm-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		62F73A387D061B7125773A74AFE2FC14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/M13OrderedDictionary/M13OrderedDictionary-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		66AA31CB836890BFE48ECF14D23C3C2E /* Debug */ = {
+		68409A7CC907C65CC4632EA7B8F024D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1881,7 +1723,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1901,63 +1742,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		7AB85D96FD6018D2AB175EC5390B614B /* Release */ = {
+		73F247312BC9E898A5BD8529F735AA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFEC9F4FA0A57FA78EFEED83FA75F9EB /* Pods-macdown-cmd.release.xcconfig */;
+			baseConfigurationReference = 7C316294EF4CB334C09B51A0164AA9EA /* Pods-MacDown.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		91E010AB5C66121283264D5C50ADDC3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				EXECUTABLE_PREFIX = lib;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PAPreferences/PAPreferences-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		9DA1D37F0C36D9464F5B1C962A3632A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB4A0194E96AE6B88064FAD3D97341E /* Pods-MacDownTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -1975,12 +1769,11 @@
 			};
 			name = Debug;
 		};
-		A8684F8042B4392A3D3F8EB231109335 /* Debug */ = {
+		77E0449E6E790291096E65B725FAAB13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -1997,12 +1790,11 @@
 			};
 			name = Debug;
 		};
-		BA0C4AC06E146D51FDEAD66820652BC6 /* Debug */ = {
+		850D0237280EF0F6D48AB2B207EE420B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -2019,12 +1811,155 @@
 			};
 			name = Debug;
 		};
-		C39A26B26663FC73BAFD38509F4B70C0 /* Release */ = {
+		914CEA97ECA48BEB6D155B56C0FC5F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4DD1F8C85F78854D65C3C4AC974DC3D /* Pods-MacDown.release.xcconfig */;
+			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13OrderedDictionary/M13OrderedDictionary-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96F3E39A3B937A330A3C241EEFB0A911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJPluralForm/JJPluralForm-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A3A88A5C8A14D87B41436F8AC74AD7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LibYAML/LibYAML-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5527E718D62AA611740378AF093618F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2EE4DA25A277E276350DB8F984CBD2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PAPreferences/PAPreferences-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3135CBECEE7F66EF208E40133E46032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1509D1A31EB50DCA66BE0BDFE374A0E /* Pods-macdown-cmd.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C68300490DA07C70339BA7A16C069FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B40C9E1E5A07D48B134C7805823A03E /* Pods-MacDownTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -2042,19 +1977,40 @@
 			};
 			name = Release;
 		};
-		C809F749873CF480B255CDCCC879E871 /* Debug */ = {
+		C70345A59B555E22BE5AA082717506D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
+			baseConfigurationReference = 7EB4A0194E96AE6B88064FAD3D97341E /* Pods-MacDownTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/hoedown/hoedown-prefix.pch";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CAD59B0FB963251C58C005377629B167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MASPreferences/MASPreferences-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -2062,14 +2018,13 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = macosx;
 			};
-			name = Debug;
+			name = Release;
 		};
-		D3C84457CEC22129CAF085A4A85B8C4A /* Debug */ = {
+		D3B90055E234835A853D60DA204ACC9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
@@ -2086,17 +2041,16 @@
 			};
 			name = Debug;
 		};
-		E7D68F9075856FD76E7CECF899BD8958 /* Release */ = {
+		DCC2ABE2D996C31D547A654E292AF5CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */;
+			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MASPreferences/MASPreferences-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/hoedown/hoedown-prefix.pch";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -2108,19 +2062,39 @@
 			};
 			name = Release;
 		};
-		F4D4BD1CA46EA6D889B16E15B93CC711 /* Debug */ = {
+		F4EA5D7112B6C7DC711EB94B8808BD0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1509D1A31EB50DCA66BE0BDFE374A0E /* Pods-macdown-cmd.debug.xcconfig */;
+			baseConfigurationReference = DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/handlebars-objc/handlebars-objc-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE3805F3EECB508CDAD32ECA3442AD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEC9F4FA0A57FA78EFEED83FA75F9EB /* Pods-macdown-cmd.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXECUTABLE_PREFIX = lib;
 				GCC_NO_COMMON_BLOCKS = YES;
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2129,7 +2103,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -2137,8 +2111,8 @@
 		1B2E645F9C7A39B686FA009CED461E4C /* Build configuration list for PBXNativeTarget "MASPreferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA0C4AC06E146D51FDEAD66820652BC6 /* Debug */,
-				E7D68F9075856FD76E7CECF899BD8958 /* Release */,
+				850D0237280EF0F6D48AB2B207EE420B /* Debug */,
+				CAD59B0FB963251C58C005377629B167 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2146,8 +2120,8 @@
 		22C8BBDF176826B24D15BE53519F0980 /* Build configuration list for PBXNativeTarget "JJPluralForm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C84457CEC22129CAF085A4A85B8C4A /* Debug */,
-				606882BABD427375675A40128964BA71 /* Release */,
+				D3B90055E234835A853D60DA204ACC9F /* Debug */,
+				96F3E39A3B937A330A3C241EEFB0A911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2155,8 +2129,8 @@
 		262DFFE37E26BF5930D34FD2F5FA8E0F /* Build configuration list for PBXNativeTarget "PAPreferences" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91E010AB5C66121283264D5C50ADDC3F /* Debug */,
-				29936422774D3A86F78FC6F1FB33CA1C /* Release */,
+				C2EE4DA25A277E276350DB8F984CBD2C /* Debug */,
+				02ADE5EE873CE479CE0704C548FE6186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2164,8 +2138,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66AA31CB836890BFE48ECF14D23C3C2E /* Debug */,
-				1865F37252872448E01953C385E6AFAA /* Release */,
+				68409A7CC907C65CC4632EA7B8F024D8 /* Debug */,
+				B5527E718D62AA611740378AF093618F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2173,8 +2147,8 @@
 		391A5819DB1063E887CB8299C5A42CB0 /* Build configuration list for PBXNativeTarget "Pods-MacDownTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DA1D37F0C36D9464F5B1C962A3632A8 /* Debug */,
-				175EB6A8A0E10D3C2AC4ACBA9CA05C0E /* Release */,
+				C70345A59B555E22BE5AA082717506D1 /* Debug */,
+				C68300490DA07C70339BA7A16C069FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2182,8 +2156,8 @@
 		3965006786989A0EB19177AE2158978C /* Build configuration list for PBXNativeTarget "handlebars-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8684F8042B4392A3D3F8EB231109335 /* Debug */,
-				5F5C6C53B7BBF2F436A23073CCBE30C3 /* Release */,
+				77E0449E6E790291096E65B725FAAB13 /* Debug */,
+				F4EA5D7112B6C7DC711EB94B8808BD0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2191,8 +2165,8 @@
 		92455F048D98FA4C0D38D601676833D8 /* Build configuration list for PBXNativeTarget "GBCli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				109F8AD2F494F65EADE7AF9D14A883F9 /* Debug */,
-				377D84F07B2FA592C35893C4BFA66C04 /* Release */,
+				3B70E848FF37238948A91FB9D75E22AB /* Debug */,
+				477BBB54846B3C68041E0DE824385CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2200,8 +2174,8 @@
 		9854CB3406F52805FE1849A7618EFD4B /* Build configuration list for PBXNativeTarget "Pods-MacDown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48B84888D1F4E856B5EF91E398E64442 /* Debug */,
-				C39A26B26663FC73BAFD38509F4B70C0 /* Release */,
+				73F247312BC9E898A5BD8529F735AA81 /* Debug */,
+				1AC6C88047D655B4AEB83FD76369CB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2209,8 +2183,8 @@
 		9A9F8B0109F3771D4D1398C4B4350EB7 /* Build configuration list for PBXNativeTarget "LibYAML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				241B2EB79A79F059CE97CCC92F0FBA93 /* Debug */,
-				12CE22EA041EF7E0A2BE620DE4719087 /* Release */,
+				291BE77F9A68DCD59779DAF41E9D2D16 /* Debug */,
+				A3A88A5C8A14D87B41436F8AC74AD7C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2218,8 +2192,8 @@
 		A606D44EAEB91D4E4CFC429BF86680D5 /* Build configuration list for PBXNativeTarget "hoedown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C809F749873CF480B255CDCCC879E871 /* Debug */,
-				1EC7D4CB69BABCBF39B7FBFF1A3BF8CA /* Release */,
+				3437CD10A36F6F36054C2EA103D641B4 /* Debug */,
+				DCC2ABE2D996C31D547A654E292AF5CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2227,8 +2201,8 @@
 		AD184FE696181B8CCC26D5683E7A9A1E /* Build configuration list for PBXNativeTarget "Pods-macdown-cmd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4D4BD1CA46EA6D889B16E15B93CC711 /* Debug */,
-				7AB85D96FD6018D2AB175EC5390B614B /* Release */,
+				C3135CBECEE7F66EF208E40133E46032 /* Debug */,
+				FE3805F3EECB508CDAD32ECA3442AD58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2236,8 +2210,8 @@
 		B337B7899B03D5D86E68FFDD07CA4BA0 /* Build configuration list for PBXNativeTarget "M13OrderedDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62F73A387D061B7125773A74AFE2FC14 /* Debug */,
-				3DBFBEA1B872A8D04EAA1AD8A955F6F0 /* Release */,
+				914CEA97ECA48BEB6D155B56C0FC5F36 /* Debug */,
+				1C0764DCEB1154F6224FE13BF23474AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -892,6 +892,7 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 
 - (BOOL)rendererHasMathJax:(MPRenderer *)renderer
 {
+    return FALSE;
     return self.preferences.htmlMathJax;
 }
 

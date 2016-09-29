@@ -75,11 +75,11 @@
 		1FFEB3271972DAB400B2254F /* MPHTMLTabularizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB3261972DAB400B2254F /* MPHTMLTabularizeTests.m */; };
 		1FFEB32B19737D6E00B2254F /* YAMLSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFEB32A19737D6E00B2254F /* YAMLSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Wno-unused-variable"; }; };
 		1FFF301D1948A5320009AF24 /* MPStringLookupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF301C1948A5320009AF24 /* MPStringLookupTests.m */; };
+		582FFE38B71E37A971476AB3 /* libPods-MacDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950F3F310F1C73AC3A4C1E9E /* libPods-MacDown.a */; };
+		86B98250B965FE0C508BC56C /* libPods-macdown-cmd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29485B99987D8396976DA997 /* libPods-macdown-cmd.a */; };
 		905EF1A9196164CA00FC3CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905EF1A8196164CA00FC3CE9 /* Foundation.framework */; };
 		905EF1B7196164F300FC3CE9 /* macdown in Copy Command Line Utility */ = {isa = PBXBuildFile; fileRef = 905EF1A7196164CA00FC3CE9 /* macdown */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		AAD762C602284A74B60523F2 /* libPods-macdown-cmd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 377D36B14A955ABEC5DA9CF6 /* libPods-macdown-cmd.a */; };
-		C3B923FEE6580284A534A936 /* libPods-MacDown.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C1D6485ABD091CAD897C92 /* libPods-MacDown.a */; };
-		EE436B36D129D9DF6242A8D5 /* libPods-MacDownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD2442A308DD467E32B099E /* libPods-MacDownTests.a */; };
+		A1E63803920464B2F17CFD6E /* libPods-MacDownTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0D4C76F513804B8F723A2B /* libPods-MacDownTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,7 +138,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0EFFD5B64201C7FC82B1E555 /* Pods-MacDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.release.xcconfig"; sourceTree = "<group>"; };
+		0298E1D3E63CB34370D2724E /* Pods-MacDownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DF86172AEBA78206B8AB4B8 /* Pods-MacDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.release.xcconfig"; sourceTree = "<group>"; };
+		1B0D4C76F513804B8F723A2B /* libPods-MacDownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F002A21195B3DAE008B8D93 /* MPRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPRenderer.h; sourceTree = "<group>"; };
 		1F002A22195B3DAE008B8D93 /* MPRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPRenderer.m; sourceTree = "<group>"; };
 		1F0D9D5E194AC7CF008E1856 /* NSString+Lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Lookup.h"; sourceTree = "<group>"; };
@@ -251,17 +253,15 @@
 		1FFEB32919737D6E00B2254F /* YAMLSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAMLSerialization.h; sourceTree = "<group>"; };
 		1FFEB32A19737D6E00B2254F /* YAMLSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAMLSerialization.m; sourceTree = "<group>"; };
 		1FFF301C1948A5320009AF24 /* MPStringLookupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPStringLookupTests.m; sourceTree = "<group>"; };
-		31C1D6485ABD091CAD897C92 /* libPods-MacDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		377D36B14A955ABEC5DA9CF6 /* libPods-macdown-cmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macdown-cmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29485B99987D8396976DA997 /* libPods-macdown-cmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macdown-cmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9FABC99F14C0FFC086E6C7 /* Pods-macdown-cmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.release.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.release.xcconfig"; sourceTree = "<group>"; };
 		3D175F0F1974282400A5EFE8 /* WebView+WebViewPrivateHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebView+WebViewPrivateHeaders.h"; sourceTree = "<group>"; };
-		5D2FFD46B7B97A773ABDD863 /* Pods-MacDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.debug.xcconfig"; sourceTree = "<group>"; };
-		63E401DA5D0573D4743C4DBC /* Pods-MacDownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FD2442A308DD467E32B099E /* libPods-MacDownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8433577625B63679C3701507 /* Pods-MacDownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.release.xcconfig"; sourceTree = "<group>"; };
+		56F7BB3670A7CFC4DEDBB496 /* Pods-macdown-cmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.debug.xcconfig"; sourceTree = "<group>"; };
+		6B524F2F27BF9872C0BFA08D /* Pods-MacDownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests.release.xcconfig"; sourceTree = "<group>"; };
 		905EF1A7196164CA00FC3CE9 /* macdown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macdown; sourceTree = BUILT_PRODUCTS_DIR; };
 		905EF1A8196164CA00FC3CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C029EBDA35971E5D3BC97713 /* Pods-macdown-cmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.debug.xcconfig"; sourceTree = "<group>"; };
-		D88A3048364CB8D4E82ED633 /* Pods-macdown-cmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-macdown-cmd.release.xcconfig"; path = "Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd.release.xcconfig"; sourceTree = "<group>"; };
+		950F3F310F1C73AC3A4C1E9E /* libPods-MacDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEF85250D6DE02E50154CFE /* Pods-MacDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacDown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MacDown/Pods-MacDown.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +272,7 @@
 				1FF1420219A8987500CF8A6A /* JavaScriptCore.framework in Frameworks */,
 				1FF207631941CF22005B5654 /* WebKit.framework in Frameworks */,
 				1FA6DE251941CC9E000409FB /* Cocoa.framework in Frameworks */,
-				C3B923FEE6580284A534A936 /* libPods-MacDown.a in Frameworks */,
+				582FFE38B71E37A971476AB3 /* libPods-MacDown.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			files = (
 				1FA6DE481941CC9E000409FB /* Cocoa.framework in Frameworks */,
 				1FC29F5C1944FC2600D616C7 /* XCTest.framework in Frameworks */,
-				EE436B36D129D9DF6242A8D5 /* libPods-MacDownTests.a in Frameworks */,
+				A1E63803920464B2F17CFD6E /* libPods-MacDownTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +291,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				905EF1A9196164CA00FC3CE9 /* Foundation.framework in Frameworks */,
-				AAD762C602284A74B60523F2 /* libPods-macdown-cmd.a in Frameworks */,
+				86B98250B965FE0C508BC56C /* libPods-macdown-cmd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CC164865BDD7FB3791703B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBEF85250D6DE02E50154CFE /* Pods-MacDown.debug.xcconfig */,
+				0DF86172AEBA78206B8AB4B8 /* Pods-MacDown.release.xcconfig */,
+				0298E1D3E63CB34370D2724E /* Pods-MacDownTests.debug.xcconfig */,
+				6B524F2F27BF9872C0BFA08D /* Pods-MacDownTests.release.xcconfig */,
+				56F7BB3670A7CFC4DEDBB496 /* Pods-macdown-cmd.debug.xcconfig */,
+				2D9FABC99F14C0FFC086E6C7 /* Pods-macdown-cmd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1F0D9D5D194AC7CF008E1856 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,7 +484,7 @@
 				905EF1AA196164CA00FC3CE9 /* macdown-cmd */,
 				1FA6DE231941CC9E000409FB /* Frameworks */,
 				1FA6DE221941CC9E000409FB /* Products */,
-				9A17125650E9A0F22F52CB8A /* Pods */,
+				01CC164865BDD7FB3791703B /* Pods */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -496,9 +509,9 @@
 				1FA6DE241941CC9E000409FB /* Cocoa.framework */,
 				905EF1A8196164CA00FC3CE9 /* Foundation.framework */,
 				1FA6DE261941CC9E000409FB /* Other Frameworks */,
-				31C1D6485ABD091CAD897C92 /* libPods-MacDown.a */,
-				7FD2442A308DD467E32B099E /* libPods-MacDownTests.a */,
-				377D36B14A955ABEC5DA9CF6 /* libPods-macdown-cmd.a */,
+				950F3F310F1C73AC3A4C1E9E /* libPods-MacDown.a */,
+				1B0D4C76F513804B8F723A2B /* libPods-MacDownTests.a */,
+				29485B99987D8396976DA997 /* libPods-macdown-cmd.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -607,19 +620,6 @@
 			path = "MacDown-cmd";
 			sourceTree = "<group>";
 		};
-		9A17125650E9A0F22F52CB8A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D2FFD46B7B97A773ABDD863 /* Pods-MacDown.debug.xcconfig */,
-				0EFFD5B64201C7FC82B1E555 /* Pods-MacDown.release.xcconfig */,
-				63E401DA5D0573D4743C4DBC /* Pods-MacDownTests.debug.xcconfig */,
-				8433577625B63679C3701507 /* Pods-MacDownTests.release.xcconfig */,
-				C029EBDA35971E5D3BC97713 /* Pods-macdown-cmd.debug.xcconfig */,
-				D88A3048364CB8D4E82ED633 /* Pods-macdown-cmd.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -627,15 +627,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA6DE551941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDown" */;
 			buildPhases = (
-				E883342015A6DA307C9EB8B2 /* [CP] Check Pods Manifest.lock */,
+				40728F5E134A1978049B0130 /* [CP] Check Pods Manifest.lock */,
 				1FA6DE1D1941CC9E000409FB /* Sources */,
 				1FA6DE1E1941CC9E000409FB /* Frameworks */,
 				1FF16580199A6C950080D9A5 /* Fetch Prism Resources */,
 				1FA6DE1F1941CC9E000409FB /* Resources */,
 				1F8A82A81952F19B00B6BF69 /* Update Build Number */,
 				905EF1B6196164E300FC3CE9 /* Copy Command Line Utility */,
-				D3B596F6551371945067945D /* [CP] Embed Pods Frameworks */,
-				26B261BD0382D27AEEEE882B /* [CP] Copy Pods Resources */,
+				4BF8A42ECD397B3795FBC310 /* [CP] Embed Pods Frameworks */,
+				49FCA9D3C5B44B9F68683A75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -652,12 +652,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FA6DE581941CC9E000409FB /* Build configuration list for PBXNativeTarget "MacDownTests" */;
 			buildPhases = (
-				99BDBDD7FB70A037AECE99CD /* [CP] Check Pods Manifest.lock */,
+				3E0FE839CFE25433B61A7730 /* [CP] Check Pods Manifest.lock */,
 				1FA6DE411941CC9E000409FB /* Sources */,
 				1FA6DE421941CC9E000409FB /* Frameworks */,
 				1FA6DE431941CC9E000409FB /* Resources */,
-				96EEC3AB71218278F6DC4131 /* [CP] Embed Pods Frameworks */,
-				C7552E5E6A4EB78974F8ECA8 /* [CP] Copy Pods Resources */,
+				BB4D4A9CA4BEDA2E84BAC7E2 /* [CP] Embed Pods Frameworks */,
+				811BAEEB4BE54B4CF4CAFC0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -673,11 +673,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 905EF1B3196164CA00FC3CE9 /* Build configuration list for PBXNativeTarget "macdown-cmd" */;
 			buildPhases = (
-				CC73396002C9BC6D52B80F7F /* [CP] Check Pods Manifest.lock */,
+				A0D5506A346BD3202D7A1E3B /* [CP] Check Pods Manifest.lock */,
 				905EF1A3196164CA00FC3CE9 /* Sources */,
 				905EF1A4196164CA00FC3CE9 /* Frameworks */,
 				905EF1A5196164CA00FC3CE9 /* Copy Files */,
-				DEA649BEE5A4B0E2417AEAC2 /* [CP] Copy Pods Resources */,
+				95F16903C2F1FECF70A77A80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -807,7 +807,37 @@
 			shellScript = "SOURCE=$PWD/Dependency/prism\nTARGET=$PWD/MacDown/Resources/Prism\ncp -r $SOURCE/components $TARGET\ncp -r $SOURCE/themes $TARGET    \ncp -r $SOURCE/plugins $TARGET\ncp -r $SOURCE/components.js $TARGET";
 			showEnvVarsInLog = 0;
 		};
-		26B261BD0382D27AEEEE882B /* [CP] Copy Pods Resources */ = {
+		3E0FE839CFE25433B61A7730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40728F5E134A1978049B0130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49FCA9D3C5B44B9F68683A75 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -822,67 +852,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDown/Pods-MacDown-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		96EEC3AB71218278F6DC4131 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99BDBDD7FB70A037AECE99CD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C7552E5E6A4EB78974F8ECA8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CC73396002C9BC6D52B80F7F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D3B596F6551371945067945D /* [CP] Embed Pods Frameworks */ = {
+		4BF8A42ECD397B3795FBC310 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -897,7 +867,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDown/Pods-MacDown-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DEA649BEE5A4B0E2417AEAC2 /* [CP] Copy Pods Resources */ = {
+		811BAEEB4BE54B4CF4CAFC0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F16903C2F1FECF70A77A80 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -912,7 +897,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-macdown-cmd/Pods-macdown-cmd-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E883342015A6DA307C9EB8B2 /* [CP] Check Pods Manifest.lock */ = {
+		A0D5506A346BD3202D7A1E3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -924,7 +909,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4D4A9CA4BEDA2E84BAC7E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MacDownTests/Pods-MacDownTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1186,7 +1186,7 @@
 		};
 		1FA6DE561941CC9E000409FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D2FFD46B7B97A773ABDD863 /* Pods-MacDown.debug.xcconfig */;
+			baseConfigurationReference = BBEF85250D6DE02E50154CFE /* Pods-MacDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "";
@@ -1209,7 +1209,7 @@
 		};
 		1FA6DE571941CC9E000409FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EFFD5B64201C7FC82B1E555 /* Pods-MacDown.release.xcconfig */;
+			baseConfigurationReference = 0DF86172AEBA78206B8AB4B8 /* Pods-MacDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_OPTIMIZATION_PROFILE_FILE = "";
@@ -1233,7 +1233,7 @@
 		};
 		1FA6DE591941CC9E000409FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63E401DA5D0573D4743C4DBC /* Pods-MacDownTests.debug.xcconfig */;
+			baseConfigurationReference = 0298E1D3E63CB34370D2724E /* Pods-MacDownTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown.app/Contents/MacOS/MacDown";
 				CLANG_ENABLE_MODULES = NO;
@@ -1263,7 +1263,7 @@
 		};
 		1FA6DE5A1941CC9E000409FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8433577625B63679C3701507 /* Pods-MacDownTests.release.xcconfig */;
+			baseConfigurationReference = 6B524F2F27BF9872C0BFA08D /* Pods-MacDownTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacDown.app/Contents/MacOS/MacDown";
 				CLANG_ENABLE_MODULES = NO;
@@ -1289,7 +1289,7 @@
 		};
 		905EF1B1196164CA00FC3CE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C029EBDA35971E5D3BC97713 /* Pods-macdown-cmd.debug.xcconfig */;
+			baseConfigurationReference = 56F7BB3670A7CFC4DEDBB496 /* Pods-macdown-cmd.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
@@ -1304,7 +1304,7 @@
 		};
 		905EF1B2196164CA00FC3CE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D88A3048364CB8D4E82ED633 /* Pods-macdown-cmd.release.xcconfig */;
+			baseConfigurationReference = 2D9FABC99F14C0FFC086E6C7 /* Pods-macdown-cmd.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
