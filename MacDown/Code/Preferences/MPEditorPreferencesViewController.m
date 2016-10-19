@@ -75,7 +75,7 @@ NSString * const MPDidRequestEditorSetupNotificationKeyName =
     [self.themeSelect addItemWithTitle:@""];
     [self.themeSelect addItemsWithTitles:itemTitles];
 
-    NSString *title = [self.preferences.editorStyleName copy];
+    NSString *title = @"Pro";// [self.preferences.editorStyleName copy];
     if (title.length)
         [self.themeSelect selectItemWithTitle:title];
 

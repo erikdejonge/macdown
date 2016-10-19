@@ -44,13 +44,9 @@ body {
     font-kerning: normal;
     
     /*font-family:  "Source Code Pro Regular";*/
-<<<<<<< HEAD
+
     font-family:  "Avenir Book", "CMU Sans Serif", "Computer Modern", "Lexie Readable";
     font-size: 16px;
-=======
-    font-family:  "Avenir", "CMU Sans Serif", "Computer Modern";
-    font-size: 18px;
->>>>>>> 5dd27cea2dcb2e9f240ad039f1d502c81244ea0c
     line-height: 24px;
     color: rgba(242, 240, 205, 0.9);
     background-color: #02090B;

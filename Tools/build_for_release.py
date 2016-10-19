@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import print_function
+
 import os
 import re
-import subprocess
 import shutil
+import subprocess
 import zipfile
+
 from xml.etree import ElementTree
 
 
@@ -72,9 +74,9 @@ def main(argv):
     if len(argv) < 2:
         name = os.path.basename(argv[0])
         print('Usage: {name} private_key'.format(name=name))
-        return
+        #  return
 
-    cert_path = argv[1]
+    #cert_path = argv[1]
 
     print('Pre-build cleaning...')
     if os.path.exists(BUILD_DIR):
@@ -122,13 +124,13 @@ def main(argv):
 
     print()
     print('DSA signature:')
-    command = (
-        '{openssl} dgst -sha1 -binary < "{zip_name}" | '
-        '{openssl} dgst -dss1 -sign "{cert}" | '
-        '{openssl} enc -base64'
-    ).format(openssl=OPENSSL, zip_name=ZIP_NAME, cert=cert_path)
-    os.system(command)
-    print()
+    # command = (
+    #     '{openssl} dgst -sha1 -binary < "{zip_name}" | '
+    #     '{openssl} dgst -dss1 -sign "{cert}" | '
+    #     '{openssl} enc -base64'
+    # ).format(openssl=OPENSSL, zip_name=ZIP_NAME, cert=cert_path)
+    # os.system(command)
+    # print()
 
     print_value('Archive size', os.path.getsize(ZIP_NAME))
 

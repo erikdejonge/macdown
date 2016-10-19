@@ -7,164 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004D80E84B06621556DA4BDD2B22DCB5 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DEBBBC1275D3AFB66A62678D28B20 /* reader.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		006E8AC3CDAC30DC69AB3B145D8E9FED /* MASPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A8051A8E8FF8F962110F22F72C16DB26 /* MASPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		016E08E2B27E8B5BBFEFEB55AEE3ED48 /* HBAstSimpleTag.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C7ABEE6555D826ACC189B5ED6028BE /* HBAstSimpleTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0180238FA7878A38511E3091851216C5 /* HBDataContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F3E19FE7A6F26CC4821AE56F3B5138 /* HBDataContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01D759376FD382C3578CB36CA3363F6A /* HBAst.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B9F8D53420C9FC9654EFD07DE11B76 /* HBAst.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		01EB59141373464EB3B0374F07267880 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 44A32B1CD94A4D4A1FD9D3485C923467 /* emitter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0291E9173DDA23ABAE8AA2D3F1ED2F2B /* HBHelperCallingInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CCB011140F534DFD247D0D83512EB14 /* HBHelperCallingInfo_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		04DA02251C6B8637B243DF52823AA3B9 /* PAPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CD0D2D00EC5C4F5CE4EF34E2BEF550F /* PAPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A2942B7DCD5532F76BD9E235F45AD12 /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC782B63276DBF9210AEFCCCBA8B8BF /* GBCommandLineParser.m */; };
-		0B7E8DC9E9F162193DEF2EC14F869822 /* HBTemplate_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D6158557724D9CA8D9FCBBB1B1081A6B /* HBTemplate_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E9408B82A0A1D3D9B3C761CCF1A1838 /* HBAstVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCA50BF64AB8E41B1C4FA72CAAD7D2B /* HBAstVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F152C16664230A09B0791FC9A69B2F4 /* handlebars-objc.ym in Sources */ = {isa = PBXBuildFile; fileRef = 2D77D256E2FA4F7ED3730812E7AB6DBD /* handlebars-objc.ym */; };
-		100DE913F49620C5F749D2FD8936F5DD /* HBExecutionContextDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A846562A51B9C99789B67A97DED5A3 /* HBExecutionContextDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10DFC1B33841BBD54A084F378BF6E1AF /* HBAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4A80FEEDD32C087E3F20C8B28F34FF /* HBAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		115987AB7976D50D9B55D0EBCA76FCD1 /* handlebars-objc.lm in Sources */ = {isa = PBXBuildFile; fileRef = 7165D0FAD562A41DA36167FAD1D92792 /* handlebars-objc.lm */; };
-		1193BCB72E0C0320B20306732C53136F /* HBAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C18AF788D63BBBC1BDFE307D4B246C /* HBAstNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		11CE16F0610C7C2F8198F21D893A136F /* HBContextState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8851BC261DAA41AA50AF553C4E81A17D /* HBContextState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		13221FE012EE11DCA00D8DC0C848D834 /* hoedown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 516E92D76E6AE59138184EAF4F6CEDD2 /* hoedown-dummy.m */; };
-		16A923765575619088D668CE4CA0E927 /* HBAstParametersHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEE88684B843AFB085CC98EB480EA07 /* HBAstParametersHash.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		16B7F36B9E71CA6D9ED6C76998D42518 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = EBDD818CEE2258F1B27ECC1D8BC4F489 /* loader.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		004D80E84B06621556DA4BDD2B22DCB5 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FF3BCDE2B2676317F41E583E9475FEA /* reader.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		006E8AC3CDAC30DC69AB3B145D8E9FED /* MASPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F70841940E0DC0E44D58C3F9ABD623 /* MASPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016E08E2B27E8B5BBFEFEB55AEE3ED48 /* HBAstSimpleTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 079DB2FEF2368BE1D378A95C06512479 /* HBAstSimpleTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0180238FA7878A38511E3091851216C5 /* HBDataContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 031120D357FFE60BE415C0EA5992DCE1 /* HBDataContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D759376FD382C3578CB36CA3363F6A /* HBAst.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD2AAB7135EFBC8BB7D5BA0021D8E1B /* HBAst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		01EB59141373464EB3B0374F07267880 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 1411C3DDC25F1B2D1C2102FB8F9C5B13 /* emitter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0291E9173DDA23ABAE8AA2D3F1ED2F2B /* HBHelperCallingInfo_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D327AC57BE18BE755E2C66C3FD7613 /* HBHelperCallingInfo_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04DA02251C6B8637B243DF52823AA3B9 /* PAPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE972B788A72CD3A8D2D80B1C1A44E3 /* PAPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A2942B7DCD5532F76BD9E235F45AD12 /* GBCommandLineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EB2619EF785A70E4C6CF2AA772A02 /* GBCommandLineParser.m */; };
+		0B7E8DC9E9F162193DEF2EC14F869822 /* HBTemplate_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 79613E0D149A21601EBB8BC0630D8B40 /* HBTemplate_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E9408B82A0A1D3D9B3C761CCF1A1838 /* HBAstVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A82F4BF7E147C03DEB4CB84CAA2D065 /* HBAstVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F152C16664230A09B0791FC9A69B2F4 /* handlebars-objc.ym in Sources */ = {isa = PBXBuildFile; fileRef = D55ED4B5CE3E58CB512BF2A2FAE7741F /* handlebars-objc.ym */; };
+		100DE913F49620C5F749D2FD8936F5DD /* HBExecutionContextDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF9A462DC5C752C2EEF39926A6A5924 /* HBExecutionContextDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DFC1B33841BBD54A084F378BF6E1AF /* HBAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D1D72EC294EEEF8F9C6E6B12682327 /* HBAstNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		115987AB7976D50D9B55D0EBCA76FCD1 /* handlebars-objc.lm in Sources */ = {isa = PBXBuildFile; fileRef = 036EDCC22097D202B120B90ACCA4EDAD /* handlebars-objc.lm */; };
+		1193BCB72E0C0320B20306732C53136F /* HBAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E099DD9C853B86567DC62550F756B4A9 /* HBAstNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11CE16F0610C7C2F8198F21D893A136F /* HBContextState.m in Sources */ = {isa = PBXBuildFile; fileRef = 417AEA4281B8C9D85B217F37B21853ED /* HBContextState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		13221FE012EE11DCA00D8DC0C848D834 /* hoedown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B79486F9277F9C87FF5A47F1675F51 /* hoedown-dummy.m */; };
+		16A923765575619088D668CE4CA0E927 /* HBAstParametersHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 757DD3EFFE12E13CB124BFF35D56D6D9 /* HBAstParametersHash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16B7F36B9E71CA6D9ED6C76998D42518 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = B9229E372BBBF6B77BBDCD9F38C2DAED /* loader.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1A734421C8A4DCB17E0BB53ACB2E308C /* Pods-macdown-cmd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2EE1B59E9F0E590F555F4C18AC874 /* Pods-macdown-cmd-dummy.m */; };
-		1C4E98580DB566A3F049AC31A7FBAD0C /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = D353D748F11ED6148F5B1A245A04D47F /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E5F57EC49BAAD3CC22749F0C9739CEA /* PAPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = E524C6B6E3BE33449EAB1CA2D3120456 /* PAPropertyDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1FF70489F55F1CF71F25B7953C402E37 /* GBCommandLineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B2414F99EDD52D2A79AC1A8C0F4540F4 /* GBCommandLineParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		203C99F5D12B19801E8FCB71D0955080 /* HBAstBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9783036359F3AE24E3B39C19B4DBC823 /* HBAstBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		218184211C67B5B3689A47602035B9A8 /* HBAstParserPostprocessingVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4115C23D39C821C9D8C36E9310ED2 /* HBAstParserPostprocessingVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		22BBFB9C37057C03740F4A457B3B080E /* HBExecutionContext_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5507589DE01056F72626297331C927 /* HBExecutionContext_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		233DEAAE8D00E36FC5E03F25824D0B2F /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 309278A5EE326B81E05EE70E492AE929 /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C96CFB0A257689D2B42C2C2EEB0B2C /* JJPluralForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8D53E98C6EBA5E97E2B925A59E1A1C /* JJPluralForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		273D16FB2421FE290DACF38DB8C1038A /* HBAstContextualValue.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EA7CF462C77859EFE05C49B6095E87 /* HBAstContextualValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A8B60E67D4C31F5AE1015993DA719D7 /* HBContextStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E293BE609D8744A868B8EB8244D544 /* HBContextStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		30FB4EAA2E9C7AE144E360A9DF7F4D80 /* HBParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5282ED130B2B300266225117EBDD88B5 /* HBParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		317754E6A2E98D5C157D3A27AE9B2CB9 /* HBParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A72B1AF7CA4F34909CC39C7312E0DC2D /* HBParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		31C8D051CE4984256BE3AEA092AC62AC /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F1A2B46D5CDA40F9A390FF2335C44D /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3259AA148F70B2C0FE91A8D7767EDF51 /* HBPartialRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9121D8599AAE8B5CB18B690B904D6ED3 /* HBPartialRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		32ECE02123D252DD21D74C8F7CF8AFFC /* HBAstProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 960580EA7743C13A65B3913C55935C79 /* HBAstProgram.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		35D4607BF6587207258CCADD6AF84B27 /* MASPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3222B840587E79ECE6388D4DAAFD663 /* MASPreferencesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37696BEF048A28782B56435934F1744F /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CA1C236D4168E5E6B550C1DCF6FFC0 /* yaml_private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		39F63DBE927F4A4774631F71A086B93F /* HBAstContextualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F008F0BFAD4B878D516B0815BB9C12 /* HBAstContextualValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3B19B2B7268ECA4CE953384AAB6534FA /* HBAstNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 63267CCEE1E7AE2FE90D9F4CD7C2018F /* HBAstNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3C378F6C18BC97B3F806896528138642 /* HBErrorHandling_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6590EB07DD8F3E43A7EC55E7738265 /* HBErrorHandling_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C4E98580DB566A3F049AC31A7FBAD0C /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C86094C3549BB2BD9E9D16654ECB440 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5F57EC49BAAD3CC22749F0C9739CEA /* PAPropertyDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B865E8F1043760E5AD33AFC0CF635D /* PAPropertyDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1FF70489F55F1CF71F25B7953C402E37 /* GBCommandLineParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C218534806926D24978DC03759D17C /* GBCommandLineParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		203C99F5D12B19801E8FCB71D0955080 /* HBAstBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F945CB6C22D82E63D1573022F9960 /* HBAstBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		218184211C67B5B3689A47602035B9A8 /* HBAstParserPostprocessingVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000502815FAD08DCCCF39065FBBBAC09 /* HBAstParserPostprocessingVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22BBFB9C37057C03740F4A457B3B080E /* HBExecutionContext_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D1ABDEBC1C9E8969BA0B2CAF35203EA4 /* HBExecutionContext_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		233DEAAE8D00E36FC5E03F25824D0B2F /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AD720004A94BB7BC4490EED059BB41 /* stack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C96CFB0A257689D2B42C2C2EEB0B2C /* JJPluralForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 71062D5A0326A7F28D7946CD734B9A5B /* JJPluralForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273D16FB2421FE290DACF38DB8C1038A /* HBAstContextualValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB4F8258C75E111DC1CB3D5A146485 /* HBAstContextualValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A8B60E67D4C31F5AE1015993DA719D7 /* HBContextStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 264A5865C98BE1CEDAB25E43EBC0D9F8 /* HBContextStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30FB4EAA2E9C7AE144E360A9DF7F4D80 /* HBParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D78659610C653CD69774432C403FB584 /* HBParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		317754E6A2E98D5C157D3A27AE9B2CB9 /* HBParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C533AE782EFA90E086C67BD435D76FD1 /* HBParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31C8D051CE4984256BE3AEA092AC62AC /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DED7823CB6FF33CFCED8AA3FCF0CFAD /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3259AA148F70B2C0FE91A8D7767EDF51 /* HBPartialRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = B066C2595F94DB9584108B3F5F099327 /* HBPartialRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32ECE02123D252DD21D74C8F7CF8AFFC /* HBAstProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F912BEF4620C58854152519640E5D9 /* HBAstProgram.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		35D4607BF6587207258CCADD6AF84B27 /* MASPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE88B1CFCF5194473E7D490BA75F2B5 /* MASPreferencesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37696BEF048A28782B56435934F1744F /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DCBDE20C1C20A176A67A8B78E9FBF8 /* yaml_private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39F63DBE927F4A4774631F71A086B93F /* HBAstContextualValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 214822ACC75E66F97482DB4917FEE1CC /* HBAstContextualValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B19B2B7268ECA4CE953384AAB6534FA /* HBAstNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 0169F745223F6D588EF6ADBF5FD76FCA /* HBAstNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C378F6C18BC97B3F806896528138642 /* HBErrorHandling_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA418FAF9984070EC646844CC17AE7A /* HBErrorHandling_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3DCB25BAA852CB66C8988B7B86ACAB1D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		410D5DB4FF62FA894FF86539F1BCB08B /* HBPartial.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C616928E0ECDA2356EBE6A7FFB26F82 /* HBPartial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4118412C457D8177434C4274CF364ADA /* HBHelperRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E2A9089DF35B5741340BED324BE5D2 /* HBHelperRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		422E8D42644D76204BDB93E6E319B702 /* HBAstTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 84623135E02F4C5A49D91972E4E4A03D /* HBAstTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4242BC59CE533659AF741B6FABFB7DAE /* MASPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B393E3B1C8529B24215A9A446B8EB7C /* MASPreferences-dummy.m */; };
-		43E01C450D5B16B08C830D8C76811EDC /* HBAstKeyPathComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6BE3A1DD28DD4A1B5C046B0BA8B023 /* HBAstKeyPathComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45A039A9EB6D110F4DE4078E254010E1 /* HBAstPartialTag.h in Headers */ = {isa = PBXBuildFile; fileRef = F2410558D5C038497E87CFFE21C78D82 /* HBAstPartialTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		466817809325154F781184C86BC5B872 /* HBHandlebars.h in Headers */ = {isa = PBXBuildFile; fileRef = 606526AA89535E856D36B0F766D83508 /* HBHandlebars.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		467DAEA721D33BE3A13B93C0E23A00C1 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 9772AC6B52C4163F6C3D77BA51136C2B /* version.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		485BB9ADE614BA901CA2FCC69DBCF1F3 /* HBExecutionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = ED884B0B71DF18398FDCB384FD6755F1 /* HBExecutionContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		489A0FE2101D6400D680092EB1DDDEFE /* HBAstValue.h in Headers */ = {isa = PBXBuildFile; fileRef = C77E653A7B7AD5CBD4BF3AF174A73D07 /* HBAstValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		49A5302DECFC2201A9FC6C416C2A86F4 /* HBHelperUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C916A764002C9ACB65FF0EFA18B4D40B /* HBHelperUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4BB034DCECF62886F8D3850EDE365360 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2A9963D1CAE90023E41D5B7DCB7E83EA /* buffer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4C0419F3AC1FEE390A11D864FFA9E01F /* HBAstComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 098A6A210FFB99E657D17831A6FA11F7 /* HBAstComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C7A4B1B1C6FD2565CCFF367B8174732 /* HBPartialRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B56E86DBC5A465F2900F8A3800A251C /* HBPartialRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FB2EF22C6A3AA4ED498FBB8D211668F /* HBHelperCallingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 79509865A5A9930947C5F1857FD20896 /* HBHelperCallingInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5153A4C443B5948B71290AA2D2F8EFA4 /* HBAstRawText.m in Sources */ = {isa = PBXBuildFile; fileRef = 43AE31E77256379FCD917F0CAD9957E2 /* HBAstRawText.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		524C41CE067371BDE915037A09D37DAF /* HBAstBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B018115419B7F52D10EA82CCCBF2C56E /* HBAstBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		535CD883120C03B01D903EF083E51F1F /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = AE237606F7FBDA2F085AC7D4EE49E610 /* M13OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		540807AA9207A9707F7258686350A80F /* HBHandlebarsKVCValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0F469BAD62646658C3EB5570FFE695 /* HBHandlebarsKVCValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410D5DB4FF62FA894FF86539F1BCB08B /* HBPartial.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AF2A3BEAF909C610DB0E97D69D2E65 /* HBPartial.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4118412C457D8177434C4274CF364ADA /* HBHelperRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D2A634B827D6DCB4A60AA5FC07534C /* HBHelperRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422E8D42644D76204BDB93E6E319B702 /* HBAstTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AE0172AA6F82917A1FED0E9D1BA651D /* HBAstTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4242BC59CE533659AF741B6FABFB7DAE /* MASPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC831993E06730B2EE35DCFC3FD6ABF6 /* MASPreferences-dummy.m */; };
+		43E01C450D5B16B08C830D8C76811EDC /* HBAstKeyPathComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE7CD05FEE44A1F750055E79192007F /* HBAstKeyPathComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45A039A9EB6D110F4DE4078E254010E1 /* HBAstPartialTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E4C620D02E36B7E4F5B6D92FAFFF1D /* HBAstPartialTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		466817809325154F781184C86BC5B872 /* HBHandlebars.h in Headers */ = {isa = PBXBuildFile; fileRef = 17BBF6503A3DA8452C521A54F794A44C /* HBHandlebars.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467DAEA721D33BE3A13B93C0E23A00C1 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 971E7AB844BC53E3B2F027B853845A01 /* version.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		485BB9ADE614BA901CA2FCC69DBCF1F3 /* HBExecutionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA589678947A068E41AD1BBEDE6667A /* HBExecutionContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		489A0FE2101D6400D680092EB1DDDEFE /* HBAstValue.h in Headers */ = {isa = PBXBuildFile; fileRef = D55E3BA1FFF9611C3543B73835DA5890 /* HBAstValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49A5302DECFC2201A9FC6C416C2A86F4 /* HBHelperUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A291AF4672D387AECA5E6292EBD4DE /* HBHelperUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4BB034DCECF62886F8D3850EDE365360 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C71FB70683663F274C0363DE408C4510 /* buffer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C0419F3AC1FEE390A11D864FFA9E01F /* HBAstComment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED0F6997E0C86BA758C3769F787CF96 /* HBAstComment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C7A4B1B1C6FD2565CCFF367B8174732 /* HBPartialRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 116C7F070D747876CEB35FDBD036B04D /* HBPartialRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FB2EF22C6A3AA4ED498FBB8D211668F /* HBHelperCallingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F24C460B82C333B27D4068E198AF6E0C /* HBHelperCallingInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5153A4C443B5948B71290AA2D2F8EFA4 /* HBAstRawText.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E95F723BD83EBAA65D2E2EA5FF9E9DC /* HBAstRawText.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		524C41CE067371BDE915037A09D37DAF /* HBAstBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F21F4BA9579A4643C89BF6B2C251E0 /* HBAstBlock.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		535CD883120C03B01D903EF083E51F1F /* M13OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F907897EED69C40B1750FC9B450F3A /* M13OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		540807AA9207A9707F7258686350A80F /* HBHandlebarsKVCValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = A1DCEB0D43374F4A6DB885D509394DA7 /* HBHandlebarsKVCValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5534B244492E0DD3AB9E1D8168EB5AE7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		59ADC9933E74EED8BA74AB9F7B4806A7 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4B4DC9525C93A562C2BDABBD58865A /* escape.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6005C781CA8FE168170F8AF79B4E4DC1 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 032D1A7554B312077E44596E76E8D866 /* stack.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6147166289D2A587CF56C5200C7F5603 /* HBAstEvaluationVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC50E3836F979F70F63E310AC0972B9 /* HBAstEvaluationVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6250580B20533C7C666B9A5436AD1D1D /* HBErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DD89527804EE1592D77015AE1AEF79 /* HBErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59ADC9933E74EED8BA74AB9F7B4806A7 /* escape.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B23EEBF906187C633ED4BCFB115107F /* escape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6005C781CA8FE168170F8AF79B4E4DC1 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 3549D46D3495352BA68F66FA303E57B6 /* stack.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6147166289D2A587CF56C5200C7F5603 /* HBAstEvaluationVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3566088B3F3B3243D6F93D6A764CBA21 /* HBAstEvaluationVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6250580B20533C7C666B9A5436AD1D1D /* HBErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7B56DEEE9A1A937DE9246DC0B8E670 /* HBErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64CEC21AF397F4E2F707B3DF289ECF61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		65A89AFC12C38EB7FC665C23F94EC4B5 /* LibYAML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2891457877AEF67D8E39F87FBA6336 /* LibYAML-dummy.m */; };
-		65E3373B427F621A0D0550F19B79029B /* HBContextRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB961DE89F8590DF8A5C5D56D302A53 /* HBContextRendering.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		66C4F152F5D70698FDBC27B8A337FDC7 /* HBEscapedString_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB167A579847B218112181490A9894 /* HBEscapedString_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68F2C4FF6AD9EA02EF7B08581C24A502 /* MASPreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = D272A0B9A7304B2FE4D6422D4DF289D4 /* MASPreferencesWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6939C1B39F2F124D9395822A5ECB58FC /* HBAstProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 04ADD74BC3935A8B5DACACF2649EE52E /* HBAstProgram.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6A5856F9EA36A788F0343C7D54C770A9 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BFF0D6DEAD0FAA57FE2B5C00D7A56 /* escape.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6A60AC17F6F0CF8797EC5E3C5D89E655 /* HBAstPartialTag.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6A04FC352D936822A337F6958648B1 /* HBAstPartialTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		6AEE9A219A21BF6B8A46BA66628EA298 /* HBAstExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 125AB3D7CCC325D30F0D4A129091153F /* HBAstExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B3C65BDC7A8D3863C25BAC609CC2C21 /* HBAstNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 8719264139B57CF9C28EE705697554B5 /* HBAstNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6CB60E6EE07D5B5440F183BA5D200052 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 58508533F001F9B466AB2AA02684B0E2 /* parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65A89AFC12C38EB7FC665C23F94EC4B5 /* LibYAML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF8F17AC7F67E1296D5ABF023E36E4 /* LibYAML-dummy.m */; };
+		65E3373B427F621A0D0550F19B79029B /* HBContextRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = BC277595C1EABE00AD8E279091A6D5CD /* HBContextRendering.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		66C4F152F5D70698FDBC27B8A337FDC7 /* HBEscapedString_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F343E01A7CF628989DC008B9C41C3F /* HBEscapedString_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68F2C4FF6AD9EA02EF7B08581C24A502 /* MASPreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC605659DD0B27D42F7D85BEAE7035A /* MASPreferencesWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6939C1B39F2F124D9395822A5ECB58FC /* HBAstProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = C711F36298E3DDF6E46930CEF4E386F5 /* HBAstProgram.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A5856F9EA36A788F0343C7D54C770A9 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 39E9E2444AAAF63AAC23B8FBB270F49C /* escape.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6A60AC17F6F0CF8797EC5E3C5D89E655 /* HBAstPartialTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E13F035FFC8E56B77BB1F1BCF1F85CB /* HBAstPartialTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6AEE9A219A21BF6B8A46BA66628EA298 /* HBAstExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 708D50E3D948492B0D9FCF8207AF2004 /* HBAstExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B3C65BDC7A8D3863C25BAC609CC2C21 /* HBAstNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F9AC1E3D50D6B42F87EF0D1BABD930 /* HBAstNumber.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CB60E6EE07D5B5440F183BA5D200052 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 682FE156C06ADA371391B5B708484BA8 /* parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6DA6C7130D22FBB94E264C49D1666767 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		6F7AC455BF4C77A93815FDAFC17BB017 /* HBAstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 621B030BA4620989C959CB19160611BA /* HBAstValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7103C46AB3B9DB4BD7AD06632C5ACBE4 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EF36195105C06E55C2199848358E939 /* dumper.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7184A459D84667AD2E859C2993409E09 /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E420A050AEF40204770C9D760736DAA /* GBSettings.m */; };
+		6F7AC455BF4C77A93815FDAFC17BB017 /* HBAstValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C24AA582534CC53729FC0D157CC88 /* HBAstValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7103C46AB3B9DB4BD7AD06632C5ACBE4 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 7C86FD8F31B8F8D8A0431678272DF75C /* dumper.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7184A459D84667AD2E859C2993409E09 /* GBSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E7905451FB3CE0A2E96D5E8BF8FEC /* GBSettings.m */; };
 		72DC1AB1F32D8F7403FE271B62C81B63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		7336542CB8CC1D46189F9AC6BADE6517 /* HBExecutionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1EF8AB582A241EF33B24A780E916A5 /* HBExecutionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7380BC6019BFE69F7CFAD22E6A208293 /* HBContextRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F37ADB561C9E4BA0B6ADBC29627C0AD /* HBContextRendering.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		760160F817D01CEDF3144D1C816697E3 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 7CAB5AEC490562AA365BA2212C4194CA /* scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7883477A4F3B3FE158C7DC646BC13DEB /* HBAstParserTestVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B862581B0AD440B224DC73DB26700C4 /* HBAstParserTestVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7A3E4466C7477FDB4DF4D7A95E12BC98 /* HBHelperRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = AABE0AEA76A9F59B8B3BC8D18CA0310B /* HBHelperRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		7B11C49F08050981CE482982E6B358E4 /* HBPartial_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F04DC083ED7EFBC3292DCC01B358CF2A /* HBPartial_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		80F62F33D70A06526DFC6603C8501335 /* HBEscapingFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBCA08FB4B3DB00A6FF1615BA8F2690 /* HBEscapingFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		819A866CCEC4D8B5EDAC4BAF612EFA0E /* HBAstString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0097299AEBE094481B46F8320D147D /* HBAstString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		85D7B659A0FAFE12F37EB5DC8452C5A9 /* GBCli-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B418E0E0F7A57F8ADF3DD074D3828 /* GBCli-dummy.m */; };
-		865E8AF958E8ABCE7C5A532A1734BC0D /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CAF044EF631513E67D45ED870E81A2 /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		886C541A747E7ABBA12059CA366B82EE /* html_blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 963BFBADFF4085684D44660EF8F48E76 /* html_blocks.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8A281C9F67047BA4A15C92E31E759F97 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2342EEE3344AFD1EF2C168CF06DEAB43 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8A8DC26A6FE816B5F1B325BB769BCB69 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = D07F6EEF7939233C041873ADE4BDB9B5 /* writer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8B83C6C4518CD884BCA0FFA3BC516EAC /* HBObjectPropertyAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = B086FD3BD0D19AB733F482A4E67094F3 /* HBObjectPropertyAccess.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8E9946A5AE16B205EEE884F02A08C557 /* GBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = B2304AB58F263AD07491568E0285E703 /* GBSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F5FB561B3EF6D2232BF63F09A20C219 /* GBOptionsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AC0BF5F218785FAA26B205B2F2DF48 /* GBOptionsHelper.m */; };
-		903D7184ADB892E978EBAB7EFBEC2674 /* HBAstRawText.h in Headers */ = {isa = PBXBuildFile; fileRef = A49466E3B3D31507B6C59BFB10D71FFB /* HBAstRawText.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		92040F8F1719BEF808E55D64EC2E9911 /* GBPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = AC862F1C935DEA7DABBB29ED9A8AE1CE /* GBPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92EE88185CC6AF937662F57499349156 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DEC023F1BC043B4BE2C052636B63E3A /* html.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7336542CB8CC1D46189F9AC6BADE6517 /* HBExecutionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E531C6937E895FF5997ACCCBBE2EBA8 /* HBExecutionContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7380BC6019BFE69F7CFAD22E6A208293 /* HBContextRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 5998038FAAFEC00E71BD51F5EBB58FFC /* HBContextRendering.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		760160F817D01CEDF3144D1C816697E3 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 05C7CC2B6DC9570F4E64C327EBF8DD8E /* scanner.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7883477A4F3B3FE158C7DC646BC13DEB /* HBAstParserTestVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E932F52194FC6DF9F34EEE41BFC3D4 /* HBAstParserTestVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7A3E4466C7477FDB4DF4D7A95E12BC98 /* HBHelperRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7A0CD07B8B9F010ED4DB4FA92BA226 /* HBHelperRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7B11C49F08050981CE482982E6B358E4 /* HBPartial_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 759B675E0CB68100C0F69A1CE99EFE3D /* HBPartial_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80F62F33D70A06526DFC6603C8501335 /* HBEscapingFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F687A4E1ED403B3574CB21244DC9C5B /* HBEscapingFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		819A866CCEC4D8B5EDAC4BAF612EFA0E /* HBAstString.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A19A38D0968BBE5BE5F38C14D691CB /* HBAstString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85D7B659A0FAFE12F37EB5DC8452C5A9 /* GBCli-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ECF5E7821220742BB98F566F5656E9 /* GBCli-dummy.m */; };
+		865E8AF958E8ABCE7C5A532A1734BC0D /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 270BA95C17BBD21A320AD1F3FB9989AD /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		886C541A747E7ABBA12059CA366B82EE /* html_blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = CD92BF413BF0FB0F3A2ED37474DC9D16 /* html_blocks.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A281C9F67047BA4A15C92E31E759F97 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F56928D04F9C144F3DB2270C8B6693 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8A8DC26A6FE816B5F1B325BB769BCB69 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = FD5DB4EA2A2F1A7F7C6A7D3A2E4B0140 /* writer.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B83C6C4518CD884BCA0FFA3BC516EAC /* HBObjectPropertyAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A50BD5D551B2F7AAD0948B7538E058 /* HBObjectPropertyAccess.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E9946A5AE16B205EEE884F02A08C557 /* GBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 183760DAACA4A7882669786B21E16330 /* GBSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F5FB561B3EF6D2232BF63F09A20C219 /* GBOptionsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFFCD338345464802C96D3421C95C7 /* GBOptionsHelper.m */; };
+		903D7184ADB892E978EBAB7EFBEC2674 /* HBAstRawText.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A3AB71A90846E1CB3757B07434DBFD /* HBAstRawText.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92040F8F1719BEF808E55D64EC2E9911 /* GBPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A8D37E42738120A75D93C195CEEF12 /* GBPrint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EE88185CC6AF937662F57499349156 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 192ADCA0FF8A53F53C587AE7840C35AA /* html.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		977567F05218ACABAABC7B7B58087BAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		98BD1BFFB8EC899C0FA7A013318130A0 /* GBPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6B9BAAF9950701ED2F84751E70480E /* GBPrint.m */; };
-		998964327FD8DE631186F83CE0A4E734 /* HBHandlebars.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8CB89D2DCFD981B7EB54440803239E /* HBHandlebars.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98BD1BFFB8EC899C0FA7A013318130A0 /* GBPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9636153016049DE4F1CE577993DA666E /* GBPrint.m */; };
+		998964327FD8DE631186F83CE0A4E734 /* HBHandlebars.m in Sources */ = {isa = PBXBuildFile; fileRef = 762A9C9438EFA5EEB4D72A0C56E6A167 /* HBHandlebars.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9BC362C28432F703C31F233BA0F8B627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38259A4F1802719F518A96F324DB7450 /* Foundation.framework */; };
-		9BE47B8E6000BBE208690F3C696268D7 /* HBAstEvaluationVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62126BC24E539449225401BAD933B8C0 /* HBAstEvaluationVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A42C90E09188A281F638E9C304B2D600 /* HBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A4B5871D265A157E0F7B51ECC77D89 /* HBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A452FBCBC643A8F073984E6E24E444ED /* HBContextState.h in Headers */ = {isa = PBXBuildFile; fileRef = F382431FAEB3796FE41A0B9F3FDAB6C1 /* HBContextState.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6E48B86D8473B21AB6879738E633C07 /* JJPluralForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E11C15CFA008EE1D2E1E93886A0E4 /* JJPluralForm.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AAB00C1DFD9D489859E4D712B8A20701 /* HBAstTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B104B59F7A47F02CC82F2E007098B9 /* HBAstTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AD1AED0BD1A645CF87F398BE47DCCAE5 /* HBAstComment.m in Sources */ = {isa = PBXBuildFile; fileRef = FA18AB33D0953DAC7DCCD9198E84C45D /* HBAstComment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		AF6F377BF5CB97A200AFA9D8668F50E7 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 009920352489282FC9C8EBF4EBE8A0F3 /* api.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AF7F4404ECBFFDC16AE3A71CDABA9F2D /* JJPluralForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C3D1342AF439B4B68C74571C51E09D /* JJPluralForm-dummy.m */; };
-		AFEE19EECDBEED3D327F66F0698A9DC1 /* HBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E75AB3B9398680EC1DBD140C88BB4181 /* HBHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B0024427B14CC27A21349641AA960197 /* HBAstSimpleTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D166E81C44544FB642263CA47D7FD9 /* HBAstSimpleTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B261A51B72391D5E5FB60E9CE0FE4228 /* HBEscapedString.h in Headers */ = {isa = PBXBuildFile; fileRef = E63D0727D232922D3D375DBDB37F9ADD /* HBEscapedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BE47B8E6000BBE208690F3C696268D7 /* HBAstEvaluationVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA42DFFB4BE9FFD0DF5CFC49CE042D88 /* HBAstEvaluationVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A42C90E09188A281F638E9C304B2D600 /* HBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E07B9ABF5FB8C3E1AB0B670FA825C6AC /* HBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A452FBCBC643A8F073984E6E24E444ED /* HBContextState.h in Headers */ = {isa = PBXBuildFile; fileRef = 59488FCE283C992CA4E8332BCF13F3DE /* HBContextState.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6E48B86D8473B21AB6879738E633C07 /* JJPluralForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA15DAB2220AA19DA49DF94016521F9 /* JJPluralForm.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AAB00C1DFD9D489859E4D712B8A20701 /* HBAstTag.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE7BD6CBEAB709D2CA29364BB35D90A /* HBAstTag.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AD1AED0BD1A645CF87F398BE47DCCAE5 /* HBAstComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1610750364B63AA3673F31B246BA7A /* HBAstComment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF6F377BF5CB97A200AFA9D8668F50E7 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = DB671BAD8C677814929E5EDACB285144 /* api.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF7F4404ECBFFDC16AE3A71CDABA9F2D /* JJPluralForm-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BC743C088B775DDE364E8D8E61A568 /* JJPluralForm-dummy.m */; };
+		AFEE19EECDBEED3D327F66F0698A9DC1 /* HBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AEEF3641695DC97BCC4635CF30EA5F /* HBHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0024427B14CC27A21349641AA960197 /* HBAstSimpleTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D42D8BCA998FAD4A7970FFFC7CA9B7C /* HBAstSimpleTag.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B261A51B72391D5E5FB60E9CE0FE4228 /* HBEscapedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 477254092A55A77B4F3601B409E57E46 /* HBEscapedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2DBE2661448D5A2F9FB2D4E4FF20CED /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		B9734540D33DD7E9F447C12E7114D990 /* PAPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AA6774FA3C7F56E52DCA20B4663B4B /* PAPreferences-dummy.m */; };
-		BA763EA1BB31504CA97F60DE3607CF9C /* HBObjectPropertyAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E14DA5E36013E15997863F3C8FABC7 /* HBObjectPropertyAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9734540D33DD7E9F447C12E7114D990 /* PAPreferences-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D811A706DD4787B5B82C5BA8602E4EDC /* PAPreferences-dummy.m */; };
+		BA763EA1BB31504CA97F60DE3607CF9C /* HBObjectPropertyAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F983C2F1542EA230AF8AE07D6DCC6659 /* HBObjectPropertyAccess.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BB4E0425EF9112B1A08A493FC05D468D /* Pods-MacDownTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C2890F244A026ADF18BB815490FE /* Pods-MacDownTests-dummy.m */; };
-		C20A7B71498A4393E6C98A61C10822AF /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = F004FB366B64F5B72359DC5CAE75A67D /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C39199C7D4DB937A9BB6B5A6B5AC2F52 /* PAPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E4260959B958DD264E04CFBFC33603 /* PAPreferences.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C3FB9A477F0676260A69D71A1253CE53 /* HBHelperUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C7F6F32AB2861AC6B55B5DF8673519 /* HBHelperUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C48B2180280DA03121AD53DD6FAE4F86 /* HBErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D0D9AD8E6C1EEE16EA788324CA9EF /* HBErrorHandling.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C5E3BEEC0E725D8D791144CACC70541A /* HBEscapingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 824268ED2F46AC5799D326F1F89D4705 /* HBEscapingFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C61A470060866F04481106DBC1A291A4 /* HBTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC31CF6E0A847341B9A55DD5BE3844 /* HBTemplate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C6422853A9D1A15EF9FC3D9BA30C4B9C /* HBAstVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F2C975D01BD0DE6A4F26CEBD6AD7A6 /* HBAstVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C6D939F029D11DC2FBACA24D4C25AA1D /* PAPropertyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3113BB8E2CC3A88373C323C2080B10 /* PAPropertyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9CD6C424978E08EBBB93C6DEEC88BF5 /* handlebars-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47447942C666B483F8EDD9FB7367DE46 /* handlebars-objc-dummy.m */; };
-		CD8AE559506B49AA3A92AE758E365096 /* GBCli.h in Headers */ = {isa = PBXBuildFile; fileRef = 0477E652C7C9971F05366D303256C1C9 /* GBCli.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFB38AF8B20A3281D780E873991EC06 /* HBAstParametersHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 509CB823C4576DF0C828FC2133679618 /* HBAstParametersHash.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CEDBD90F01F3CDE33E36C707DB0AA2D8 /* HBDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A3EDE6A78CE09B516AEAF13AD9583 /* HBDataContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CEFEFD3359F95DE25B3610B9BBCB1996 /* HBAstKeyPathComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D57138A5417502F8573F51AA1A9F599B /* HBAstKeyPathComponent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CF4A4100B82EF81C75D323C3F258376B /* HBContextStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F11A0247685CB4180565747F65B26B /* HBContextStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D30E8EA426533FF5D060A1AE0F7935D2 /* HBPartial.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A914DFAC304F073AC38349D7910126 /* HBPartial.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5928715036A53493B80D6172E2E8FE7 /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AB922561D37F4F972D8BAF27A38A947 /* document.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D5ECE391B7064F2F4065B872275F4111 /* HBBuiltinHelpersRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = D885C257DEA10731E53FFA51D4DBC77A /* HBBuiltinHelpersRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D712755E74D00952E8743B441D82A11A /* HBEscapedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A1929B89096B80535B0B7A4E7B0A29 /* HBEscapedString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D932398C3A3CC7091C7BB136B3EC0493 /* HBTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6865869D4FA391F07CB4B72E28210C68 /* HBTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C20A7B71498A4393E6C98A61C10822AF /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 618AE93047E15233594BDEC3446450C3 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C39199C7D4DB937A9BB6B5A6B5AC2F52 /* PAPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EE7DA0AFDE015A4226E7085143FA2D /* PAPreferences.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3FB9A477F0676260A69D71A1253CE53 /* HBHelperUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = ED24F0B31CDF2D77C40D34D0DC56A4B7 /* HBHelperUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48B2180280DA03121AD53DD6FAE4F86 /* HBErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ECA0C1DE8AAD81FA9CCD91236DD810 /* HBErrorHandling.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C5E3BEEC0E725D8D791144CACC70541A /* HBEscapingFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C644AA998697DA4548672B76DBEE2BA /* HBEscapingFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C61A470060866F04481106DBC1A291A4 /* HBTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA2E1A43A44086322A2564C79F86C9 /* HBTemplate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6422853A9D1A15EF9FC3D9BA30C4B9C /* HBAstVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9638D6EC7FDF67513A9F6026EEE7AD09 /* HBAstVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6D939F029D11DC2FBACA24D4C25AA1D /* PAPropertyDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = A718A2DDCD1B8DDAB02E54010CC508CF /* PAPropertyDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9CD6C424978E08EBBB93C6DEEC88BF5 /* handlebars-objc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CD8A9E530264A80858972AA08C9340 /* handlebars-objc-dummy.m */; };
+		CD8AE559506B49AA3A92AE758E365096 /* GBCli.h in Headers */ = {isa = PBXBuildFile; fileRef = F22EEDCB37C85F6C6005F8F62A6ACD51 /* GBCli.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDFB38AF8B20A3281D780E873991EC06 /* HBAstParametersHash.m in Sources */ = {isa = PBXBuildFile; fileRef = C49CF3C52EE57314A703F95A8C640F30 /* HBAstParametersHash.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEDBD90F01F3CDE33E36C707DB0AA2D8 /* HBDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B971A3CDFA5D826E1739D526BC145 /* HBDataContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CEFEFD3359F95DE25B3610B9BBCB1996 /* HBAstKeyPathComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEDCF6CCD774F764EE4266278F4394 /* HBAstKeyPathComponent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF4A4100B82EF81C75D323C3F258376B /* HBContextStack.m in Sources */ = {isa = PBXBuildFile; fileRef = B698BE00CD7B7E549C182B2431D14FBA /* HBContextStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D30E8EA426533FF5D060A1AE0F7935D2 /* HBPartial.h in Headers */ = {isa = PBXBuildFile; fileRef = E166091F030413A51A7DFE090213C091 /* HBPartial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5928715036A53493B80D6172E2E8FE7 /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = BA63C829D96F79426226CBDE222A9E1C /* document.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5ECE391B7064F2F4065B872275F4111 /* HBBuiltinHelpersRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB0E3C2DE5A01D056DA8282C3BA43C1 /* HBBuiltinHelpersRegistry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D712755E74D00952E8743B441D82A11A /* HBEscapedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D5314EB3465C087234C7178EB1503 /* HBEscapedString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D932398C3A3CC7091C7BB136B3EC0493 /* HBTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B0D4DF635C171E2113EF806246FCB12 /* HBTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9BF4D2D524C7A56EE4174706682427B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
 		DA2DB16F92F3F9C82274C1CEDA41C365 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		DBD0C05FF3E05837276BBD6386868447 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A295365252DD627FBD532FCBE80AECE /* autolink.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E05BD8639E112351272547DB2B6C2B15 /* HBHelperCallingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8F4D1B4DDB62DEE0571F2720BD8D35 /* HBHelperCallingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E25F7FC1314C21B1D40856DAFBCDCA02 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A5DEACF837153E95D98D5BA6DF60D8 /* M13OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBD0C05FF3E05837276BBD6386868447 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D3504DB878F6FF70FDB93E938A73E0B /* autolink.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E05BD8639E112351272547DB2B6C2B15 /* HBHelperCallingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BA193E901E6B02AEDC74277326571A /* HBHelperCallingInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E25F7FC1314C21B1D40856DAFBCDCA02 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 113F4213732151C19019A0A9F854A714 /* M13OrderedDictionary.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E2BA8E279D34A71DD650906180619DEF /* Pods-MacDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 714F08241A94B30693C15C5FEC3F8DB5 /* Pods-MacDown-dummy.m */; };
 		E35F8041DAE86D17D53F43C055B1E960 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		E37636BC040B3B7B8C8016C81426C9C6 /* HBAstExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B531981FC8E36EBFFC2B3A0F0B28E094 /* HBAstExpression.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E5E407F1BEA457F0A9C1AF694C888C94 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D2308F8D5ED4B35F7AA9EEDB053B55 /* document.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E92D209422DCA2163F1BCF9E04EDAE5A /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB640967AEE8F1166DF511ADD7E53CCB /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E37636BC040B3B7B8C8016C81426C9C6 /* HBAstExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE268B5083067F102A73E874F9D17D /* HBAstExpression.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E5E407F1BEA457F0A9C1AF694C888C94 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = D83CF999CEEEEA0C093387CB896566E1 /* document.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92D209422DCA2163F1BCF9E04EDAE5A /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4E5B52046ADF13DD0AAD24DAD187C8 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC746EEFCBF8C06923EB3E29F396835 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */; };
-		EC5AD5DA02A488AC2071FADE374C1779 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A49C1706209EC8F19230009FD68CE47 /* html_smartypants.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		EDC3682AE7BCF286711615F63927C477 /* HBAstString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2864A1E0424021AC861701AED6F120 /* HBAstString.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F19FE6AEBE6E744D6CD9EAA51FD08875 /* M13OrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5793F9C6441C587FE411991F0E2B5D06 /* M13OrderedDictionary-dummy.m */; };
-		F1D63073FC1E7CDD4346ABB70101181C /* HBAstParserPostprocessingVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = EF219310A1E1724994CAF6008405714C /* HBAstParserPostprocessingVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F2D1ADE6D60FB3E8605A6D0D88CE6E29 /* HBBuiltinHelpersRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = D192BD7971ECE8E2B8F07D8AE3BAA608 /* HBBuiltinHelpersRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F3654ABAE0E04DDFAD20D0416FA33B45 /* GBOptionsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = C3629AA5261AFE6C7589F5775670874A /* GBOptionsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F65FDDF2BEF468FEE0E81AC4866B1414 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC3A71B6AE0E1D075786534A741915D /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD669AF2314F3AC0800F72D2383D230D /* HBAstParserTestVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E904DF165BF94786EA1CF9420C41A0E /* HBAstParserTestVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC5AD5DA02A488AC2071FADE374C1779 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 0DE99E0480AF7F577F610ED00D4B945A /* html_smartypants.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EDC3682AE7BCF286711615F63927C477 /* HBAstString.h in Headers */ = {isa = PBXBuildFile; fileRef = AF3C8E3BAA50444995BF14407B11ECA7 /* HBAstString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F19FE6AEBE6E744D6CD9EAA51FD08875 /* M13OrderedDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B74824DA185E1B5FAFA3AACF4221741C /* M13OrderedDictionary-dummy.m */; };
+		F1D63073FC1E7CDD4346ABB70101181C /* HBAstParserPostprocessingVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2032BC0766D46ECBAABF1BA98F91B4 /* HBAstParserPostprocessingVisitor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F2D1ADE6D60FB3E8605A6D0D88CE6E29 /* HBBuiltinHelpersRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 054BB2FB956BA61B1897D78408B09F89 /* HBBuiltinHelpersRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F3654ABAE0E04DDFAD20D0416FA33B45 /* GBOptionsHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 500A3E402BF0C9060DF5E0B526F422D8 /* GBOptionsHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65FDDF2BEF468FEE0E81AC4866B1414 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 416CF2B0D8952BEF967F2B2AD6E8ECF2 /* config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD669AF2314F3AC0800F72D2383D230D /* HBAstParserTestVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 263ED17078595D72A85438B058F4A0C8 /* HBAstParserTestVisitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -234,202 +234,202 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009920352489282FC9C8EBF4EBE8A0F3 /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = api.c; path = src/api.c; sourceTree = "<group>"; };
-		032D1A7554B312077E44596E76E8D866 /* stack.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stack.c; path = src/stack.c; sourceTree = "<group>"; };
+		000502815FAD08DCCCF39065FBBBAC09 /* HBAstParserPostprocessingVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParserPostprocessingVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstParserPostprocessingVisitor.h"; sourceTree = "<group>"; };
+		0169F745223F6D588EF6ADBF5FD76FCA /* HBAstNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstNumber.m; path = "src/handlebars-objc/ast/expression/HBAstNumber.m"; sourceTree = "<group>"; };
+		01F912BEF4620C58854152519640E5D9 /* HBAstProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstProgram.m; path = "src/handlebars-objc/ast/HBAstProgram.m"; sourceTree = "<group>"; };
+		031120D357FFE60BE415C0EA5992DCE1 /* HBDataContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDataContext.h; path = "src/handlebars-objc/context/HBDataContext.h"; sourceTree = "<group>"; };
 		036630740C9D6B51CAFC03F4EF7DFCD8 /* libhoedown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhoedown.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0477E652C7C9971F05366D303256C1C9 /* GBCli.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBCli.h; path = GBCli/src/GBCli.h; sourceTree = "<group>"; };
-		04ADD74BC3935A8B5DACACF2649EE52E /* HBAstProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstProgram.h; path = "src/handlebars-objc/ast/HBAstProgram.h"; sourceTree = "<group>"; };
-		07E2A9089DF35B5741340BED324BE5D2 /* HBHelperRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperRegistry.h; path = "src/handlebars-objc/helpers/HBHelperRegistry.h"; sourceTree = "<group>"; };
-		0897E19B91A9C4AC61D145D091E00C24 /* handlebars-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "handlebars-objc-prefix.pch"; sourceTree = "<group>"; };
-		098A6A210FFB99E657D17831A6FA11F7 /* HBAstComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstComment.h; path = "src/handlebars-objc/ast/HBAstComment.h"; sourceTree = "<group>"; };
-		0A40FF6777672057372032E19FE1AF1F /* GBCli-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBCli-prefix.pch"; sourceTree = "<group>"; };
-		0B862581B0AD440B224DC73DB26700C4 /* HBAstParserTestVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParserTestVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstParserTestVisitor.m"; sourceTree = "<group>"; };
-		0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBCli.xcconfig; sourceTree = "<group>"; };
-		0E420A050AEF40204770C9D760736DAA /* GBSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBSettings.m; path = GBCli/src/GBSettings.m; sourceTree = "<group>"; };
+		036EDCC22097D202B120B90ACCA4EDAD /* handlebars-objc.lm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.lex; name = "handlebars-objc.lm"; path = "src/handlebars-objc/parser/handlebars-objc.lm"; sourceTree = "<group>"; };
+		04D327AC57BE18BE755E2C66C3FD7613 /* HBHelperCallingInfo_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperCallingInfo_Private.h; path = "src/handlebars-objc/helpers/HBHelperCallingInfo_Private.h"; sourceTree = "<group>"; };
+		04F343E01A7CF628989DC008B9C41C3F /* HBEscapedString_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapedString_Private.h; path = "src/handlebars-objc/helpers/HBEscapedString_Private.h"; sourceTree = "<group>"; };
+		054BB2FB956BA61B1897D78408B09F89 /* HBBuiltinHelpersRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBBuiltinHelpersRegistry.m; path = "src/handlebars-objc/helpers/HBBuiltinHelpersRegistry.m"; sourceTree = "<group>"; };
+		05C7CC2B6DC9570F4E64C327EBF8DD8E /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanner.c; path = src/scanner.c; sourceTree = "<group>"; };
+		079DB2FEF2368BE1D378A95C06512479 /* HBAstSimpleTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstSimpleTag.m; path = "src/handlebars-objc/ast/HBAstSimpleTag.m"; sourceTree = "<group>"; };
+		0AE85032975FE81D7A090E775C27D3CC /* PAPreferences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PAPreferences.xcconfig; sourceTree = "<group>"; };
+		0B4B971A3CDFA5D826E1739D526BC145 /* HBDataContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDataContext.m; path = "src/handlebars-objc/context/HBDataContext.m"; sourceTree = "<group>"; };
+		0DE99E0480AF7F577F610ED00D4B945A /* html_smartypants.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html_smartypants.c; path = src/html_smartypants.c; sourceTree = "<group>"; };
+		0E531C6937E895FF5997ACCCBBE2EBA8 /* HBExecutionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContext.h; path = "src/handlebars-objc/runtime/HBExecutionContext.h"; sourceTree = "<group>"; };
 		109763C63EFAFBC5557AC8843C69689D /* Pods-macdown-cmd-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-macdown-cmd-acknowledgements.markdown"; sourceTree = "<group>"; };
-		125AB3D7CCC325D30F0D4A129091153F /* HBAstExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstExpression.h; path = "src/handlebars-objc/ast/expression/HBAstExpression.h"; sourceTree = "<group>"; };
-		12A1929B89096B80535B0B7A4E7B0A29 /* HBEscapedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBEscapedString.m; path = "src/handlebars-objc/helpers/HBEscapedString.m"; sourceTree = "<group>"; };
+		10E4C620D02E36B7E4F5B6D92FAFFF1D /* HBAstPartialTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstPartialTag.h; path = "src/handlebars-objc/ast/HBAstPartialTag.h"; sourceTree = "<group>"; };
+		113F4213732151C19019A0A9F854A714 /* M13OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = M13OrderedDictionary.m; sourceTree = "<group>"; };
+		116C7F070D747876CEB35FDBD036B04D /* HBPartialRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartialRegistry.h; path = "src/handlebars-objc/partials/HBPartialRegistry.h"; sourceTree = "<group>"; };
+		12B4A0489BBB8D065664DC8B3CEF4BDB /* JJPluralForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJPluralForm.xcconfig; sourceTree = "<group>"; };
+		12BC743C088B775DDE364E8D8E61A568 /* JJPluralForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJPluralForm-dummy.m"; sourceTree = "<group>"; };
 		13013764C9A29E0723A471E34EDDBE2A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		13DD89527804EE1592D77015AE1AEF79 /* HBErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBErrorHandling.h; path = "src/handlebars-objc/errorHandling/HBErrorHandling.h"; sourceTree = "<group>"; };
-		17B7404307B5753EFE5C6F03282B34C6 /* JJPluralForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPluralForm-prefix.pch"; sourceTree = "<group>"; };
-		1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PAPreferences.xcconfig; sourceTree = "<group>"; };
+		1411C3DDC25F1B2D1C2102FB8F9C5B13 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = emitter.c; path = src/emitter.c; sourceTree = "<group>"; };
+		154288B810DFEC7CEB8A2CDC8E1490AE /* handlebars-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "handlebars-objc.xcconfig"; sourceTree = "<group>"; };
+		17BBF6503A3DA8452C521A54F794A44C /* HBHandlebars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHandlebars.h; path = "src/handlebars-objc/HBHandlebars.h"; sourceTree = "<group>"; };
+		183760DAACA4A7882669786B21E16330 /* GBSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBSettings.h; path = GBCli/src/GBSettings.h; sourceTree = "<group>"; };
+		192ADCA0FF8A53F53C587AE7840C35AA /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html.c; path = src/html.c; sourceTree = "<group>"; };
+		19F907897EED69C40B1750FC9B450F3A /* M13OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = M13OrderedDictionary.h; sourceTree = "<group>"; };
 		1A322C920640C5A4FCFD78E58590297E /* Pods-MacDownTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacDownTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DB961DE89F8590DF8A5C5D56D302A53 /* HBContextRendering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextRendering.m; path = "src/handlebars-objc/context/HBContextRendering.m"; sourceTree = "<group>"; };
+		1B23EEBF906187C633ED4BCFB115107F /* escape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = escape.h; path = src/escape.h; sourceTree = "<group>"; };
+		1BF9A462DC5C752C2EEF39926A6A5924 /* HBExecutionContextDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContextDelegate.h; path = "src/handlebars-objc/runtime/HBExecutionContextDelegate.h"; sourceTree = "<group>"; };
+		1ED0F6997E0C86BA758C3769F787CF96 /* HBAstComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstComment.h; path = "src/handlebars-objc/ast/HBAstComment.h"; sourceTree = "<group>"; };
 		1F3B0D67B629F16B91CCAFA529FDD2C8 /* Pods-MacDown-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacDown-resources.sh"; sourceTree = "<group>"; };
 		1F8CB53A39E0F63B2C27FA22E418A689 /* libM13OrderedDictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libM13OrderedDictionary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		20B104B59F7A47F02CC82F2E007098B9 /* HBAstTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstTag.m; path = "src/handlebars-objc/ast/HBAstTag.m"; sourceTree = "<group>"; };
-		2342EEE3344AFD1EF2C168CF06DEAB43 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASPreferencesWindowController.m; path = Framework/MASPreferencesWindowController.m; sourceTree = "<group>"; };
-		2A9963D1CAE90023E41D5B7DCB7E83EA /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
-		2BC782B63276DBF9210AEFCCCBA8B8BF /* GBCommandLineParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBCommandLineParser.m; path = GBCli/src/GBCommandLineParser.m; sourceTree = "<group>"; };
-		2C616928E0ECDA2356EBE6A7FFB26F82 /* HBPartial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBPartial.m; path = "src/handlebars-objc/partials/HBPartial.m"; sourceTree = "<group>"; };
-		2CCB011140F534DFD247D0D83512EB14 /* HBHelperCallingInfo_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperCallingInfo_Private.h; path = "src/handlebars-objc/helpers/HBHelperCallingInfo_Private.h"; sourceTree = "<group>"; };
-		2D77D256E2FA4F7ED3730812E7AB6DBD /* handlebars-objc.ym */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.yacc; name = "handlebars-objc.ym"; path = "src/handlebars-objc/parser/handlebars-objc.ym"; sourceTree = "<group>"; };
-		2DC50E3836F979F70F63E310AC0972B9 /* HBAstEvaluationVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstEvaluationVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstEvaluationVisitor.h"; sourceTree = "<group>"; };
-		2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASPreferences.xcconfig; sourceTree = "<group>"; };
-		309278A5EE326B81E05EE70E492AE929 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = src/stack.h; sourceTree = "<group>"; };
-		30AC0BF5F218785FAA26B205B2F2DF48 /* GBOptionsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBOptionsHelper.m; path = GBCli/src/GBOptionsHelper.m; sourceTree = "<group>"; };
+		20ECA0C1DE8AAD81FA9CCD91236DD810 /* HBErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBErrorHandling.m; path = "src/handlebars-objc/errorHandling/HBErrorHandling.m"; sourceTree = "<group>"; };
+		214822ACC75E66F97482DB4917FEE1CC /* HBAstContextualValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstContextualValue.h; path = "src/handlebars-objc/ast/expression/HBAstContextualValue.h"; sourceTree = "<group>"; };
+		23684B4413CB9EFD6F951ED24DDC7ABC /* GBCli.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBCli.xcconfig; sourceTree = "<group>"; };
+		239355A19AF9CFD6E1D0C18D13852780 /* GBCli-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBCli-prefix.pch"; sourceTree = "<group>"; };
+		24AF8F17AC7F67E1296D5ABF023E36E4 /* LibYAML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibYAML-dummy.m"; sourceTree = "<group>"; };
+		25AEEF3641695DC97BCC4635CF30EA5F /* HBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelper.m; path = "src/handlebars-objc/helpers/HBHelper.m"; sourceTree = "<group>"; };
+		263ED17078595D72A85438B058F4A0C8 /* HBAstParserTestVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParserTestVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstParserTestVisitor.h"; sourceTree = "<group>"; };
+		264A5865C98BE1CEDAB25E43EBC0D9F8 /* HBContextStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextStack.h; path = "src/handlebars-objc/context/HBContextStack.h"; sourceTree = "<group>"; };
+		270BA95C17BBD21A320AD1F3FB9989AD /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = src/html.h; sourceTree = "<group>"; };
+		27BD67BB83C93054A6284CBD3A6506CD /* MASPreferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASPreferences-prefix.pch"; sourceTree = "<group>"; };
+		28DF11ACACDB831D107B8A72A0979B92 /* LibYAML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibYAML.xcconfig; sourceTree = "<group>"; };
+		2C7B56DEEE9A1A937DE9246DC0B8E670 /* HBErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBErrorHandling.h; path = "src/handlebars-objc/errorHandling/HBErrorHandling.h"; sourceTree = "<group>"; };
+		2D42D8BCA998FAD4A7970FFFC7CA9B7C /* HBAstSimpleTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstSimpleTag.h; path = "src/handlebars-objc/ast/HBAstSimpleTag.h"; sourceTree = "<group>"; };
+		2F687A4E1ED403B3574CB21244DC9C5B /* HBEscapingFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapingFunctions.h; path = "src/handlebars-objc/runtime/HBEscapingFunctions.h"; sourceTree = "<group>"; };
 		334C8E7C74C18D08A7C152C9164802F2 /* libPAPreferences.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPAPreferences.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		35E4260959B958DD264E04CFBFC33603 /* PAPreferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPreferences.m; path = PAPreferences/PAPreferences.m; sourceTree = "<group>"; };
+		34E932F52194FC6DF9F34EEE41BFC3D4 /* HBAstParserTestVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParserTestVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstParserTestVisitor.m"; sourceTree = "<group>"; };
+		3549D46D3495352BA68F66FA303E57B6 /* stack.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = stack.c; path = src/stack.c; sourceTree = "<group>"; };
+		3566088B3F3B3243D6F93D6A764CBA21 /* HBAstEvaluationVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstEvaluationVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstEvaluationVisitor.h"; sourceTree = "<group>"; };
+		37B89216F3FBF6B6F999F39C5041DDF9 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MASPreferencesWindow.xib; path = en.lproj/MASPreferencesWindow.xib; sourceTree = "<group>"; };
 		37CF91B44701FF75791FFF30ABBCC68B /* Pods-macdown-cmd-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-macdown-cmd-acknowledgements.plist"; sourceTree = "<group>"; };
 		38259A4F1802719F518A96F324DB7450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		397FB9730355A122A617AA6518C6961D /* Pods-MacDown-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MacDown-acknowledgements.plist"; sourceTree = "<group>"; };
-		39A5DEACF837153E95D98D5BA6DF60D8 /* M13OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = M13OrderedDictionary.m; sourceTree = "<group>"; };
-		39F3E19FE7A6F26CC4821AE56F3B5138 /* HBDataContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBDataContext.h; path = "src/handlebars-objc/context/HBDataContext.h"; sourceTree = "<group>"; };
-		3B393E3B1C8529B24215A9A446B8EB7C /* MASPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MASPreferences-dummy.m"; sourceTree = "<group>"; };
-		3C8D53E98C6EBA5E97E2B925A59E1A1C /* JJPluralForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJPluralForm.h; path = JJPluralForm/JJPluralForm.h; sourceTree = "<group>"; };
-		3CD0D2D00EC5C4F5CE4EF34E2BEF550F /* PAPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPreferences.h; path = PAPreferences/PAPreferences.h; sourceTree = "<group>"; };
-		3F4A80FEEDD32C087E3F20C8B28F34FF /* HBAstNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstNode.h; path = "src/handlebars-objc/ast/HBAstNode.h"; sourceTree = "<group>"; };
-		40F1A2B46D5CDA40F9A390FF2335C44D /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = src/version.h; sourceTree = "<group>"; };
-		43AE31E77256379FCD917F0CAD9957E2 /* HBAstRawText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstRawText.m; path = "src/handlebars-objc/ast/HBAstRawText.m"; sourceTree = "<group>"; };
-		44A32B1CD94A4D4A1FD9D3485C923467 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = emitter.c; path = src/emitter.c; sourceTree = "<group>"; };
-		450A3EDE6A78CE09B516AEAF13AD9583 /* HBDataContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBDataContext.m; path = "src/handlebars-objc/context/HBDataContext.m"; sourceTree = "<group>"; };
-		46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJPluralForm.xcconfig; sourceTree = "<group>"; };
-		47447942C666B483F8EDD9FB7367DE46 /* handlebars-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "handlebars-objc-dummy.m"; sourceTree = "<group>"; };
+		39B865E8F1043760E5AD33AFC0CF635D /* PAPropertyDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPropertyDescriptor.m; path = PAPreferences/PAPropertyDescriptor.m; sourceTree = "<group>"; };
+		39BB4F8258C75E111DC1CB3D5A146485 /* HBAstContextualValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstContextualValue.m; path = "src/handlebars-objc/ast/expression/HBAstContextualValue.m"; sourceTree = "<group>"; };
+		39E9E2444AAAF63AAC23B8FBB270F49C /* escape.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = escape.c; path = src/escape.c; sourceTree = "<group>"; };
+		3A82F4BF7E147C03DEB4CB84CAA2D065 /* HBAstVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstVisitor.h"; sourceTree = "<group>"; };
+		3AA589678947A068E41AD1BBEDE6667A /* HBExecutionContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBExecutionContext.m; path = "src/handlebars-objc/runtime/HBExecutionContext.m"; sourceTree = "<group>"; };
+		3AD2AAB7135EFBC8BB7D5BA0021D8E1B /* HBAst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAst.h; path = "src/handlebars-objc/ast/HBAst.h"; sourceTree = "<group>"; };
+		3AE0172AA6F82917A1FED0E9D1BA651D /* HBAstTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstTag.h; path = "src/handlebars-objc/ast/HBAstTag.h"; sourceTree = "<group>"; };
+		3EEF4245EEB8109E76CDA4A2A615F3D2 /* LibYAML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibYAML-prefix.pch"; sourceTree = "<group>"; };
+		3F1610750364B63AA3673F31B246BA7A /* HBAstComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstComment.m; path = "src/handlebars-objc/ast/HBAstComment.m"; sourceTree = "<group>"; };
+		416CF2B0D8952BEF967F2B2AD6E8ECF2 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		417AEA4281B8C9D85B217F37B21853ED /* HBContextState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextState.m; path = "src/handlebars-objc/context/HBContextState.m"; sourceTree = "<group>"; };
+		42AD720004A94BB7BC4490EED059BB41 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = src/stack.h; sourceTree = "<group>"; };
+		42F21F4BA9579A4643C89BF6B2C251E0 /* HBAstBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstBlock.h; path = "src/handlebars-objc/ast/HBAstBlock.h"; sourceTree = "<group>"; };
+		43A8D37E42738120A75D93C195CEEF12 /* GBPrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPrint.h; path = GBCli/src/GBPrint.h; sourceTree = "<group>"; };
+		4546D2663A62BC42538CAB44051F1807 /* M13OrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13OrderedDictionary.xcconfig; sourceTree = "<group>"; };
+		46C218534806926D24978DC03759D17C /* GBCommandLineParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBCommandLineParser.h; path = GBCli/src/GBCommandLineParser.h; sourceTree = "<group>"; };
+		477254092A55A77B4F3601B409E57E46 /* HBEscapedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapedString.h; path = "src/handlebars-objc/helpers/HBEscapedString.h"; sourceTree = "<group>"; };
+		47BA193E901E6B02AEDC74277326571A /* HBHelperCallingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperCallingInfo.h; path = "src/handlebars-objc/helpers/HBHelperCallingInfo.h"; sourceTree = "<group>"; };
+		48A291AF4672D387AECA5E6292EBD4DE /* HBHelperUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperUtils.m; path = "src/handlebars-objc/helpers/HBHelperUtils.m"; sourceTree = "<group>"; };
+		4A9F945CB6C22D82E63D1573022F9960 /* HBAstBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstBlock.m; path = "src/handlebars-objc/ast/HBAstBlock.m"; sourceTree = "<group>"; };
 		4ABE64B5EE7D34423DFA067FDCF83A8C /* Pods-MacDownTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacDownTests-frameworks.sh"; sourceTree = "<group>"; };
-		4B4BFF0D6DEAD0FAA57FE2B5C00D7A56 /* escape.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = escape.c; path = src/escape.c; sourceTree = "<group>"; };
-		4C0F469BAD62646658C3EB5570FFE695 /* HBHandlebarsKVCValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHandlebarsKVCValidation.h; path = "src/handlebars-objc/context/HBHandlebarsKVCValidation.h"; sourceTree = "<group>"; };
-		4D8DEBBBC1275D3AFB66A62678D28B20 /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = reader.c; path = src/reader.c; sourceTree = "<group>"; };
-		4E0097299AEBE094481B46F8320D147D /* HBAstString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstString.m; path = "src/handlebars-objc/ast/expression/HBAstString.m"; sourceTree = "<group>"; };
-		4F37ADB561C9E4BA0B6ADBC29627C0AD /* HBContextRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextRendering.h; path = "src/handlebars-objc/context/HBContextRendering.h"; sourceTree = "<group>"; };
-		509CB823C4576DF0C828FC2133679618 /* HBAstParametersHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParametersHash.m; path = "src/handlebars-objc/ast/expression/HBAstParametersHash.m"; sourceTree = "<group>"; };
-		50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibYAML.xcconfig; sourceTree = "<group>"; };
-		516E92D76E6AE59138184EAF4F6CEDD2 /* hoedown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hoedown-dummy.m"; sourceTree = "<group>"; };
-		5282ED130B2B300266225117EBDD88B5 /* HBParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBParser.h; path = "src/handlebars-objc/parser/HBParser.h"; sourceTree = "<group>"; };
-		558355B5459661B735F5D1CA2BE74ED1 /* hoedown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hoedown-prefix.pch"; sourceTree = "<group>"; };
+		4B0D4DF635C171E2113EF806246FCB12 /* HBTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTemplate.h; path = "src/handlebars-objc/runtime/HBTemplate.h"; sourceTree = "<group>"; };
+		4BA15DAB2220AA19DA49DF94016521F9 /* JJPluralForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJPluralForm.m; path = JJPluralForm/JJPluralForm.m; sourceTree = "<group>"; };
+		4BBEDCF6CCD774F764EE4266278F4394 /* HBAstKeyPathComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstKeyPathComponent.m; path = "src/handlebars-objc/ast/expression/HBAstKeyPathComponent.m"; sourceTree = "<group>"; };
+		4EC605659DD0B27D42F7D85BEAE7035A /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesWindowController.h; path = Framework/MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		4FF3BCDE2B2676317F41E583E9475FEA /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = reader.c; path = src/reader.c; sourceTree = "<group>"; };
+		500A3E402BF0C9060DF5E0B526F422D8 /* GBOptionsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBOptionsHelper.h; path = GBCli/src/GBOptionsHelper.h; sourceTree = "<group>"; };
+		54A50BD5D551B2F7AAD0948B7538E058 /* HBObjectPropertyAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBObjectPropertyAccess.h; path = "src/handlebars-objc/context/HBObjectPropertyAccess.h"; sourceTree = "<group>"; };
 		5770C3D2A9DBC584DFE6F600BB31D59A /* Pods-MacDownTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacDownTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5793F9C6441C587FE411991F0E2B5D06 /* M13OrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13OrderedDictionary-dummy.m"; sourceTree = "<group>"; };
-		58508533F001F9B466AB2AA02684B0E2 /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = parser.c; path = src/parser.c; sourceTree = "<group>"; };
-		59A4B5871D265A157E0F7B51ECC77D89 /* HBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelper.h; path = "src/handlebars-objc/helpers/HBHelper.h"; sourceTree = "<group>"; };
+		57DCBDE20C1C20A176A67A8B78E9FBF8 /* yaml_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml_private.h; path = src/yaml_private.h; sourceTree = "<group>"; };
+		57F70841940E0DC0E44D58C3F9ABD623 /* MASPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferences.h; path = Framework/MASPreferences.h; sourceTree = "<group>"; };
+		59488FCE283C992CA4E8332BCF13F3DE /* HBContextState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextState.h; path = "src/handlebars-objc/context/HBContextState.h"; sourceTree = "<group>"; };
+		5998038FAAFEC00E71BD51F5EBB58FFC /* HBContextRendering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextRendering.h; path = "src/handlebars-objc/context/HBContextRendering.h"; sourceTree = "<group>"; };
 		5B868CBECCEE1046BCC5AEAF65D8C338 /* libJJPluralForm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJJPluralForm.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BAF58DB300987758BC8B14187F29B44 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
-		5CEE88684B843AFB085CC98EB480EA07 /* HBAstParametersHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParametersHash.h; path = "src/handlebars-objc/ast/expression/HBAstParametersHash.h"; sourceTree = "<group>"; };
-		5DEC023F1BC043B4BE2C052636B63E3A /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html.c; path = src/html.c; sourceTree = "<group>"; };
-		5EF36195105C06E55C2199848358E939 /* dumper.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dumper.c; path = src/dumper.c; sourceTree = "<group>"; };
-		606526AA89535E856D36B0F766D83508 /* HBHandlebars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHandlebars.h; path = "src/handlebars-objc/HBHandlebars.h"; sourceTree = "<group>"; };
-		60E293BE609D8744A868B8EB8244D544 /* HBContextStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextStack.h; path = "src/handlebars-objc/context/HBContextStack.h"; sourceTree = "<group>"; };
-		61B9F8D53420C9FC9654EFD07DE11B76 /* HBAst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAst.h; path = "src/handlebars-objc/ast/HBAst.h"; sourceTree = "<group>"; };
-		62126BC24E539449225401BAD933B8C0 /* HBAstEvaluationVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstEvaluationVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstEvaluationVisitor.m"; sourceTree = "<group>"; };
-		621B030BA4620989C959CB19160611BA /* HBAstValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstValue.m; path = "src/handlebars-objc/ast/expression/HBAstValue.m"; sourceTree = "<group>"; };
-		62F2C975D01BD0DE6A4F26CEBD6AD7A6 /* HBAstVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstVisitor.m"; sourceTree = "<group>"; };
+		5E4E5B52046ADF13DD0AAD24DAD187C8 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
+		618AE93047E15233594BDEC3446450C3 /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = src/autolink.h; sourceTree = "<group>"; };
 		6306A2115A9A94C6826FC2A381E0F709 /* libPods-MacDown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDown.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63267CCEE1E7AE2FE90D9F4CD7C2018F /* HBAstNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstNumber.m; path = "src/handlebars-objc/ast/expression/HBAstNumber.m"; sourceTree = "<group>"; };
-		6865869D4FA391F07CB4B72E28210C68 /* HBTemplate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTemplate.h; path = "src/handlebars-objc/runtime/HBTemplate.h"; sourceTree = "<group>"; };
-		6A49C1706209EC8F19230009FD68CE47 /* html_smartypants.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html_smartypants.c; path = src/html_smartypants.c; sourceTree = "<group>"; };
+		682FE156C06ADA371391B5B708484BA8 /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = parser.c; path = src/parser.c; sourceTree = "<group>"; };
 		6B40C9E1E5A07D48B134C7805823A03E /* Pods-MacDownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacDownTests.release.xcconfig"; sourceTree = "<group>"; };
-		6E2864A1E0424021AC861701AED6F120 /* HBAstString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstString.h; path = "src/handlebars-objc/ast/expression/HBAstString.h"; sourceTree = "<group>"; };
+		6D3504DB878F6FF70FDB93E938A73E0B /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = src/autolink.c; sourceTree = "<group>"; };
+		6E95F723BD83EBAA65D2E2EA5FF9E9DC /* HBAstRawText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstRawText.m; path = "src/handlebars-objc/ast/HBAstRawText.m"; sourceTree = "<group>"; };
+		708D50E3D948492B0D9FCF8207AF2004 /* HBAstExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstExpression.h; path = "src/handlebars-objc/ast/expression/HBAstExpression.h"; sourceTree = "<group>"; };
+		71062D5A0326A7F28D7946CD734B9A5B /* JJPluralForm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJPluralForm.h; path = JJPluralForm/JJPluralForm.h; sourceTree = "<group>"; };
 		714F08241A94B30693C15C5FEC3F8DB5 /* Pods-MacDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacDown-dummy.m"; sourceTree = "<group>"; };
-		7165D0FAD562A41DA36167FAD1D92792 /* handlebars-objc.lm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.lex; name = "handlebars-objc.lm"; path = "src/handlebars-objc/parser/handlebars-objc.lm"; sourceTree = "<group>"; };
-		71D166E81C44544FB642263CA47D7FD9 /* HBAstSimpleTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstSimpleTag.h; path = "src/handlebars-objc/ast/HBAstSimpleTag.h"; sourceTree = "<group>"; };
 		74B153FB23822538B1D348EF992E3EB9 /* libLibYAML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibYAML.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C18AF788D63BBBC1BDFE307D4B246C /* HBAstNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstNode.m; path = "src/handlebars-objc/ast/HBAstNode.m"; sourceTree = "<group>"; };
-		78F4115C23D39C821C9D8C36E9310ED2 /* HBAstParserPostprocessingVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParserPostprocessingVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstParserPostprocessingVisitor.h"; sourceTree = "<group>"; };
-		79509865A5A9930947C5F1857FD20896 /* HBHelperCallingInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperCallingInfo.m; path = "src/handlebars-objc/helpers/HBHelperCallingInfo.m"; sourceTree = "<group>"; };
-		7AB922561D37F4F972D8BAF27A38A947 /* document.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = document.c; path = src/document.c; sourceTree = "<group>"; };
+		757DD3EFFE12E13CB124BFF35D56D6D9 /* HBAstParametersHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParametersHash.h; path = "src/handlebars-objc/ast/expression/HBAstParametersHash.h"; sourceTree = "<group>"; };
+		759B675E0CB68100C0F69A1CE99EFE3D /* HBPartial_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartial_Private.h; path = "src/handlebars-objc/partials/HBPartial_Private.h"; sourceTree = "<group>"; };
+		75DCDA3F38048CC0F254C4497FABB050 /* MASPreferences.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MASPreferences.xcconfig; sourceTree = "<group>"; };
+		762A9C9438EFA5EEB4D72A0C56E6A167 /* HBHandlebars.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHandlebars.m; path = "src/handlebars-objc/HBHandlebars.m"; sourceTree = "<group>"; };
+		77F9AC1E3D50D6B42F87EF0D1BABD930 /* HBAstNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstNumber.h; path = "src/handlebars-objc/ast/expression/HBAstNumber.h"; sourceTree = "<group>"; };
+		79613E0D149A21601EBB8BC0630D8B40 /* HBTemplate_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTemplate_Private.h; path = "src/handlebars-objc/runtime/HBTemplate_Private.h"; sourceTree = "<group>"; };
+		7B6595A876924192E6DC3DFEB9A9E3BF /* hoedown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hoedown-prefix.pch"; sourceTree = "<group>"; };
 		7C316294EF4CB334C09B51A0164AA9EA /* Pods-MacDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacDown.debug.xcconfig"; sourceTree = "<group>"; };
-		7CAB5AEC490562AA365BA2212C4194CA /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanner.c; path = src/scanner.c; sourceTree = "<group>"; };
-		7E7E11C15CFA008EE1D2E1E93886A0E4 /* JJPluralForm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJPluralForm.m; path = JJPluralForm/JJPluralForm.m; sourceTree = "<group>"; };
-		7E904DF165BF94786EA1CF9420C41A0E /* HBAstParserTestVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstParserTestVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstParserTestVisitor.h"; sourceTree = "<group>"; };
+		7C86094C3549BB2BD9E9D16654ECB440 /* yaml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml.h; path = include/yaml.h; sourceTree = "<group>"; };
+		7C86FD8F31B8F8D8A0431678272DF75C /* dumper.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = dumper.c; path = src/dumper.c; sourceTree = "<group>"; };
+		7E367DC45B6C7BDCD54D90E702A87F5B /* JJPluralForm-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJPluralForm-prefix.pch"; sourceTree = "<group>"; };
 		7EB4A0194E96AE6B88064FAD3D97341E /* Pods-MacDownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacDownTests.debug.xcconfig"; sourceTree = "<group>"; };
-		824268ED2F46AC5799D326F1F89D4705 /* HBEscapingFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBEscapingFunctions.m; path = "src/handlebars-objc/runtime/HBEscapingFunctions.m"; sourceTree = "<group>"; };
 		831B060445C9256329068CB982EB5E98 /* libPods-MacDownTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MacDownTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84623135E02F4C5A49D91972E4E4A03D /* HBAstTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstTag.h; path = "src/handlebars-objc/ast/HBAstTag.h"; sourceTree = "<group>"; };
-		85C3D1342AF439B4B68C74571C51E09D /* JJPluralForm-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJPluralForm-dummy.m"; sourceTree = "<group>"; };
-		86A914DFAC304F073AC38349D7910126 /* HBPartial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartial.h; path = "src/handlebars-objc/partials/HBPartial.h"; sourceTree = "<group>"; };
-		8719264139B57CF9C28EE705697554B5 /* HBAstNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstNumber.h; path = "src/handlebars-objc/ast/expression/HBAstNumber.h"; sourceTree = "<group>"; };
-		8851BC261DAA41AA50AF553C4E81A17D /* HBContextState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextState.m; path = "src/handlebars-objc/context/HBContextState.m"; sourceTree = "<group>"; };
-		8AC3A71B6AE0E1D075786534A741915D /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		8C8F4D1B4DDB62DEE0571F2720BD8D35 /* HBHelperCallingInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperCallingInfo.h; path = "src/handlebars-objc/helpers/HBHelperCallingInfo.h"; sourceTree = "<group>"; };
+		86AF2A3BEAF909C610DB0E97D69D2E65 /* HBPartial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBPartial.m; path = "src/handlebars-objc/partials/HBPartial.m"; sourceTree = "<group>"; };
+		890E7905451FB3CE0A2E96D5E8BF8FEC /* GBSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBSettings.m; path = GBCli/src/GBSettings.m; sourceTree = "<group>"; };
+		89A19A38D0968BBE5BE5F38C14D691CB /* HBAstString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstString.m; path = "src/handlebars-objc/ast/expression/HBAstString.m"; sourceTree = "<group>"; };
+		89CD8A9E530264A80858972AA08C9340 /* handlebars-objc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "handlebars-objc-dummy.m"; sourceTree = "<group>"; };
+		89ECF5E7821220742BB98F566F5656E9 /* GBCli-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBCli-dummy.m"; sourceTree = "<group>"; };
+		8AE7CD05FEE44A1F750055E79192007F /* HBAstKeyPathComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstKeyPathComponent.h; path = "src/handlebars-objc/ast/expression/HBAstKeyPathComponent.h"; sourceTree = "<group>"; };
 		8CD2EE1B59E9F0E590F555F4C18AC874 /* Pods-macdown-cmd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-macdown-cmd-dummy.m"; sourceTree = "<group>"; };
-		8D8B418E0E0F7A57F8ADF3DD074D3828 /* GBCli-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBCli-dummy.m"; sourceTree = "<group>"; };
-		9121D8599AAE8B5CB18B690B904D6ED3 /* HBPartialRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBPartialRegistry.m; path = "src/handlebars-objc/partials/HBPartialRegistry.m"; sourceTree = "<group>"; };
+		8CE88B1CFCF5194473E7D490BA75F2B5 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesViewController.h; path = Framework/MASPreferencesViewController.h; sourceTree = "<group>"; };
+		8DED7823CB6FF33CFCED8AA3FCF0CFAD /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = src/version.h; sourceTree = "<group>"; };
+		91E02DC3AFA2BB702C32BB588F4DC14E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		925DE3DAC4D134DAB958A2EEC878F285 /* handlebars-objc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "handlebars-objc-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		960580EA7743C13A65B3913C55935C79 /* HBAstProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstProgram.m; path = "src/handlebars-objc/ast/HBAstProgram.m"; sourceTree = "<group>"; };
-		963BFBADFF4085684D44660EF8F48E76 /* html_blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html_blocks.c; path = src/html_blocks.c; sourceTree = "<group>"; };
-		967F6B37534D159107155DF1B216F289 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MASPreferencesWindow.xib; path = en.lproj/MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		9636153016049DE4F1CE577993DA666E /* GBPrint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPrint.m; path = GBCli/src/GBPrint.m; sourceTree = "<group>"; };
+		9638D6EC7FDF67513A9F6026EEE7AD09 /* HBAstVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstVisitor.m"; sourceTree = "<group>"; };
+		971E7AB844BC53E3B2F027B853845A01 /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = version.c; path = src/version.c; sourceTree = "<group>"; };
 		9771438650302708DC0A31915DE268B0 /* Pods-MacDownTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacDownTests-resources.sh"; sourceTree = "<group>"; };
-		9772AC6B52C4163F6C3D77BA51136C2B /* version.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = version.c; path = src/version.c; sourceTree = "<group>"; };
-		9783036359F3AE24E3B39C19B4DBC823 /* HBAstBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstBlock.m; path = "src/handlebars-objc/ast/HBAstBlock.m"; sourceTree = "<group>"; };
-		97F11A0247685CB4180565747F65B26B /* HBContextStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextStack.m; path = "src/handlebars-objc/context/HBContextStack.m"; sourceTree = "<group>"; };
-		9A295365252DD627FBD532FCBE80AECE /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = src/autolink.c; sourceTree = "<group>"; };
-		9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13OrderedDictionary.xcconfig; sourceTree = "<group>"; };
-		9B56E86DBC5A465F2900F8A3800A251C /* HBPartialRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartialRegistry.h; path = "src/handlebars-objc/partials/HBPartialRegistry.h"; sourceTree = "<group>"; };
-		9E6BE3A1DD28DD4A1B5C046B0BA8B023 /* HBAstKeyPathComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstKeyPathComponent.h; path = "src/handlebars-objc/ast/expression/HBAstKeyPathComponent.h"; sourceTree = "<group>"; };
-		A2CA1C236D4168E5E6B550C1DCF6FFC0 /* yaml_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml_private.h; path = src/yaml_private.h; sourceTree = "<group>"; };
-		A3CAF044EF631513E67D45ED870E81A2 /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = src/html.h; sourceTree = "<group>"; };
-		A49466E3B3D31507B6C59BFB10D71FFB /* HBAstRawText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstRawText.h; path = "src/handlebars-objc/ast/HBAstRawText.h"; sourceTree = "<group>"; };
-		A72B1AF7CA4F34909CC39C7312E0DC2D /* HBParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBParser.m; path = "src/handlebars-objc/parser/HBParser.m"; sourceTree = "<group>"; };
-		A7C7F6F32AB2861AC6B55B5DF8673519 /* HBHelperUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperUtils.h; path = "src/handlebars-objc/helpers/HBHelperUtils.h"; sourceTree = "<group>"; };
-		A8051A8E8FF8F962110F22F72C16DB26 /* MASPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferences.h; path = Framework/MASPreferences.h; sourceTree = "<group>"; };
-		A8EA7CF462C77859EFE05C49B6095E87 /* HBAstContextualValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstContextualValue.m; path = "src/handlebars-objc/ast/expression/HBAstContextualValue.m"; sourceTree = "<group>"; };
-		AABE0AEA76A9F59B8B3BC8D18CA0310B /* HBHelperRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperRegistry.m; path = "src/handlebars-objc/helpers/HBHelperRegistry.m"; sourceTree = "<group>"; };
-		AC862F1C935DEA7DABBB29ED9A8AE1CE /* GBPrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBPrint.h; path = GBCli/src/GBPrint.h; sourceTree = "<group>"; };
+		9C644AA998697DA4548672B76DBEE2BA /* HBEscapingFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBEscapingFunctions.m; path = "src/handlebars-objc/runtime/HBEscapingFunctions.m"; sourceTree = "<group>"; };
+		9CFE268B5083067F102A73E874F9D17D /* HBAstExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstExpression.m; path = "src/handlebars-objc/ast/expression/HBAstExpression.m"; sourceTree = "<group>"; };
+		9E13F035FFC8E56B77BB1F1BCF1F85CB /* HBAstPartialTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstPartialTag.m; path = "src/handlebars-objc/ast/HBAstPartialTag.m"; sourceTree = "<group>"; };
+		9F1EB2619EF785A70E4C6CF2AA772A02 /* GBCommandLineParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBCommandLineParser.m; path = GBCli/src/GBCommandLineParser.m; sourceTree = "<group>"; };
+		A0AA2E1A43A44086322A2564C79F86C9 /* HBTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTemplate.m; path = "src/handlebars-objc/runtime/HBTemplate.m"; sourceTree = "<group>"; };
+		A1DCEB0D43374F4A6DB885D509394DA7 /* HBHandlebarsKVCValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHandlebarsKVCValidation.h; path = "src/handlebars-objc/context/HBHandlebarsKVCValidation.h"; sourceTree = "<group>"; };
+		A4B79486F9277F9C87FF5A47F1675F51 /* hoedown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hoedown-dummy.m"; sourceTree = "<group>"; };
+		A6D2A634B827D6DCB4A60AA5FC07534C /* HBHelperRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperRegistry.h; path = "src/handlebars-objc/helpers/HBHelperRegistry.h"; sourceTree = "<group>"; };
+		A718A2DDCD1B8DDAB02E54010CC508CF /* PAPropertyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPropertyDescriptor.h; path = PAPreferences/PAPropertyDescriptor.h; sourceTree = "<group>"; };
+		AAE7BD6CBEAB709D2CA29364BB35D90A /* HBAstTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstTag.m; path = "src/handlebars-objc/ast/HBAstTag.m"; sourceTree = "<group>"; };
+		AB2032BC0766D46ECBAABF1BA98F91B4 /* HBAstParserPostprocessingVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParserPostprocessingVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstParserPostprocessingVisitor.m"; sourceTree = "<group>"; };
 		ACB6D6C65383F9F226037A51CC40B487 /* Pods-MacDown-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MacDown-frameworks.sh"; sourceTree = "<group>"; };
-		AE237606F7FBDA2F085AC7D4EE49E610 /* M13OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = M13OrderedDictionary.h; sourceTree = "<group>"; };
-		B018115419B7F52D10EA82CCCBF2C56E /* HBAstBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstBlock.h; path = "src/handlebars-objc/ast/HBAstBlock.h"; sourceTree = "<group>"; };
-		B086FD3BD0D19AB733F482A4E67094F3 /* HBObjectPropertyAccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBObjectPropertyAccess.h; path = "src/handlebars-objc/context/HBObjectPropertyAccess.h"; sourceTree = "<group>"; };
+		AF3C8E3BAA50444995BF14407B11ECA7 /* HBAstString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstString.h; path = "src/handlebars-objc/ast/expression/HBAstString.h"; sourceTree = "<group>"; };
+		B066C2595F94DB9584108B3F5F099327 /* HBPartialRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBPartialRegistry.m; path = "src/handlebars-objc/partials/HBPartialRegistry.m"; sourceTree = "<group>"; };
 		B1509D1A31EB50DCA66BE0BDFE374A0E /* Pods-macdown-cmd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macdown-cmd.debug.xcconfig"; sourceTree = "<group>"; };
-		B2304AB58F263AD07491568E0285E703 /* GBSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBSettings.h; path = GBCli/src/GBSettings.h; sourceTree = "<group>"; };
-		B2414F99EDD52D2A79AC1A8C0F4540F4 /* GBCommandLineParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBCommandLineParser.h; path = GBCli/src/GBCommandLineParser.h; sourceTree = "<group>"; };
-		B531981FC8E36EBFFC2B3A0F0B28E094 /* HBAstExpression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstExpression.m; path = "src/handlebars-objc/ast/expression/HBAstExpression.m"; sourceTree = "<group>"; };
-		B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hoedown.xcconfig; sourceTree = "<group>"; };
-		BA3113BB8E2CC3A88373C323C2080B10 /* PAPropertyDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPropertyDescriptor.h; path = PAPreferences/PAPropertyDescriptor.h; sourceTree = "<group>"; };
+		B698BE00CD7B7E549C182B2431D14FBA /* HBContextStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextStack.m; path = "src/handlebars-objc/context/HBContextStack.m"; sourceTree = "<group>"; };
+		B74824DA185E1B5FAFA3AACF4221741C /* M13OrderedDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13OrderedDictionary-dummy.m"; sourceTree = "<group>"; };
+		B9229E372BBBF6B77BBDCD9F38C2DAED /* loader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loader.c; path = src/loader.c; sourceTree = "<group>"; };
+		BA63C829D96F79426226CBDE222A9E1C /* document.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = document.c; path = src/document.c; sourceTree = "<group>"; };
+		BC277595C1EABE00AD8E279091A6D5CD /* HBContextRendering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBContextRendering.m; path = "src/handlebars-objc/context/HBContextRendering.m"; sourceTree = "<group>"; };
 		BD0B7F9073BAE64525302BA8E0B46544 /* Pods-MacDown-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MacDown-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF6590EB07DD8F3E43A7EC55E7738265 /* HBErrorHandling_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBErrorHandling_Private.h; path = "src/handlebars-objc/errorHandling/HBErrorHandling_Private.h"; sourceTree = "<group>"; };
-		C1D2308F8D5ED4B35F7AA9EEDB053B55 /* document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = document.h; path = src/document.h; sourceTree = "<group>"; };
-		C3222B840587E79ECE6388D4DAAFD663 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesViewController.h; path = Framework/MASPreferencesViewController.h; sourceTree = "<group>"; };
-		C3629AA5261AFE6C7589F5775670874A /* GBOptionsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBOptionsHelper.h; path = GBCli/src/GBOptionsHelper.h; sourceTree = "<group>"; };
-		C77E653A7B7AD5CBD4BF3AF174A73D07 /* HBAstValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstValue.h; path = "src/handlebars-objc/ast/expression/HBAstValue.h"; sourceTree = "<group>"; };
-		C916A764002C9ACB65FF0EFA18B4D40B /* HBHelperUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperUtils.m; path = "src/handlebars-objc/helpers/HBHelperUtils.m"; sourceTree = "<group>"; };
-		C98D0D9AD8E6C1EEE16EA788324CA9EF /* HBErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBErrorHandling.m; path = "src/handlebars-objc/errorHandling/HBErrorHandling.m"; sourceTree = "<group>"; };
-		CCFC31CF6E0A847341B9A55DD5BE3844 /* HBTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBTemplate.m; path = "src/handlebars-objc/runtime/HBTemplate.m"; sourceTree = "<group>"; };
+		BEE972B788A72CD3A8D2D80B1C1A44E3 /* PAPreferences.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPreferences.h; path = PAPreferences/PAPreferences.h; sourceTree = "<group>"; };
+		C459496CF2FF476B7A6A398239DD6391 /* M13OrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13OrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
+		C49CF3C52EE57314A703F95A8C640F30 /* HBAstParametersHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParametersHash.m; path = "src/handlebars-objc/ast/expression/HBAstParametersHash.m"; sourceTree = "<group>"; };
+		C533AE782EFA90E086C67BD435D76FD1 /* HBParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBParser.m; path = "src/handlebars-objc/parser/HBParser.m"; sourceTree = "<group>"; };
+		C711F36298E3DDF6E46930CEF4E386F5 /* HBAstProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstProgram.h; path = "src/handlebars-objc/ast/HBAstProgram.h"; sourceTree = "<group>"; };
+		C71FB70683663F274C0363DE408C4510 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = src/buffer.c; sourceTree = "<group>"; };
+		C7F56928D04F9C144F3DB2270C8B6693 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASPreferencesWindowController.m; path = Framework/MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		C92C24AA582534CC53729FC0D157CC88 /* HBAstValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstValue.m; path = "src/handlebars-objc/ast/expression/HBAstValue.m"; sourceTree = "<group>"; };
+		CAA418FAF9984070EC646844CC17AE7A /* HBErrorHandling_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBErrorHandling_Private.h; path = "src/handlebars-objc/errorHandling/HBErrorHandling_Private.h"; sourceTree = "<group>"; };
 		CD61502FFE55FC4B5FF3CCDC7B5A8A37 /* libMASPreferences.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMASPreferences.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFCA50BF64AB8E41B1C4FA72CAAD7D2B /* HBAstVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstVisitor.h; path = "src/handlebars-objc/astVisitors/HBAstVisitor.h"; sourceTree = "<group>"; };
+		CD92BF413BF0FB0F3A2ED37474DC9D16 /* html_blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html_blocks.c; path = src/html_blocks.c; sourceTree = "<group>"; };
+		CEAFFCD338345464802C96D3421C95C7 /* GBOptionsHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBOptionsHelper.m; path = GBCli/src/GBOptionsHelper.m; sourceTree = "<group>"; };
 		CFEC9F4FA0A57FA78EFEED83FA75F9EB /* Pods-macdown-cmd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-macdown-cmd.release.xcconfig"; sourceTree = "<group>"; };
-		D07F6EEF7939233C041873ADE4BDB9B5 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = writer.c; path = src/writer.c; sourceTree = "<group>"; };
-		D192BD7971ECE8E2B8F07D8AE3BAA608 /* HBBuiltinHelpersRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBBuiltinHelpersRegistry.m; path = "src/handlebars-objc/helpers/HBBuiltinHelpersRegistry.m"; sourceTree = "<group>"; };
-		D272A0B9A7304B2FE4D6422D4DF289D4 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASPreferencesWindowController.h; path = Framework/MASPreferencesWindowController.h; sourceTree = "<group>"; };
-		D353D748F11ED6148F5B1A245A04D47F /* yaml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml.h; path = include/yaml.h; sourceTree = "<group>"; };
-		D57138A5417502F8573F51AA1A9F599B /* HBAstKeyPathComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstKeyPathComponent.m; path = "src/handlebars-objc/ast/expression/HBAstKeyPathComponent.m"; sourceTree = "<group>"; };
-		D6158557724D9CA8D9FCBBB1B1081A6B /* HBTemplate_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBTemplate_Private.h; path = "src/handlebars-objc/runtime/HBTemplate_Private.h"; sourceTree = "<group>"; };
-		D639F07995F7BEE03F8DB93906815448 /* LibYAML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibYAML-prefix.pch"; sourceTree = "<group>"; };
-		D885C257DEA10731E53FFA51D4DBC77A /* HBBuiltinHelpersRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBBuiltinHelpersRegistry.h; path = "src/handlebars-objc/helpers/HBBuiltinHelpersRegistry.h"; sourceTree = "<group>"; };
+		D1ABDEBC1C9E8969BA0B2CAF35203EA4 /* HBExecutionContext_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContext_Private.h; path = "src/handlebars-objc/runtime/HBExecutionContext_Private.h"; sourceTree = "<group>"; };
+		D3D1D72EC294EEEF8F9C6E6B12682327 /* HBAstNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstNode.h; path = "src/handlebars-objc/ast/HBAstNode.h"; sourceTree = "<group>"; };
+		D4EE7DA0AFDE015A4226E7085143FA2D /* PAPreferences.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPreferences.m; path = PAPreferences/PAPreferences.m; sourceTree = "<group>"; };
+		D55E3BA1FFF9611C3543B73835DA5890 /* HBAstValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstValue.h; path = "src/handlebars-objc/ast/expression/HBAstValue.h"; sourceTree = "<group>"; };
+		D55ED4B5CE3E58CB512BF2A2FAE7741F /* handlebars-objc.ym */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.yacc; name = "handlebars-objc.ym"; path = "src/handlebars-objc/parser/handlebars-objc.ym"; sourceTree = "<group>"; };
+		D69D5314EB3465C087234C7178EB1503 /* HBEscapedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBEscapedString.m; path = "src/handlebars-objc/helpers/HBEscapedString.m"; sourceTree = "<group>"; };
+		D78659610C653CD69774432C403FB584 /* HBParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBParser.h; path = "src/handlebars-objc/parser/HBParser.h"; sourceTree = "<group>"; };
+		D811A706DD4787B5B82C5BA8602E4EDC /* PAPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAPreferences-dummy.m"; sourceTree = "<group>"; };
+		D83CF999CEEEEA0C093387CB896566E1 /* document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = document.h; path = src/document.h; sourceTree = "<group>"; };
 		D8B5C2890F244A026ADF18BB815490FE /* Pods-MacDownTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MacDownTests-dummy.m"; sourceTree = "<group>"; };
-		DA2891457877AEF67D8E39F87FBA6336 /* LibYAML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibYAML-dummy.m"; sourceTree = "<group>"; };
-		DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "handlebars-objc.xcconfig"; sourceTree = "<group>"; };
-		DB4B4DC9525C93A562C2BDABBD58865A /* escape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = escape.h; path = src/escape.h; sourceTree = "<group>"; };
-		DB640967AEE8F1166DF511ADD7E53CCB /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = src/buffer.h; sourceTree = "<group>"; };
-		DC592CE40053435C4A3938393C264F4E /* M13OrderedDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13OrderedDictionary-prefix.pch"; sourceTree = "<group>"; };
-		DD65BF0D9CD701EBACCE5A842A4EB800 /* PAPreferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAPreferences-prefix.pch"; sourceTree = "<group>"; };
+		DA42DFFB4BE9FFD0DF5CFC49CE042D88 /* HBAstEvaluationVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstEvaluationVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstEvaluationVisitor.m"; sourceTree = "<group>"; };
+		DB671BAD8C677814929E5EDACB285144 /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = api.c; path = src/api.c; sourceTree = "<group>"; };
 		DE1070038832420CEBC485A4FE83CEC8 /* libPods-macdown-cmd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-macdown-cmd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1297184C471A173BE205507616E998 /* Pods-macdown-cmd-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-macdown-cmd-resources.sh"; sourceTree = "<group>"; };
-		E0A846562A51B9C99789B67A97DED5A3 /* HBExecutionContextDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContextDelegate.h; path = "src/handlebars-objc/runtime/HBExecutionContextDelegate.h"; sourceTree = "<group>"; };
-		E2DB167A579847B218112181490A9894 /* HBEscapedString_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapedString_Private.h; path = "src/handlebars-objc/helpers/HBEscapedString_Private.h"; sourceTree = "<group>"; };
-		E4C7ABEE6555D826ACC189B5ED6028BE /* HBAstSimpleTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstSimpleTag.m; path = "src/handlebars-objc/ast/HBAstSimpleTag.m"; sourceTree = "<group>"; };
+		E07B9ABF5FB8C3E1AB0B670FA825C6AC /* HBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelper.h; path = "src/handlebars-objc/helpers/HBHelper.h"; sourceTree = "<group>"; };
+		E099DD9C853B86567DC62550F756B4A9 /* HBAstNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstNode.m; path = "src/handlebars-objc/ast/HBAstNode.m"; sourceTree = "<group>"; };
+		E166091F030413A51A7DFE090213C091 /* HBPartial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartial.h; path = "src/handlebars-objc/partials/HBPartial.h"; sourceTree = "<group>"; };
 		E4DD1F8C85F78854D65C3C4AC974DC3D /* Pods-MacDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MacDown.release.xcconfig"; sourceTree = "<group>"; };
-		E524C6B6E3BE33449EAB1CA2D3120456 /* PAPropertyDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPropertyDescriptor.m; path = PAPreferences/PAPropertyDescriptor.m; sourceTree = "<group>"; };
-		E5F008F0BFAD4B878D516B0815BB9C12 /* HBAstContextualValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstContextualValue.h; path = "src/handlebars-objc/ast/expression/HBAstContextualValue.h"; sourceTree = "<group>"; };
-		E63D0727D232922D3D375DBDB37F9ADD /* HBEscapedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapedString.h; path = "src/handlebars-objc/helpers/HBEscapedString.h"; sourceTree = "<group>"; };
-		E75AB3B9398680EC1DBD140C88BB4181 /* HBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelper.m; path = "src/handlebars-objc/helpers/HBHelper.m"; sourceTree = "<group>"; };
-		E8AA6774FA3C7F56E52DCA20B4663B4B /* PAPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAPreferences-dummy.m"; sourceTree = "<group>"; };
+		E6A3AB71A90846E1CB3757B07434DBFD /* HBAstRawText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstRawText.h; path = "src/handlebars-objc/ast/HBAstRawText.h"; sourceTree = "<group>"; };
+		E7A340561DC5E97CD3908A83FCDBA092 /* hoedown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hoedown.xcconfig; sourceTree = "<group>"; };
 		E9B71B4ACF64DEA7BCE8050284C205CC /* libGBCli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGBCli.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA5507589DE01056F72626297331C927 /* HBExecutionContext_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContext_Private.h; path = "src/handlebars-objc/runtime/HBExecutionContext_Private.h"; sourceTree = "<group>"; };
-		EA6A04FC352D936822A337F6958648B1 /* HBAstPartialTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstPartialTag.m; path = "src/handlebars-objc/ast/HBAstPartialTag.m"; sourceTree = "<group>"; };
-		EBDD818CEE2258F1B27ECC1D8BC4F489 /* loader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = loader.c; path = src/loader.c; sourceTree = "<group>"; };
-		ED884B0B71DF18398FDCB384FD6755F1 /* HBExecutionContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBExecutionContext.m; path = "src/handlebars-objc/runtime/HBExecutionContext.m"; sourceTree = "<group>"; };
-		EE1EF8AB582A241EF33B24A780E916A5 /* HBExecutionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBExecutionContext.h; path = "src/handlebars-objc/runtime/HBExecutionContext.h"; sourceTree = "<group>"; };
-		EE8CB89D2DCFD981B7EB54440803239E /* HBHandlebars.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHandlebars.m; path = "src/handlebars-objc/HBHandlebars.m"; sourceTree = "<group>"; };
-		EF219310A1E1724994CAF6008405714C /* HBAstParserPostprocessingVisitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstParserPostprocessingVisitor.m; path = "src/handlebars-objc/astVisitors/HBAstParserPostprocessingVisitor.m"; sourceTree = "<group>"; };
-		F004FB366B64F5B72359DC5CAE75A67D /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = src/autolink.h; sourceTree = "<group>"; };
-		F04DC083ED7EFBC3292DCC01B358CF2A /* HBPartial_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBPartial_Private.h; path = "src/handlebars-objc/partials/HBPartial_Private.h"; sourceTree = "<group>"; };
-		F2410558D5C038497E87CFFE21C78D82 /* HBAstPartialTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBAstPartialTag.h; path = "src/handlebars-objc/ast/HBAstPartialTag.h"; sourceTree = "<group>"; };
-		F382431FAEB3796FE41A0B9F3FDAB6C1 /* HBContextState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBContextState.h; path = "src/handlebars-objc/context/HBContextState.h"; sourceTree = "<group>"; };
-		F3E023D6E297A89363C98DB036BC08F6 /* MASPreferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MASPreferences-prefix.pch"; sourceTree = "<group>"; };
+		EC831993E06730B2EE35DCFC3FD6ABF6 /* MASPreferences-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MASPreferences-dummy.m"; sourceTree = "<group>"; };
+		ED24F0B31CDF2D77C40D34D0DC56A4B7 /* HBHelperUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBHelperUtils.h; path = "src/handlebars-objc/helpers/HBHelperUtils.h"; sourceTree = "<group>"; };
+		EEB0E3C2DE5A01D056DA8282C3BA43C1 /* HBBuiltinHelpersRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBBuiltinHelpersRegistry.h; path = "src/handlebars-objc/helpers/HBBuiltinHelpersRegistry.h"; sourceTree = "<group>"; };
+		F19C603FF41F532C1FDFFEDE59CC3735 /* PAPreferences-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAPreferences-prefix.pch"; sourceTree = "<group>"; };
+		F22EEDCB37C85F6C6005F8F62A6ACD51 /* GBCli.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBCli.h; path = GBCli/src/GBCli.h; sourceTree = "<group>"; };
+		F24C460B82C333B27D4068E198AF6E0C /* HBHelperCallingInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperCallingInfo.m; path = "src/handlebars-objc/helpers/HBHelperCallingInfo.m"; sourceTree = "<group>"; };
 		F540A9E3967744B2B92574F196B2883A /* libhandlebars-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libhandlebars-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E14DA5E36013E15997863F3C8FABC7 /* HBObjectPropertyAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBObjectPropertyAccess.m; path = "src/handlebars-objc/context/HBObjectPropertyAccess.m"; sourceTree = "<group>"; };
-		FA18AB33D0953DAC7DCCD9198E84C45D /* HBAstComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBAstComment.m; path = "src/handlebars-objc/ast/HBAstComment.m"; sourceTree = "<group>"; };
-		FBBCA08FB4B3DB00A6FF1615BA8F2690 /* HBEscapingFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBEscapingFunctions.h; path = "src/handlebars-objc/runtime/HBEscapingFunctions.h"; sourceTree = "<group>"; };
+		F983C2F1542EA230AF8AE07D6DCC6659 /* HBObjectPropertyAccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBObjectPropertyAccess.m; path = "src/handlebars-objc/context/HBObjectPropertyAccess.m"; sourceTree = "<group>"; };
+		FC7A0CD07B8B9F010ED4DB4FA92BA226 /* HBHelperRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBHelperRegistry.m; path = "src/handlebars-objc/helpers/HBHelperRegistry.m"; sourceTree = "<group>"; };
+		FD5DB4EA2A2F1A7F7C6A7D3A2E4B0140 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = writer.c; path = src/writer.c; sourceTree = "<group>"; };
 		FD948E9A33E0065010A1A7B9FCD97E37 /* Pods-macdown-cmd-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-macdown-cmd-frameworks.sh"; sourceTree = "<group>"; };
-		FF6B9BAAF9950701ED2F84751E70480E /* GBPrint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBPrint.m; path = GBCli/src/GBPrint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -525,46 +525,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036F6B53DE1294FD2FEF6ACF974C600E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */,
-				E8AA6774FA3C7F56E52DCA20B4663B4B /* PAPreferences-dummy.m */,
-				DD65BF0D9CD701EBACCE5A842A4EB800 /* PAPreferences-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PAPreferences";
-			sourceTree = "<group>";
-		};
-		0382FB33FC28B550ED32939BD3FF3EA7 /* LibYAML */ = {
-			isa = PBXGroup;
-			children = (
-				009920352489282FC9C8EBF4EBE8A0F3 /* api.c */,
-				8AC3A71B6AE0E1D075786534A741915D /* config.h */,
-				5EF36195105C06E55C2199848358E939 /* dumper.c */,
-				44A32B1CD94A4D4A1FD9D3485C923467 /* emitter.c */,
-				EBDD818CEE2258F1B27ECC1D8BC4F489 /* loader.c */,
-				58508533F001F9B466AB2AA02684B0E2 /* parser.c */,
-				4D8DEBBBC1275D3AFB66A62678D28B20 /* reader.c */,
-				7CAB5AEC490562AA365BA2212C4194CA /* scanner.c */,
-				D07F6EEF7939233C041873ADE4BDB9B5 /* writer.c */,
-				D353D748F11ED6148F5B1A245A04D47F /* yaml.h */,
-				A2CA1C236D4168E5E6B550C1DCF6FFC0 /* yaml_private.h */,
-				47D08D98CDF60351C2D710B33E965228 /* Support Files */,
-			);
-			path = LibYAML;
-			sourceTree = "<group>";
-		};
-		0ECAAD7F3D891C2A613847E0F8DA344D /* M13OrderedDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				AE237606F7FBDA2F085AC7D4EE49E610 /* M13OrderedDictionary.h */,
-				39A5DEACF837153E95D98D5BA6DF60D8 /* M13OrderedDictionary.m */,
-				20D49412E0E674DB933B831C177510E2 /* Support Files */,
-			);
-			path = M13OrderedDictionary;
-			sourceTree = "<group>";
-		};
 		10829FEE5688E204ECD4B0654ADBEE32 /* Pods-MacDown */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,37 +540,34 @@
 			path = "Target Support Files/Pods-MacDown";
 			sourceTree = "<group>";
 		};
-		12338B30683D3A03447FFF0BE6E2246A /* Support Files */ = {
+		195FE7D31A90F30F84905FB4E3B2A047 /* LibYAML */ = {
 			isa = PBXGroup;
 			children = (
-				2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */,
-				3B393E3B1C8529B24215A9A446B8EB7C /* MASPreferences-dummy.m */,
-				F3E023D6E297A89363C98DB036BC08F6 /* MASPreferences-prefix.pch */,
+				DB671BAD8C677814929E5EDACB285144 /* api.c */,
+				416CF2B0D8952BEF967F2B2AD6E8ECF2 /* config.h */,
+				7C86FD8F31B8F8D8A0431678272DF75C /* dumper.c */,
+				1411C3DDC25F1B2D1C2102FB8F9C5B13 /* emitter.c */,
+				B9229E372BBBF6B77BBDCD9F38C2DAED /* loader.c */,
+				682FE156C06ADA371391B5B708484BA8 /* parser.c */,
+				4FF3BCDE2B2676317F41E583E9475FEA /* reader.c */,
+				05C7CC2B6DC9570F4E64C327EBF8DD8E /* scanner.c */,
+				FD5DB4EA2A2F1A7F7C6A7D3A2E4B0140 /* writer.c */,
+				7C86094C3549BB2BD9E9D16654ECB440 /* yaml.h */,
+				57DCBDE20C1C20A176A67A8B78E9FBF8 /* yaml_private.h */,
+				E49BECD242DB6EF42007731C09F80777 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MASPreferences";
+			path = LibYAML;
 			sourceTree = "<group>";
 		};
-		180F4EDC4D09C0D8CB817A2273203A34 /* Support Files */ = {
+		3F884D28227D393E2F39B6B1119179DF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */,
-				516E92D76E6AE59138184EAF4F6CEDD2 /* hoedown-dummy.m */,
-				558355B5459661B735F5D1CA2BE74ED1 /* hoedown-prefix.pch */,
+				E7A340561DC5E97CD3908A83FCDBA092 /* hoedown.xcconfig */,
+				A4B79486F9277F9C87FF5A47F1675F51 /* hoedown-dummy.m */,
+				7B6595A876924192E6DC3DFEB9A9E3BF /* hoedown-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/hoedown";
-			sourceTree = "<group>";
-		};
-		20D49412E0E674DB933B831C177510E2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */,
-				5793F9C6441C587FE411991F0E2B5D06 /* M13OrderedDictionary-dummy.m */,
-				DC592CE40053435C4A3938393C264F4E /* M13OrderedDictionary-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/M13OrderedDictionary";
 			sourceTree = "<group>";
 		};
 		45E48637AD10FBF22FBC5510A254CAA1 /* Pods-MacDownTests */ = {
@@ -628,25 +585,6 @@
 			path = "Target Support Files/Pods-MacDownTests";
 			sourceTree = "<group>";
 		};
-		47BA274A439180C682CC966BC7B603CE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5BAF58DB300987758BC8B14187F29B44 /* Sparkle.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47D08D98CDF60351C2D710B33E965228 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */,
-				DA2891457877AEF67D8E39F87FBA6336 /* LibYAML-dummy.m */,
-				D639F07995F7BEE03F8DB93906815448 /* LibYAML-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/LibYAML";
-			sourceTree = "<group>";
-		};
 		499C0A0486B2E3AF6B0EB4542DDB5C02 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,25 +595,90 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4D39A39391D3484AD74C8F4BC738886E /* JJPluralForm */ = {
+		4D0277471CE2933267E7951AE3465B62 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C8D53E98C6EBA5E97E2B925A59E1A1C /* JJPluralForm.h */,
-				7E7E11C15CFA008EE1D2E1E93886A0E4 /* JJPluralForm.m */,
-				7B9193C00B637CF2A379E331AFC0163E /* Support Files */,
+				75DCDA3F38048CC0F254C4497FABB050 /* MASPreferences.xcconfig */,
+				EC831993E06730B2EE35DCFC3FD6ABF6 /* MASPreferences-dummy.m */,
+				27BD67BB83C93054A6284CBD3A6506CD /* MASPreferences-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MASPreferences";
+			sourceTree = "<group>";
+		};
+		546E14234BB6F6DF0986D2ED18154215 /* PAPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				BEE972B788A72CD3A8D2D80B1C1A44E3 /* PAPreferences.h */,
+				D4EE7DA0AFDE015A4226E7085143FA2D /* PAPreferences.m */,
+				A718A2DDCD1B8DDAB02E54010CC508CF /* PAPropertyDescriptor.h */,
+				39B865E8F1043760E5AD33AFC0CF635D /* PAPropertyDescriptor.m */,
+				57BB52AE6081A74F69B6E81E5B4BE071 /* Support Files */,
+			);
+			path = PAPreferences;
+			sourceTree = "<group>";
+		};
+		57BB52AE6081A74F69B6E81E5B4BE071 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE85032975FE81D7A090E775C27D3CC /* PAPreferences.xcconfig */,
+				D811A706DD4787B5B82C5BA8602E4EDC /* PAPreferences-dummy.m */,
+				F19C603FF41F532C1FDFFEDE59CC3735 /* PAPreferences-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PAPreferences";
+			sourceTree = "<group>";
+		};
+		59A3034867BA2258901C8EDFB12B01E5 /* hoedown */ = {
+			isa = PBXGroup;
+			children = (
+				C7FF5A325651148D04D2CF9112E5DA81 /* standard */,
+				3F884D28227D393E2F39B6B1119179DF /* Support Files */,
+			);
+			path = hoedown;
+			sourceTree = "<group>";
+		};
+		5F8F489DB30ED6A152FE12A1A87A992E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4546D2663A62BC42538CAB44051F1807 /* M13OrderedDictionary.xcconfig */,
+				B74824DA185E1B5FAFA3AACF4221741C /* M13OrderedDictionary-dummy.m */,
+				C459496CF2FF476B7A6A398239DD6391 /* M13OrderedDictionary-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13OrderedDictionary";
+			sourceTree = "<group>";
+		};
+		625D9745C2C3A3038C9C10951CCBF945 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12B4A0489BBB8D065664DC8B3CEF4BDB /* JJPluralForm.xcconfig */,
+				12BC743C088B775DDE364E8D8E61A568 /* JJPluralForm-dummy.m */,
+				7E367DC45B6C7BDCD54D90E702A87F5B /* JJPluralForm-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JJPluralForm";
+			sourceTree = "<group>";
+		};
+		65E03F012EC4290736947EE306D7026D /* JJPluralForm */ = {
+			isa = PBXGroup;
+			children = (
+				71062D5A0326A7F28D7946CD734B9A5B /* JJPluralForm.h */,
+				4BA15DAB2220AA19DA49DF94016521F9 /* JJPluralForm.m */,
+				625D9745C2C3A3038C9C10951CCBF945 /* Support Files */,
 			);
 			path = JJPluralForm;
 			sourceTree = "<group>";
 		};
-		7B9193C00B637CF2A379E331AFC0163E /* Support Files */ = {
+		7934238F89D2F4472E1B0E442BEC02EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */,
-				85C3D1342AF439B4B68C74571C51E09D /* JJPluralForm-dummy.m */,
-				17B7404307B5753EFE5C6F03282B34C6 /* JJPluralForm-prefix.pch */,
+				154288B810DFEC7CEB8A2CDC8E1490AE /* handlebars-objc.xcconfig */,
+				89CD8A9E530264A80858972AA08C9340 /* handlebars-objc-dummy.m */,
+				925DE3DAC4D134DAB958A2EEC878F285 /* handlebars-objc-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/JJPluralForm";
+			path = "../Target Support Files/handlebars-objc";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -683,7 +686,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
-				E9806A8222FD07492674BEF9ED01FBCA /* Pods */,
+				EA1564D19CC3320FDFC859D102C1CC25 /* Pods */,
 				8257EA605D452F8E91A18C06E067DF8E /* Products */,
 				499C0A0486B2E3AF6B0EB4542DDB5C02 /* Targets Support Files */,
 			);
@@ -707,38 +710,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DFB3F106323E66A584760D474CF22AC /* standard */ = {
+		847E21AFC66907338B3A7296C72807D2 /* GBCli */ = {
 			isa = PBXGroup;
 			children = (
-				9A295365252DD627FBD532FCBE80AECE /* autolink.c */,
-				F004FB366B64F5B72359DC5CAE75A67D /* autolink.h */,
-				2A9963D1CAE90023E41D5B7DCB7E83EA /* buffer.c */,
-				DB640967AEE8F1166DF511ADD7E53CCB /* buffer.h */,
-				7AB922561D37F4F972D8BAF27A38A947 /* document.c */,
-				C1D2308F8D5ED4B35F7AA9EEDB053B55 /* document.h */,
-				4B4BFF0D6DEAD0FAA57FE2B5C00D7A56 /* escape.c */,
-				DB4B4DC9525C93A562C2BDABBD58865A /* escape.h */,
-				5DEC023F1BC043B4BE2C052636B63E3A /* html.c */,
-				A3CAF044EF631513E67D45ED870E81A2 /* html.h */,
-				963BFBADFF4085684D44660EF8F48E76 /* html_blocks.c */,
-				6A49C1706209EC8F19230009FD68CE47 /* html_smartypants.c */,
-				032D1A7554B312077E44596E76E8D866 /* stack.c */,
-				309278A5EE326B81E05EE70E492AE929 /* stack.h */,
-				9772AC6B52C4163F6C3D77BA51136C2B /* version.c */,
-				40F1A2B46D5CDA40F9A390FF2335C44D /* version.h */,
+				F22EEDCB37C85F6C6005F8F62A6ACD51 /* GBCli.h */,
+				46C218534806926D24978DC03759D17C /* GBCommandLineParser.h */,
+				9F1EB2619EF785A70E4C6CF2AA772A02 /* GBCommandLineParser.m */,
+				500A3E402BF0C9060DF5E0B526F422D8 /* GBOptionsHelper.h */,
+				CEAFFCD338345464802C96D3421C95C7 /* GBOptionsHelper.m */,
+				43A8D37E42738120A75D93C195CEEF12 /* GBPrint.h */,
+				9636153016049DE4F1CE577993DA666E /* GBPrint.m */,
+				183760DAACA4A7882669786B21E16330 /* GBSettings.h */,
+				890E7905451FB3CE0A2E96D5E8BF8FEC /* GBSettings.m */,
+				CF1AE1D0BA4DA0210579815E237F602A /* Support Files */,
 			);
-			name = standard;
+			path = GBCli;
 			sourceTree = "<group>";
 		};
-		9C82AAB580C46D84AAF8AD0CD1BAD73C /* Support Files */ = {
+		852CEABB850AE9047112B160F75F9456 /* MASPreferences */ = {
 			isa = PBXGroup;
 			children = (
-				0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */,
-				8D8B418E0E0F7A57F8ADF3DD074D3828 /* GBCli-dummy.m */,
-				0A40FF6777672057372032E19FE1AF1F /* GBCli-prefix.pch */,
+				57F70841940E0DC0E44D58C3F9ABD623 /* MASPreferences.h */,
+				8CE88B1CFCF5194473E7D490BA75F2B5 /* MASPreferencesViewController.h */,
+				4EC605659DD0B27D42F7D85BEAE7035A /* MASPreferencesWindowController.h */,
+				C7F56928D04F9C144F3DB2270C8B6693 /* MASPreferencesWindowController.m */,
+				96313BAC6FF583DD31CDB278133FC613 /* Resources */,
+				4D0277471CE2933267E7951AE3465B62 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GBCli";
+			path = MASPreferences;
+			sourceTree = "<group>";
+		};
+		8A198AB86D9AF9C2E4F150C2D6112F72 /* M13OrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				19F907897EED69C40B1750FC9B450F3A /* M13OrderedDictionary.h */,
+				113F4213732151C19019A0A9F854A714 /* M13OrderedDictionary.m */,
+				5F8F489DB30ED6A152FE12A1A87A992E /* Support Files */,
+			);
+			path = M13OrderedDictionary;
+			sourceTree = "<group>";
+		};
+		96313BAC6FF583DD31CDB278133FC613 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7F7369B1F37C369232113E3CA17A837 /* MASPreferencesWindow.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A433008E979BB9BAD8CC5925F3C42F77 /* Pods-macdown-cmd */ = {
@@ -756,33 +773,38 @@
 			path = "Target Support Files/Pods-macdown-cmd";
 			sourceTree = "<group>";
 		};
-		BAA811F937A6420774BE6806BD3A8A31 /* Resources */ = {
+		C7FF5A325651148D04D2CF9112E5DA81 /* standard */ = {
 			isa = PBXGroup;
 			children = (
-				76E3099B4BDED412C2025EEC746C82D5 /* MASPreferencesWindow.xib */,
+				6D3504DB878F6FF70FDB93E938A73E0B /* autolink.c */,
+				618AE93047E15233594BDEC3446450C3 /* autolink.h */,
+				C71FB70683663F274C0363DE408C4510 /* buffer.c */,
+				5E4E5B52046ADF13DD0AAD24DAD187C8 /* buffer.h */,
+				BA63C829D96F79426226CBDE222A9E1C /* document.c */,
+				D83CF999CEEEEA0C093387CB896566E1 /* document.h */,
+				39E9E2444AAAF63AAC23B8FBB270F49C /* escape.c */,
+				1B23EEBF906187C633ED4BCFB115107F /* escape.h */,
+				192ADCA0FF8A53F53C587AE7840C35AA /* html.c */,
+				270BA95C17BBD21A320AD1F3FB9989AD /* html.h */,
+				CD92BF413BF0FB0F3A2ED37474DC9D16 /* html_blocks.c */,
+				0DE99E0480AF7F577F610ED00D4B945A /* html_smartypants.c */,
+				3549D46D3495352BA68F66FA303E57B6 /* stack.c */,
+				42AD720004A94BB7BC4490EED059BB41 /* stack.h */,
+				971E7AB844BC53E3B2F027B853845A01 /* version.c */,
+				8DED7823CB6FF33CFCED8AA3FCF0CFAD /* version.h */,
 			);
-			name = Resources;
+			name = standard;
 			sourceTree = "<group>";
 		};
-		C46207206367DD22218543CE9D9F4CEA /* PAPreferences */ = {
+		CF1AE1D0BA4DA0210579815E237F602A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CD0D2D00EC5C4F5CE4EF34E2BEF550F /* PAPreferences.h */,
-				35E4260959B958DD264E04CFBFC33603 /* PAPreferences.m */,
-				BA3113BB8E2CC3A88373C323C2080B10 /* PAPropertyDescriptor.h */,
-				E524C6B6E3BE33449EAB1CA2D3120456 /* PAPropertyDescriptor.m */,
-				036F6B53DE1294FD2FEF6ACF974C600E /* Support Files */,
+				23684B4413CB9EFD6F951ED24DDC7ABC /* GBCli.xcconfig */,
+				89ECF5E7821220742BB98F566F5656E9 /* GBCli-dummy.m */,
+				239355A19AF9CFD6E1D0C18D13852780 /* GBCli-prefix.pch */,
 			);
-			path = PAPreferences;
-			sourceTree = "<group>";
-		};
-		CF59983D0B11E0EEAB9709DF6469ECCA /* hoedown */ = {
-			isa = PBXGroup;
-			children = (
-				8DFB3F106323E66A584760D474CF22AC /* standard */,
-				180F4EDC4D09C0D8CB817A2273203A34 /* Support Files */,
-			);
-			path = hoedown;
+			name = "Support Files";
+			path = "../Target Support Files/GBCli";
 			sourceTree = "<group>";
 		};
 		D3231B1AB8A6FE7C4A23148088E06A4E /* OS X */ = {
@@ -794,6 +816,14 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
+		D5824F704E140A0A8AACC7AC78788E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91E02DC3AFA2BB702C32BB588F4DC14E /* Sparkle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,172 +832,134 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D94D1B7FE26472A5F2A958DC6E521086 /* Sparkle */ = {
+		E3E558ACED2C595CFFE1653817894E70 /* handlebars-objc */ = {
 			isa = PBXGroup;
 			children = (
-				47BA274A439180C682CC966BC7B603CE /* Frameworks */,
-				FA0F3554DD490C1E1F88083445E6F138 /* Resources */,
-			);
-			path = Sparkle;
-			sourceTree = "<group>";
-		};
-		DC8440D3DA11297F5CB8674B3089EA6F /* handlebars-objc */ = {
-			isa = PBXGroup;
-			children = (
-				7165D0FAD562A41DA36167FAD1D92792 /* handlebars-objc.lm */,
-				2D77D256E2FA4F7ED3730812E7AB6DBD /* handlebars-objc.ym */,
-				61B9F8D53420C9FC9654EFD07DE11B76 /* HBAst.h */,
-				B018115419B7F52D10EA82CCCBF2C56E /* HBAstBlock.h */,
-				9783036359F3AE24E3B39C19B4DBC823 /* HBAstBlock.m */,
-				098A6A210FFB99E657D17831A6FA11F7 /* HBAstComment.h */,
-				FA18AB33D0953DAC7DCCD9198E84C45D /* HBAstComment.m */,
-				E5F008F0BFAD4B878D516B0815BB9C12 /* HBAstContextualValue.h */,
-				A8EA7CF462C77859EFE05C49B6095E87 /* HBAstContextualValue.m */,
-				2DC50E3836F979F70F63E310AC0972B9 /* HBAstEvaluationVisitor.h */,
-				62126BC24E539449225401BAD933B8C0 /* HBAstEvaluationVisitor.m */,
-				125AB3D7CCC325D30F0D4A129091153F /* HBAstExpression.h */,
-				B531981FC8E36EBFFC2B3A0F0B28E094 /* HBAstExpression.m */,
-				9E6BE3A1DD28DD4A1B5C046B0BA8B023 /* HBAstKeyPathComponent.h */,
-				D57138A5417502F8573F51AA1A9F599B /* HBAstKeyPathComponent.m */,
-				3F4A80FEEDD32C087E3F20C8B28F34FF /* HBAstNode.h */,
-				75C18AF788D63BBBC1BDFE307D4B246C /* HBAstNode.m */,
-				8719264139B57CF9C28EE705697554B5 /* HBAstNumber.h */,
-				63267CCEE1E7AE2FE90D9F4CD7C2018F /* HBAstNumber.m */,
-				5CEE88684B843AFB085CC98EB480EA07 /* HBAstParametersHash.h */,
-				509CB823C4576DF0C828FC2133679618 /* HBAstParametersHash.m */,
-				78F4115C23D39C821C9D8C36E9310ED2 /* HBAstParserPostprocessingVisitor.h */,
-				EF219310A1E1724994CAF6008405714C /* HBAstParserPostprocessingVisitor.m */,
-				7E904DF165BF94786EA1CF9420C41A0E /* HBAstParserTestVisitor.h */,
-				0B862581B0AD440B224DC73DB26700C4 /* HBAstParserTestVisitor.m */,
-				F2410558D5C038497E87CFFE21C78D82 /* HBAstPartialTag.h */,
-				EA6A04FC352D936822A337F6958648B1 /* HBAstPartialTag.m */,
-				04ADD74BC3935A8B5DACACF2649EE52E /* HBAstProgram.h */,
-				960580EA7743C13A65B3913C55935C79 /* HBAstProgram.m */,
-				A49466E3B3D31507B6C59BFB10D71FFB /* HBAstRawText.h */,
-				43AE31E77256379FCD917F0CAD9957E2 /* HBAstRawText.m */,
-				71D166E81C44544FB642263CA47D7FD9 /* HBAstSimpleTag.h */,
-				E4C7ABEE6555D826ACC189B5ED6028BE /* HBAstSimpleTag.m */,
-				6E2864A1E0424021AC861701AED6F120 /* HBAstString.h */,
-				4E0097299AEBE094481B46F8320D147D /* HBAstString.m */,
-				84623135E02F4C5A49D91972E4E4A03D /* HBAstTag.h */,
-				20B104B59F7A47F02CC82F2E007098B9 /* HBAstTag.m */,
-				C77E653A7B7AD5CBD4BF3AF174A73D07 /* HBAstValue.h */,
-				621B030BA4620989C959CB19160611BA /* HBAstValue.m */,
-				CFCA50BF64AB8E41B1C4FA72CAAD7D2B /* HBAstVisitor.h */,
-				62F2C975D01BD0DE6A4F26CEBD6AD7A6 /* HBAstVisitor.m */,
-				D885C257DEA10731E53FFA51D4DBC77A /* HBBuiltinHelpersRegistry.h */,
-				D192BD7971ECE8E2B8F07D8AE3BAA608 /* HBBuiltinHelpersRegistry.m */,
-				4F37ADB561C9E4BA0B6ADBC29627C0AD /* HBContextRendering.h */,
-				1DB961DE89F8590DF8A5C5D56D302A53 /* HBContextRendering.m */,
-				60E293BE609D8744A868B8EB8244D544 /* HBContextStack.h */,
-				97F11A0247685CB4180565747F65B26B /* HBContextStack.m */,
-				F382431FAEB3796FE41A0B9F3FDAB6C1 /* HBContextState.h */,
-				8851BC261DAA41AA50AF553C4E81A17D /* HBContextState.m */,
-				39F3E19FE7A6F26CC4821AE56F3B5138 /* HBDataContext.h */,
-				450A3EDE6A78CE09B516AEAF13AD9583 /* HBDataContext.m */,
-				13DD89527804EE1592D77015AE1AEF79 /* HBErrorHandling.h */,
-				C98D0D9AD8E6C1EEE16EA788324CA9EF /* HBErrorHandling.m */,
-				BF6590EB07DD8F3E43A7EC55E7738265 /* HBErrorHandling_Private.h */,
-				E63D0727D232922D3D375DBDB37F9ADD /* HBEscapedString.h */,
-				12A1929B89096B80535B0B7A4E7B0A29 /* HBEscapedString.m */,
-				E2DB167A579847B218112181490A9894 /* HBEscapedString_Private.h */,
-				FBBCA08FB4B3DB00A6FF1615BA8F2690 /* HBEscapingFunctions.h */,
-				824268ED2F46AC5799D326F1F89D4705 /* HBEscapingFunctions.m */,
-				EE1EF8AB582A241EF33B24A780E916A5 /* HBExecutionContext.h */,
-				ED884B0B71DF18398FDCB384FD6755F1 /* HBExecutionContext.m */,
-				EA5507589DE01056F72626297331C927 /* HBExecutionContext_Private.h */,
-				E0A846562A51B9C99789B67A97DED5A3 /* HBExecutionContextDelegate.h */,
-				606526AA89535E856D36B0F766D83508 /* HBHandlebars.h */,
-				EE8CB89D2DCFD981B7EB54440803239E /* HBHandlebars.m */,
-				4C0F469BAD62646658C3EB5570FFE695 /* HBHandlebarsKVCValidation.h */,
-				59A4B5871D265A157E0F7B51ECC77D89 /* HBHelper.h */,
-				E75AB3B9398680EC1DBD140C88BB4181 /* HBHelper.m */,
-				8C8F4D1B4DDB62DEE0571F2720BD8D35 /* HBHelperCallingInfo.h */,
-				79509865A5A9930947C5F1857FD20896 /* HBHelperCallingInfo.m */,
-				2CCB011140F534DFD247D0D83512EB14 /* HBHelperCallingInfo_Private.h */,
-				07E2A9089DF35B5741340BED324BE5D2 /* HBHelperRegistry.h */,
-				AABE0AEA76A9F59B8B3BC8D18CA0310B /* HBHelperRegistry.m */,
-				A7C7F6F32AB2861AC6B55B5DF8673519 /* HBHelperUtils.h */,
-				C916A764002C9ACB65FF0EFA18B4D40B /* HBHelperUtils.m */,
-				B086FD3BD0D19AB733F482A4E67094F3 /* HBObjectPropertyAccess.h */,
-				F7E14DA5E36013E15997863F3C8FABC7 /* HBObjectPropertyAccess.m */,
-				5282ED130B2B300266225117EBDD88B5 /* HBParser.h */,
-				A72B1AF7CA4F34909CC39C7312E0DC2D /* HBParser.m */,
-				86A914DFAC304F073AC38349D7910126 /* HBPartial.h */,
-				2C616928E0ECDA2356EBE6A7FFB26F82 /* HBPartial.m */,
-				F04DC083ED7EFBC3292DCC01B358CF2A /* HBPartial_Private.h */,
-				9B56E86DBC5A465F2900F8A3800A251C /* HBPartialRegistry.h */,
-				9121D8599AAE8B5CB18B690B904D6ED3 /* HBPartialRegistry.m */,
-				6865869D4FA391F07CB4B72E28210C68 /* HBTemplate.h */,
-				CCFC31CF6E0A847341B9A55DD5BE3844 /* HBTemplate.m */,
-				D6158557724D9CA8D9FCBBB1B1081A6B /* HBTemplate_Private.h */,
-				EA64C8322DBA85FA0C216357EA486C35 /* Support Files */,
+				036EDCC22097D202B120B90ACCA4EDAD /* handlebars-objc.lm */,
+				D55ED4B5CE3E58CB512BF2A2FAE7741F /* handlebars-objc.ym */,
+				3AD2AAB7135EFBC8BB7D5BA0021D8E1B /* HBAst.h */,
+				42F21F4BA9579A4643C89BF6B2C251E0 /* HBAstBlock.h */,
+				4A9F945CB6C22D82E63D1573022F9960 /* HBAstBlock.m */,
+				1ED0F6997E0C86BA758C3769F787CF96 /* HBAstComment.h */,
+				3F1610750364B63AA3673F31B246BA7A /* HBAstComment.m */,
+				214822ACC75E66F97482DB4917FEE1CC /* HBAstContextualValue.h */,
+				39BB4F8258C75E111DC1CB3D5A146485 /* HBAstContextualValue.m */,
+				3566088B3F3B3243D6F93D6A764CBA21 /* HBAstEvaluationVisitor.h */,
+				DA42DFFB4BE9FFD0DF5CFC49CE042D88 /* HBAstEvaluationVisitor.m */,
+				708D50E3D948492B0D9FCF8207AF2004 /* HBAstExpression.h */,
+				9CFE268B5083067F102A73E874F9D17D /* HBAstExpression.m */,
+				8AE7CD05FEE44A1F750055E79192007F /* HBAstKeyPathComponent.h */,
+				4BBEDCF6CCD774F764EE4266278F4394 /* HBAstKeyPathComponent.m */,
+				D3D1D72EC294EEEF8F9C6E6B12682327 /* HBAstNode.h */,
+				E099DD9C853B86567DC62550F756B4A9 /* HBAstNode.m */,
+				77F9AC1E3D50D6B42F87EF0D1BABD930 /* HBAstNumber.h */,
+				0169F745223F6D588EF6ADBF5FD76FCA /* HBAstNumber.m */,
+				757DD3EFFE12E13CB124BFF35D56D6D9 /* HBAstParametersHash.h */,
+				C49CF3C52EE57314A703F95A8C640F30 /* HBAstParametersHash.m */,
+				000502815FAD08DCCCF39065FBBBAC09 /* HBAstParserPostprocessingVisitor.h */,
+				AB2032BC0766D46ECBAABF1BA98F91B4 /* HBAstParserPostprocessingVisitor.m */,
+				263ED17078595D72A85438B058F4A0C8 /* HBAstParserTestVisitor.h */,
+				34E932F52194FC6DF9F34EEE41BFC3D4 /* HBAstParserTestVisitor.m */,
+				10E4C620D02E36B7E4F5B6D92FAFFF1D /* HBAstPartialTag.h */,
+				9E13F035FFC8E56B77BB1F1BCF1F85CB /* HBAstPartialTag.m */,
+				C711F36298E3DDF6E46930CEF4E386F5 /* HBAstProgram.h */,
+				01F912BEF4620C58854152519640E5D9 /* HBAstProgram.m */,
+				E6A3AB71A90846E1CB3757B07434DBFD /* HBAstRawText.h */,
+				6E95F723BD83EBAA65D2E2EA5FF9E9DC /* HBAstRawText.m */,
+				2D42D8BCA998FAD4A7970FFFC7CA9B7C /* HBAstSimpleTag.h */,
+				079DB2FEF2368BE1D378A95C06512479 /* HBAstSimpleTag.m */,
+				AF3C8E3BAA50444995BF14407B11ECA7 /* HBAstString.h */,
+				89A19A38D0968BBE5BE5F38C14D691CB /* HBAstString.m */,
+				3AE0172AA6F82917A1FED0E9D1BA651D /* HBAstTag.h */,
+				AAE7BD6CBEAB709D2CA29364BB35D90A /* HBAstTag.m */,
+				D55E3BA1FFF9611C3543B73835DA5890 /* HBAstValue.h */,
+				C92C24AA582534CC53729FC0D157CC88 /* HBAstValue.m */,
+				3A82F4BF7E147C03DEB4CB84CAA2D065 /* HBAstVisitor.h */,
+				9638D6EC7FDF67513A9F6026EEE7AD09 /* HBAstVisitor.m */,
+				EEB0E3C2DE5A01D056DA8282C3BA43C1 /* HBBuiltinHelpersRegistry.h */,
+				054BB2FB956BA61B1897D78408B09F89 /* HBBuiltinHelpersRegistry.m */,
+				5998038FAAFEC00E71BD51F5EBB58FFC /* HBContextRendering.h */,
+				BC277595C1EABE00AD8E279091A6D5CD /* HBContextRendering.m */,
+				264A5865C98BE1CEDAB25E43EBC0D9F8 /* HBContextStack.h */,
+				B698BE00CD7B7E549C182B2431D14FBA /* HBContextStack.m */,
+				59488FCE283C992CA4E8332BCF13F3DE /* HBContextState.h */,
+				417AEA4281B8C9D85B217F37B21853ED /* HBContextState.m */,
+				031120D357FFE60BE415C0EA5992DCE1 /* HBDataContext.h */,
+				0B4B971A3CDFA5D826E1739D526BC145 /* HBDataContext.m */,
+				2C7B56DEEE9A1A937DE9246DC0B8E670 /* HBErrorHandling.h */,
+				20ECA0C1DE8AAD81FA9CCD91236DD810 /* HBErrorHandling.m */,
+				CAA418FAF9984070EC646844CC17AE7A /* HBErrorHandling_Private.h */,
+				477254092A55A77B4F3601B409E57E46 /* HBEscapedString.h */,
+				D69D5314EB3465C087234C7178EB1503 /* HBEscapedString.m */,
+				04F343E01A7CF628989DC008B9C41C3F /* HBEscapedString_Private.h */,
+				2F687A4E1ED403B3574CB21244DC9C5B /* HBEscapingFunctions.h */,
+				9C644AA998697DA4548672B76DBEE2BA /* HBEscapingFunctions.m */,
+				0E531C6937E895FF5997ACCCBBE2EBA8 /* HBExecutionContext.h */,
+				3AA589678947A068E41AD1BBEDE6667A /* HBExecutionContext.m */,
+				D1ABDEBC1C9E8969BA0B2CAF35203EA4 /* HBExecutionContext_Private.h */,
+				1BF9A462DC5C752C2EEF39926A6A5924 /* HBExecutionContextDelegate.h */,
+				17BBF6503A3DA8452C521A54F794A44C /* HBHandlebars.h */,
+				762A9C9438EFA5EEB4D72A0C56E6A167 /* HBHandlebars.m */,
+				A1DCEB0D43374F4A6DB885D509394DA7 /* HBHandlebarsKVCValidation.h */,
+				E07B9ABF5FB8C3E1AB0B670FA825C6AC /* HBHelper.h */,
+				25AEEF3641695DC97BCC4635CF30EA5F /* HBHelper.m */,
+				47BA193E901E6B02AEDC74277326571A /* HBHelperCallingInfo.h */,
+				F24C460B82C333B27D4068E198AF6E0C /* HBHelperCallingInfo.m */,
+				04D327AC57BE18BE755E2C66C3FD7613 /* HBHelperCallingInfo_Private.h */,
+				A6D2A634B827D6DCB4A60AA5FC07534C /* HBHelperRegistry.h */,
+				FC7A0CD07B8B9F010ED4DB4FA92BA226 /* HBHelperRegistry.m */,
+				ED24F0B31CDF2D77C40D34D0DC56A4B7 /* HBHelperUtils.h */,
+				48A291AF4672D387AECA5E6292EBD4DE /* HBHelperUtils.m */,
+				54A50BD5D551B2F7AAD0948B7538E058 /* HBObjectPropertyAccess.h */,
+				F983C2F1542EA230AF8AE07D6DCC6659 /* HBObjectPropertyAccess.m */,
+				D78659610C653CD69774432C403FB584 /* HBParser.h */,
+				C533AE782EFA90E086C67BD435D76FD1 /* HBParser.m */,
+				E166091F030413A51A7DFE090213C091 /* HBPartial.h */,
+				86AF2A3BEAF909C610DB0E97D69D2E65 /* HBPartial.m */,
+				759B675E0CB68100C0F69A1CE99EFE3D /* HBPartial_Private.h */,
+				116C7F070D747876CEB35FDBD036B04D /* HBPartialRegistry.h */,
+				B066C2595F94DB9584108B3F5F099327 /* HBPartialRegistry.m */,
+				4B0D4DF635C171E2113EF806246FCB12 /* HBTemplate.h */,
+				A0AA2E1A43A44086322A2564C79F86C9 /* HBTemplate.m */,
+				79613E0D149A21601EBB8BC0630D8B40 /* HBTemplate_Private.h */,
+				7934238F89D2F4472E1B0E442BEC02EF /* Support Files */,
 			);
 			path = "handlebars-objc";
 			sourceTree = "<group>";
 		};
-		E827DB738056CFFF392F0BAE600F786D /* GBCli */ = {
+		E49BECD242DB6EF42007731C09F80777 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0477E652C7C9971F05366D303256C1C9 /* GBCli.h */,
-				B2414F99EDD52D2A79AC1A8C0F4540F4 /* GBCommandLineParser.h */,
-				2BC782B63276DBF9210AEFCCCBA8B8BF /* GBCommandLineParser.m */,
-				C3629AA5261AFE6C7589F5775670874A /* GBOptionsHelper.h */,
-				30AC0BF5F218785FAA26B205B2F2DF48 /* GBOptionsHelper.m */,
-				AC862F1C935DEA7DABBB29ED9A8AE1CE /* GBPrint.h */,
-				FF6B9BAAF9950701ED2F84751E70480E /* GBPrint.m */,
-				B2304AB58F263AD07491568E0285E703 /* GBSettings.h */,
-				0E420A050AEF40204770C9D760736DAA /* GBSettings.m */,
-				9C82AAB580C46D84AAF8AD0CD1BAD73C /* Support Files */,
+				28DF11ACACDB831D107B8A72A0979B92 /* LibYAML.xcconfig */,
+				24AF8F17AC7F67E1296D5ABF023E36E4 /* LibYAML-dummy.m */,
+				3EEF4245EEB8109E76CDA4A2A615F3D2 /* LibYAML-prefix.pch */,
 			);
-			path = GBCli;
+			name = "Support Files";
+			path = "../Target Support Files/LibYAML";
 			sourceTree = "<group>";
 		};
-		E9806A8222FD07492674BEF9ED01FBCA /* Pods */ = {
+		EA1564D19CC3320FDFC859D102C1CC25 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E827DB738056CFFF392F0BAE600F786D /* GBCli */,
-				DC8440D3DA11297F5CB8674B3089EA6F /* handlebars-objc */,
-				CF59983D0B11E0EEAB9709DF6469ECCA /* hoedown */,
-				4D39A39391D3484AD74C8F4BC738886E /* JJPluralForm */,
-				0382FB33FC28B550ED32939BD3FF3EA7 /* LibYAML */,
-				0ECAAD7F3D891C2A613847E0F8DA344D /* M13OrderedDictionary */,
-				F8606B9C057EDC5C1C9862A94DCFCD24 /* MASPreferences */,
-				C46207206367DD22218543CE9D9F4CEA /* PAPreferences */,
-				D94D1B7FE26472A5F2A958DC6E521086 /* Sparkle */,
+				847E21AFC66907338B3A7296C72807D2 /* GBCli */,
+				E3E558ACED2C595CFFE1653817894E70 /* handlebars-objc */,
+				59A3034867BA2258901C8EDFB12B01E5 /* hoedown */,
+				65E03F012EC4290736947EE306D7026D /* JJPluralForm */,
+				195FE7D31A90F30F84905FB4E3B2A047 /* LibYAML */,
+				8A198AB86D9AF9C2E4F150C2D6112F72 /* M13OrderedDictionary */,
+				852CEABB850AE9047112B160F75F9456 /* MASPreferences */,
+				546E14234BB6F6DF0986D2ED18154215 /* PAPreferences */,
+				F186775ADFDE5C5DD6E117D1E19E0177 /* Sparkle */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EA64C8322DBA85FA0C216357EA486C35 /* Support Files */ = {
+		F186775ADFDE5C5DD6E117D1E19E0177 /* Sparkle */ = {
 			isa = PBXGroup;
 			children = (
-				DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */,
-				47447942C666B483F8EDD9FB7367DE46 /* handlebars-objc-dummy.m */,
-				0897E19B91A9C4AC61D145D091E00C24 /* handlebars-objc-prefix.pch */,
+				D5824F704E140A0A8AACC7AC78788E34 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/handlebars-objc";
-			sourceTree = "<group>";
-		};
-		F8606B9C057EDC5C1C9862A94DCFCD24 /* MASPreferences */ = {
-			isa = PBXGroup;
-			children = (
-				A8051A8E8FF8F962110F22F72C16DB26 /* MASPreferences.h */,
-				C3222B840587E79ECE6388D4DAAFD663 /* MASPreferencesViewController.h */,
-				D272A0B9A7304B2FE4D6422D4DF289D4 /* MASPreferencesWindowController.h */,
-				2342EEE3344AFD1EF2C168CF06DEAB43 /* MASPreferencesWindowController.m */,
-				BAA811F937A6420774BE6806BD3A8A31 /* Resources */,
-				12338B30683D3A03447FFF0BE6E2246A /* Support Files */,
-			);
-			path = MASPreferences;
-			sourceTree = "<group>";
-		};
-		FA0F3554DD490C1E1F88083445E6F138 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
+			path = Sparkle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1545,10 +1537,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		76E3099B4BDED412C2025EEC746C82D5 /* MASPreferencesWindow.xib */ = {
+		E7F7369B1F37C369232113E3CA17A837 /* MASPreferencesWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				967F6B37534D159107155DF1B216F289 /* MASPreferencesWindow.xib */,
+				37B89216F3FBF6B6F999F39C5041DDF9 /* MASPreferencesWindow.xib */,
 			);
 			name = MASPreferencesWindow.xib;
 			path = Framework;
@@ -1559,7 +1551,7 @@
 /* Begin XCBuildConfiguration section */
 		13FC042FEEFAA4DE7D51877CE3A28771 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
+			baseConfigurationReference = E7A340561DC5E97CD3908A83FCDBA092 /* hoedown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1623,7 +1615,7 @@
 		};
 		203806BCED2197CD9707575E341CB129 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */;
+			baseConfigurationReference = 23684B4413CB9EFD6F951ED24DDC7ABC /* GBCli.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1647,7 +1639,7 @@
 		};
 		2DE58718F6311DEBFFDACBFC46095A0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2E80012FD7AF1ECE9ADE849EDF384E /* GBCli.xcconfig */;
+			baseConfigurationReference = 23684B4413CB9EFD6F951ED24DDC7ABC /* GBCli.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1696,7 +1688,7 @@
 		};
 		36BD023E3429F7E4E3451B3B3CEFBB95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */;
+			baseConfigurationReference = 0AE85032975FE81D7A090E775C27D3CC /* PAPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1745,7 +1737,7 @@
 		};
 		4328792894582108937C52276B8AC7B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */;
+			baseConfigurationReference = 75DCDA3F38048CC0F254C4497FABB050 /* MASPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1769,7 +1761,7 @@
 		};
 		60DF2706FAEC718032868CE18600CB4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
+			baseConfigurationReference = 4546D2663A62BC42538CAB44051F1807 /* M13OrderedDictionary.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1837,7 +1829,7 @@
 		};
 		709413A71799E85DA56294CEA77B4CE4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A4E01BF67D2ED7E8ED014E83E1FE83C /* M13OrderedDictionary.xcconfig */;
+			baseConfigurationReference = 4546D2663A62BC42538CAB44051F1807 /* M13OrderedDictionary.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1861,7 +1853,7 @@
 		};
 		7101D61C6815725C200A14A48A638EA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C70E8DAE5FE5F87E9E2C808013A8C5 /* hoedown.xcconfig */;
+			baseConfigurationReference = E7A340561DC5E97CD3908A83FCDBA092 /* hoedown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1885,7 +1877,7 @@
 		};
 		71ADF767E3D09FCDDAD019254183A474 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
+			baseConfigurationReference = 28DF11ACACDB831D107B8A72A0979B92 /* LibYAML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1959,7 +1951,7 @@
 		};
 		971FCB4FB6D0B2E9A6829A872235CD64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A0DCC89D5E5FAE589144CB42812DBD /* LibYAML.xcconfig */;
+			baseConfigurationReference = 28DF11ACACDB831D107B8A72A0979B92 /* LibYAML.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2008,7 +2000,7 @@
 		};
 		C719E3A76DF13ACD7898D3F56EA2D684 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */;
+			baseConfigurationReference = 12B4A0489BBB8D065664DC8B3CEF4BDB /* JJPluralForm.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2032,7 +2024,7 @@
 		};
 		CF8009F24DED3CA83AFF86AC7C23CA8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */;
+			baseConfigurationReference = 154288B810DFEC7CEB8A2CDC8E1490AE /* handlebars-objc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2056,7 +2048,7 @@
 		};
 		D2BAA73091C477D0B45EE6BFE405C09A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E17C7FA375557F08A9CC08CA1D85885 /* MASPreferences.xcconfig */;
+			baseConfigurationReference = 75DCDA3F38048CC0F254C4497FABB050 /* MASPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2105,7 +2097,7 @@
 		};
 		E7C7BCB12BECE4D401CF48EE9BCBC17A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46F77DB7B8A4ED148C6B5C7E106B381A /* JJPluralForm.xcconfig */;
+			baseConfigurationReference = 12B4A0489BBB8D065664DC8B3CEF4BDB /* JJPluralForm.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2129,7 +2121,7 @@
 		};
 		ED9C306015E6422D469621075B0B60B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA34E0F69A60629D4C22028682CEDA2F /* handlebars-objc.xcconfig */;
+			baseConfigurationReference = 154288B810DFEC7CEB8A2CDC8E1490AE /* handlebars-objc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2153,7 +2145,7 @@
 		};
 		FC4014457F6C85A37F8BE7D9008D92DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1983CE762111DAB92D4353C6D1AD9FEF /* PAPreferences.xcconfig */;
+			baseConfigurationReference = 0AE85032975FE81D7A090E775C27D3CC /* PAPreferences.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

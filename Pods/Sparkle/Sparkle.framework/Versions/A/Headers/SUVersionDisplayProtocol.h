@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "SUExport.h"
 
 /*!
     Applies special display formatting to version numbers.
@@ -20,6 +20,6 @@
     Both versions are provided so that important distinguishing information
     can be displayed while also leaving out unnecessary/confusing parts.
 */
--(void)	formatVersion: (NSString**)inOutVersionA andVersion: (NSString**)inOutVersionB;
+- (void)formatVersion:(NSString **)inOutVersionA andVersion:(NSString **)inOutVersionB;
 
 @end
