@@ -9,6 +9,15 @@
 #import "MPPreferences.h"
 
 
+typedef NS_ENUM(NSUInteger, MPUnorderedListMarkerType)
+{
+    MPUnorderedListMarkerAsterisk = 0,
+    MPUnorderedListMarkerPlusSign = 1,
+    MPUnorderedListMarkerMinusSign = 2,
+};
+
+
+
 NSString * const MPDidDetectFreshInstallationNotification =
     @"MPDidDetectFreshInstallationNotificationName";
 
@@ -97,9 +106,11 @@ static NSString * const kMPDefaultHtmlStyleName = @"GitHub2";
 @dynamic editorWordCountType;
 @dynamic editorScrollsPastEnd;
 @dynamic editorEnsuresNewlineAtEndOfFile;
+@dynamic editorUnorderedListMarkerType;
 
 @dynamic previewZoomRelativeToBaseFontSize;
 
+@dynamic htmlTemplateName;
 @dynamic htmlStyleName;
 @dynamic htmlDetectFrontMatter;
 @dynamic htmlTaskList;
@@ -140,6 +151,21 @@ static NSString * const kMPDefaultHtmlStyleName = @"GitHub2";
         kMPDefaultEditorFontPointSizeKey: @(font.pointSize)
     };
     self.editorBaseFontInfo = info;
+}
+
+- (NSString *)editorUnorderedListMarker
+{
+    switch (self.editorUnorderedListMarkerType)
+    {
+        case MPUnorderedListMarkerAsterisk:
+            return @"* ";
+        case MPUnorderedListMarkerPlusSign:
+            return @"+ ";
+        case MPUnorderedListMarkerMinusSign:
+            return @"- ";
+        default:
+            return @"* ";
+    }
 }
 
 
@@ -228,6 +254,8 @@ static NSString * const kMPDefaultHtmlStyleName = @"GitHub2";
         self.editorAutoIncrementNumberedLists = YES;
     if (![defaults objectForKey:@"editorInsertPrefixInBlock"])
         self.editorInsertPrefixInBlock = YES;
+    if (![defaults objectForKey:@"htmlTemplateName"])
+        self.htmlTemplateName = @"Default";
 }
 
 @end

@@ -171,7 +171,7 @@ NS_INLINE NSColor *MPGetWebViewBackgroundColor(WebView *webview)
 @interface MPDocument ()
     <NSSplitViewDelegate, NSTextViewDelegate,
 #if __MAC_OS_X_VERSION_MAX_ALLOWED >= 101100
-     WebFrameLoadDelegate, WebPolicyDelegate,
+     WebEditingDelegate, WebFrameLoadDelegate, WebPolicyDelegate,
 #endif
      MPAutosaving, MPRendererDataSource, MPRendererDelegate>
 
@@ -207,6 +207,7 @@ typedef NS_ENUM(NSUInteger, MPWordCountType) {
 @property (strong) NSMenuItem *wordsMenuItem;
 @property (strong) NSMenuItem *charMenuItem;
 @property (strong) NSMenuItem *charNoSpacesMenuItem;
+@property (nonatomic) BOOL needsToUnregister;
 
 // Store file content in initializer until nib is loaded.
 @property (copy) NSString *loadedString;
@@ -249,6 +250,21 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 - (MPPreferences *)preferences
 {
     return [MPPreferences sharedInstance];
+}
+
+- (NSString *)markdown
+{
+    return self.editor.string;
+}
+
+- (void)setMarkdown:(NSString *)markdown
+{
+    self.editor.string = markdown;
+}
+
+- (NSString *)html
+{
+    return self.renderer.currentHtml;
 }
 
 - (BOOL)previewVisible
@@ -391,6 +407,8 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
                      object:self.preview.enclosingScrollView];
     }
 
+    self.needsToUnregister = YES;
+
     self.wordsMenuItem = [[NSMenuItem alloc] initWithTitle:@"" action:NULL
                                              keyEquivalent:@""];
     self.charMenuItem = [[NSMenuItem alloc] initWithTitle:@"" action:NULL
@@ -415,15 +433,18 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
         [self setupEditor:nil];
         [self redrawDivider];
-
-        if (self.loadedString)
-        {
-            self.editor.string = self.loadedString;
-            self.loadedString = nil;
-            [self.renderer parseAndRenderNow];
-            [self.highlighter parseAndHighlightNow];
-        }
+        [self reloadFromLoadedString];
     }];
+}
+- (void)reloadFromLoadedString
+{
+    if (self.loadedString && self.editor && self.renderer && self.highlighter)
+    {
+        self.editor.string = self.loadedString;
+        self.loadedString = nil;
+        [self.renderer parseAndRenderNow];
+        [self.highlighter parseAndHighlightNow];
+    }
 }
 
 - (void)canCloseDocumentWithDelegate:(id)delegate
@@ -440,22 +461,36 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
     if (!shouldClose)
         return;
 
-    // Need to cleanup these so that callbacks won't crash the app.
-    [self.highlighter deactivate];
-    self.highlighter.targetTextView = nil;
-    self.highlighter = nil;
-    self.renderer = nil;
-    self.preview.frameLoadDelegate = nil;
-    self.preview.policyDelegate = nil;
-
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    for (NSString *key in MPEditorPreferencesToObserve())
-        [defaults removeObserver:self forKeyPath:key];
-    for (NSString *key in MPEditorKeysToObserve())
-        [self.editor removeObserver:self forKeyPath:key];
-
     [self close];
+}
+
+- (void)close
+{
+    if (self.needsToUnregister) 
+    {
+        // close can be called multiple times
+        // http://www.cocoabuilder.com/archive/cocoa/240166-nsdocument-close-method-calls-itself.html
+        self.needsToUnregister = NO;
+
+        // Need to cleanup these so that callbacks won't crash the app.
+        [self.highlighter deactivate];
+        self.highlighter.targetTextView = nil;
+        self.highlighter = nil;
+        self.renderer = nil;
+        self.preview.frameLoadDelegate = nil;
+        self.preview.policyDelegate = nil;
+
+        [[NSNotificationCenter defaultCenter] removeObserver:self];
+
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+        for (NSString *key in MPEditorPreferencesToObserve())
+            [defaults removeObserver:self forKeyPath:key];
+        for (NSString *key in MPEditorKeysToObserve())
+            [self.editor removeObserver:self forKeyPath:key];
+    }
+
+    [super close];
 }
 
 + (BOOL)autosavesInPlace
@@ -500,11 +535,13 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
         return NO;
 
     self.loadedString = content;
+    [self reloadFromLoadedString];
     return YES;
 }
 
 - (BOOL)prepareSavePanel:(NSSavePanel *)savePanel
 {
+    savePanel.extensionHidden = NO;
     NSString *fileName = self.presumedFileName;
     if (fileName && ![fileName hasExtension:@"md"])
     {
@@ -608,6 +645,7 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 - (void)splitViewDidResizeSubviews:(NSNotification *)notification
 {
     [self redrawDivider];
+    self.editor.editable = self.editorVisible;
 }
 
 
@@ -892,7 +930,6 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 
 - (BOOL)rendererHasMathJax:(MPRenderer *)renderer
 {
-    return FALSE;
     return self.preferences.htmlMathJax;
 }
 
@@ -1181,9 +1218,15 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
     }
 }
 
+- (IBAction)toggleOrderedList:(id)sender
+{
+    [self.editor toggleBlockWithPattern:@"^[0-9]+ \\S" prefix:@"1. "];
+}
+
 - (IBAction)toggleUnorderedList:(id)sender
 {
-    [self.editor toggleBlockWithPattern:@"^[\\*\\+-] \\S" prefix:@"* "];
+    NSString *marker = self.preferences.editorUnorderedListMarker;
+    [self.editor toggleBlockWithPattern:@"^[\\*\\+-] \\S" prefix:marker];
 }
 
 - (IBAction)toggleBlockquote:(id)sender
@@ -1304,13 +1347,15 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
         NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
         style.lineSpacing = self.preferences.editorLineSpacing;
         self.editor.defaultParagraphStyle = [style copy];
-        self.editor.font = [self.preferences.editorBaseFont copy];
+        NSFont *font = [self.preferences.editorBaseFont copy];
+        if (font)
+            self.editor.font = font;
         self.editor.textColor = nil;
         self.editor.backgroundColor = [NSColor clearColor];
         self.highlighter.styles = nil;
         [self.highlighter readClearTextStylesFromTextView];
 
-        NSString *themeName = @"Pro";//[self.preferences.editorStyleName copy];
+        NSString *themeName = [self.preferences.editorStyleName copy];
         if (themeName.length)
         {
             NSString *path = MPThemePathForName(themeName);
@@ -1322,10 +1367,10 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
                 }];
         }
 
-        CGColorRef backgroundCGColor = self.editor.backgroundColor.CGColor;
-
         CALayer *layer = [CALayer layer];
-        layer.backgroundColor = backgroundCGColor;
+        CGColorRef backgroundCGColor = self.editor.backgroundColor.CGColor;
+        if (backgroundCGColor)
+            layer.backgroundColor = backgroundCGColor;
         self.editorContainer.layer = layer;
     }
     
@@ -1486,7 +1531,7 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
     NSRect previewContentBounds = previewContentView.bounds;
     previewContentBounds.origin.y =
         ratio * (previewDocumentView.frame.size.height
-                 - previewContentBounds.size.height/2);
+                 - previewContentBounds.size.height);
     previewContentView.bounds = previewContentBounds;
 }
 
@@ -1514,7 +1559,7 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 
     title = string.titleString;
     if (!title)
-        return nil;
+        return NSLocalizedString(@"Untitled", @"default filename if no title can be determined");
 
     static NSRegularExpression *regex = nil;
     static dispatch_once_t onceToken;
@@ -1550,14 +1595,29 @@ static void (^MPGetPreviewLoadingCompletionHandler(MPDocument *doc))()
 
 - (void)openOrCreateFileForUrl:(NSURL *)url
 {
-    // TODO: Make this togglable in preferences.
-    // If this is a file URL and the target does not exist, create and open it.
-    if (self.preferences.createFileForLinkTarget && url.isFileURL
-        && ![[NSFileManager defaultManager] fileExistsAtPath:url.path])
+    // If the URL points to a nonexistent file, create automatically if
+    // requested, or provide better error message.
+    if (url.isFileURL && ![url checkResourceIsReachableAndReturnError:NULL])
     {
-        NSDocumentController *controller =
-            [NSDocumentController sharedDocumentController];
-        [controller openUntitledDocumentForURL:url display:YES error:NULL];
+        if (self.preferences.createFileForLinkTarget)
+        {
+            NSDocumentController *controller =
+                [NSDocumentController sharedDocumentController];
+            [controller openUntitledDocumentForURL:url display:YES error:NULL];
+            return;
+        }
+
+        NSAlert *alert = [[NSAlert alloc] init];
+        NSString *template = NSLocalizedString(
+            @"File not found at path:\n%@",
+            @"preview navigation error message");
+        alert.messageText = [NSString stringWithFormat:template, url.path];
+        alert.informativeText = NSLocalizedString(
+            @"Please check the path of your link is correct. Turn on "
+            @"“Automatically create link targets” If you want MacDown to "
+            @"create nonexistent link targets for you.",
+            @"preview navigation error information");
+        [alert runModal];
         return;
     }
 

@@ -10,12 +10,14 @@
 #import <limits.h>
 #import <hoedown/html.h>
 #import <hoedown/document.h>
+#import <HBHandlebars/HBHandlebars.h>
 #import "hoedown_html_patch.h"
 #import "NSJSONSerialization+File.h"
 #import "NSObject+HTMLTabularize.h"
 #import "NSString+Lookup.h"
 #import "MPUtilities.h"
 #import "MPAsset.h"
+#import "MPPreferences.h"
 
 
 static NSString * const kMPMathJaxCDN =
@@ -157,19 +159,34 @@ NS_INLINE NSString *MPGetHTML(
         if (s)
             [scriptTags addObject:s];
     }
-    NSString *style = [styleTags componentsJoinedByString:@"\n"];
-    NSString *script = [scriptTags componentsJoinedByString:@"\n"];
 
-    static NSString *f =
-        (@"<!DOCTYPE html><html>\n\n"
-         @"<head>\n<meta charset=\"utf-8\">\n%@%@\n</head>\n"
-         @"<body>\n%@\n%@\n</body>\n\n</html>\n");
+    MPPreferences *preferences = [MPPreferences sharedInstance];
 
+    static NSString *f = nil;
+    static dispatch_once_t token;
+    dispatch_once(&token, ^{
+        NSBundle *bundle = [NSBundle mainBundle];
+        NSURL *url = [bundle URLForResource:preferences.htmlTemplateName
+                              withExtension:@".handlebars"
+                               subdirectory:@"Templates"];
+        f = [NSString stringWithContentsOfURL:url
+                                     encoding:NSUTF8StringEncoding error:NULL];
+    });
+    NSCAssert(f.length, @"Could not read template");
+
+    NSString *titleTag = @"";
     if (title.length)
-        title = [NSString stringWithFormat:@"<title>%@</title>\n", title];
-    else
-        title = @"";
-    NSString *html = [NSString stringWithFormat:f, title, style, body, script];
+        titleTag = [NSString stringWithFormat:@"<title>%@</title>", title];
+
+    NSDictionary *context = @{
+        @"title": title,
+        @"titleTag": titleTag,
+        @"styleTags": styleTags,
+        @"body": body,
+        @"scriptTags": scriptTags,
+    };
+    NSString *html = [HBHandlebars renderTemplateString:f withContext:context
+                                                  error:NULL];
     return html;
 }
 
@@ -203,6 +220,34 @@ NS_INLINE BOOL MPAreNilableStringsEqual(NSString *s1, NSString *s2)
 @property (copy) NSString *highlightingThemeName;
 
 @end
+
+
+NS_INLINE void add_to_languages(
+    NSString *lang, NSMutableArray *languages, NSDictionary *languageMap)
+{
+    // Move language to root of dependencies.
+    NSUInteger index = [languages indexOfObject:lang];
+    if (index != NSNotFound)
+        [languages removeObjectAtIndex:index];
+    [languages insertObject:lang atIndex:0];
+
+    // Add dependencies of this language.
+    id require = languageMap[lang][@"require"];
+    if ([require isKindOfClass:[NSString class]])
+    {
+        add_to_languages(require, languages, languageMap);
+    }
+    else if ([require isKindOfClass:[NSArray class]])
+    {
+        for (NSString *lang in require)
+            add_to_languages(lang, languages, languageMap);
+    }
+    else if (require)
+    {
+        NSLog(@"Unknown Prism langauge requirement "
+              @"%@ dropped for unknown format", require);
+    }
+}
 
 
 NS_INLINE hoedown_buffer *language_addition(
@@ -246,15 +291,7 @@ NS_INLINE hoedown_buffer *language_addition(
     }
 
     // Walk dependencies to include all required scripts.
-    NSMutableArray *languages = renderer.currentLanguages;
-    while (lang)
-    {
-        NSUInteger index = [languages indexOfObject:lang];
-        if (index != NSNotFound)
-            [languages removeObjectAtIndex:index];
-        [languages insertObject:lang atIndex:0];
-        lang = languageMap[lang][@"require"];
-    }
+    add_to_languages(lang, renderer.currentLanguages, languageMap);
     
     return mapped;
 }
@@ -378,7 +415,7 @@ NS_INLINE void MPFreeHTMLRenderer(hoedown_renderer *htmlRenderer)
     NSURL *url = [NSURL URLWithString:kMPMathJaxCDN];
     NSBundle *bundle = [NSBundle mainBundle];
     MPEmbeddedScript *script =
-        [MPEmbeddedScript assetWithURL:[bundle URLForResource:@"callback"
+        [MPEmbeddedScript assetWithURL:[bundle URLForResource:@"init"
                                                 withExtension:@"js"
                                                  subdirectory:@"MathJax"]
                                andType:kMPMathJaxConfigType];

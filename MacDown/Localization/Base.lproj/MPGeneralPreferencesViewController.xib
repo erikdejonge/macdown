@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9059"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
         <capability name="box content view" minToolsVersion="7.0"/>
     </dependencies>
     <objects>
@@ -29,7 +29,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="Prd-FU-8Gz"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Include pre-releases" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="vbz-fv-8BX">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -39,7 +38,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                     </view>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="jet-bG-trd" secondAttribute="bottom" constant="11" id="FVs-VR-iRp"/>
@@ -47,7 +45,6 @@
                         <constraint firstItem="jet-bG-trd" firstAttribute="top" secondItem="eLn-fW-Agu" secondAttribute="top" constant="25" id="Yp1-GT-c9v"/>
                         <constraint firstItem="jet-bG-trd" firstAttribute="leading" secondItem="eLn-fW-Agu" secondAttribute="leading" constant="16" id="oYY-b5-wrF"/>
                     </constraints>
-                    <animations/>
                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                     <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </box>
@@ -62,7 +59,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="HtO-jU-tMN"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Update preview automatically as you type" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="npz-xj-plX">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -81,7 +77,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="X3J-8y-4eQ"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Sync preview scrollbar when editor scrolls" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="2Uj-Sx-FjV">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -95,7 +90,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="gLz-Pu-BCz"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Put editor on the right" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="bUn-PQ-5Ez">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -109,7 +103,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="8H5-jQ-GoX"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Show word count" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="oeW-bF-ybW">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -128,7 +121,6 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="mpk-Ws-hqc"/>
                                 </constraints>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Ensure open document on launch" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="l9N-wk-WRY">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -144,7 +136,6 @@
                             </button>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="UZT-HE-EaK">
                                 <rect key="frame" x="16" y="12" width="285" height="18"/>
-                                <animations/>
                                 <buttonCell key="cell" type="check" title="Automatically create files for link targets" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="hpF-zP-3cM">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -154,7 +145,6 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                     </view>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="WVd-hz-Dcr" secondAttribute="trailing" constant="16" id="0B8-iM-rNc"/>
@@ -176,7 +166,6 @@
                         <constraint firstItem="6Nz-Ft-FbR" firstAttribute="top" secondItem="hqr-gd-6gi" secondAttribute="bottom" constant="6" id="tnU-Pf-heR"/>
                         <constraint firstAttribute="trailing" secondItem="fjb-tU-1Kw" secondAttribute="trailing" constant="16" id="uQJ-Jy-vPP"/>
                     </constraints>
-                    <animations/>
                     <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                     <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </box>
@@ -190,7 +179,6 @@
                 <constraint firstAttribute="trailing" secondItem="Nma-PL-ZvX" secondAttribute="trailing" constant="20" id="vgl-l0-6gP"/>
                 <constraint firstAttribute="bottom" secondItem="eLn-fW-Agu" secondAttribute="bottom" constant="20" id="vuS-pt-xOq"/>
             </constraints>
-            <animations/>
             <point key="canvasLocation" x="324.5" y="402.5"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="gqb-sS-PAs"/>
