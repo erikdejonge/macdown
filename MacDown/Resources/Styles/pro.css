@@ -33,7 +33,7 @@ kbd {
 
 body {
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+    /*-webkit-font-smoothing: antialiased;*/
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-variant-ligatures: common-ligatures;
     font-variant-ligatures: common-ligatures;

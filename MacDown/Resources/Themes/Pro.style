@@ -3,34 +3,33 @@ foreground: F2F0CD
 background: 101010
 caret: FFF8A1
 
-
 editor-selection
-foreground: F2F0CD
+foreground: ffffff
 background: ff4f92
 
 H1
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 H2
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 H3
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 H4
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 H5
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 H6
 foreground: B3D8FD
-font-style: normal
+font-style: bold
 
 EMPH
 foreground: db8d50
@@ -38,7 +37,7 @@ font-style: italic
 
 STRONG
 foreground: 00b2ce
-font-style: normal
+font-style: bold
 
 HRULE
 foreground: 586e75
@@ -65,10 +64,10 @@ IMAGE
 foreground: 85d065
 
 CODE
-foreground: 87FEDB
+foreground: cf009a
 
 VERBATIM
-foreground: FFF8A1
+foreground: cf009a
 
 HTML_ENTITY
 foreground: 6c71c4
