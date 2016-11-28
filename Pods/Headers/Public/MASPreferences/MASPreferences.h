@@ -1,1 +1,2 @@
-../../../MASPreferences/Framework/MASPreferences.h
+#import "MASPreferencesViewController.h"
+#import "MASPreferencesWindowController.h"
