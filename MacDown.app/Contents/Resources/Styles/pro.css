@@ -1,14 +1,8 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
+h1, h2, h3, h4, h5, h6, p, blockquote {
     margin: 0;
     padding: 0;
 }
+
 @font-face {
     font-family: "Computer Modern";
     src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
@@ -16,30 +10,17 @@ blockquote {
     font-style: normal;
 }
 
-
 body {
-    text-rendering: optimizeLegibility;
+    text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-variant-ligatures: common-ligatures;
-    font-variant-ligatures: common-ligatures;
-    -moz-font-feature-settings: "kern=1";
-    -webkit-font-feature-settings: "kern";
-    -moz-font-feature-settings: "kern";
-    font-feature-settings: "kern";
-    font-kerning: normal;
-
-    /*font-family:  "Source Code Pro Regular";*/
-    font-family:  "Avenir", "CMU Sans Serif", "Computer Modern", "Lexie Readable";
+    -moz-osx-font-smoothing: grayscale;    /*font-family:  "Source Code Pro Regular";*/
+    font-family:  "CMU Bright", "Verdana", "Lexie Readable";
     font-size: 16px;
     line-height: 24px;
-    color: rgba(242, 240, 205, 0.8);
-    background-color: #02090B;
-    background-color: #000;
+    color: rgba(242, 240, 205, 1);
+    background-color: #02090B;    /* background-color: #000; */
     margin: 10px 13px 10px 13px;
-
     padding: 16px 32px 32px 16px;
-
     letter-spacing: 0.01em;
     max-width: 1024px;
     margin-left: auto;
@@ -53,14 +34,13 @@ html * {
 strong {
     font-weight: normal;
     font-style: normal;
-
     color: #ffd479;
 }
 
 em {
-
     font-weight: normal;
     color: #64B68A;
+    color: #B6FFAA;
 }
 
 table {
@@ -179,74 +159,68 @@ li.task-list-item input {
     vertical-align: bottom;
     position: relative;
     top: -1px;
-    *overflow: hidden;
+    overflow: hidden;
 }
 
 ul li:nth-child(even) {
     background-color: #030B0D;
 }
+
 ol li:nth-child(even) {
     background-color: #030B0D;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    color: #;
-    margin-top: 24px;
+    text-transform: capitalize;
     font-size: 16px;
-    margin-top: 12px;
-    margin-bottom: 4px;
+    font-family: "Lexie Readable";
     line-height: 24px;
+    color: #54B2BC;
+    margin-top: 24px;
 }
 
 h1 {
-    color: #B6FFAA;
-    font-weight: bold;
-    margin-top: 16px;
+    color: #FFDB6E;
+    font-weight: normal;
     line-height: 32px;
     font-size: 26px;
-    margin-bottom: 8px;
-    text-transform: capitalize;
+    margin-bottom: 18px;
+    margin-top: 24px;
 }
 
 h2 {
-    color: #DFBF61;
-
-
-    margin-top: 12px;
+    color: #FFDF73;
     line-height: 32px;
     font-weight: normal;
     font-size: 22px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 h3 {
     font-size: 20px;
-    color: #54B2BC;
-    color: #E4CB77;
-    margin-top: 12px;
+    color: #FFFC93;
 }
 
 h4 {
+    margin-top: 24x;
     font-size: 18px;
-    color: ##E5D97D;
-    color: #54B2BC;
+    text-transform: capitalize;
+    color: #E6FFAC;
 }
 
 h5 {
+    margin-top: 24px;
     font-size: 16px;
-    color: ##E5D97D;
-    color: #54B2BC;
+    text-transform: capitalize;
+    color: #C3FEC2;
 }
 
 h6 {
+    margin-top: 24px;
     font-size: 16px;
-    color: #E4CB77;
-    color: #B6FFAA;
+    color: ##C4FFC2;
+    text-transform: capitalize;
 }
 
 ul, ol {
@@ -263,8 +237,9 @@ hr {
 
 p, blockquote, ul, ol, dl, li, table, pre {
     margin: 8px 0;
-    margin-top: 12px;
+    margin-top: 8px;
 }
+
 blockquote {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -287,7 +262,7 @@ blockquote p a {
 }
 
 code, pre {
-    font-family: "Source Code Pro Regular" !important;
+    font-family: "Source Code Pro" !important;
     color: #8EB1D0;
     display: block;
     padding: 4px;
@@ -306,12 +281,11 @@ code, pre {
 #message {
     border-radius: 6px;
     border: 1px solid #ccc;
-    display:block;
-    width:100%;
-    height:60px;
-    margin:6px 0px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin: 6px 0px;
 }
-
 
 sup {
     font-size: 0.83em;
@@ -323,7 +297,6 @@ sup {
     -webkit-print-color-adjust: exact;
 }
 
-
 @media print {
     body, code, pre code, h1, h2, h3, h4, h5, h6 {
         color: black;
@@ -333,6 +306,7 @@ sup {
     table, pre {
         page-break-inside: avoid;
     }
+
 }
 
 pre {
@@ -343,13 +317,13 @@ pre {
     line-height: 20px;
     letter-spacing: 1.1;
     background-color: #051012;
-    color: #116CD6 white-space : pre;
+    color: #116CD6;
     white-space: pre-wrap;
     word-wrap: break-word;
     border-radius: 3px;
     margin-top: 4px;
     margin-bottom: 4px;
-        overflow: auto;
+    overflow: auto;
 }
 
 pre code {
@@ -357,21 +331,28 @@ pre code {
     color: #81ddaf;
     padding: 0;
     border: none;
-margin-top: 0px !important;
-
-margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
 pre:not([class]) {
     border: none;
     padding: 0px !important;
     color: #F2F0CD;
-
 }
 
+#ws {
+    background-color: #f8f8f8;
+}
 
-#ws { background-color: #f8f8f8; }
+.send {
+    color: #77bb77;
+}
 
-.send { color:#77bb77; }
-.server { color:#7799bb; }
-.error { color:#AA0000; }
+.server {
+    color: #7799bb;
+}
+
+.error {
+    color: #AA0000;
+}
